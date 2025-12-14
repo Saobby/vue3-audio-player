@@ -62,7 +62,6 @@
     <audio
       ref="audio"
       class="vue-audio-player__audio"
-      :src="audioList?.[currentPlayIndex]?.src"
       v-bind="$attrs"
       @ended="onEnded"
       @durationchange="onDurationchange"

@@ -1,5 +1,6 @@
-import { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, nextTick, watch } from 'vue'
 import type { AudioPlayerProps, AudioItem } from '../types'
+import Hls from 'hls.js'
 
 type EmitType = {
   (e: 'timeupdate'): void
@@ -25,6 +26,8 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
   const isShowErrorMessage = ref(false)
   const noticeMessage = ref('')
   const timer = ref<number | null>(null)
+
+  let hls: Hls | null = null
 
   const formatTime = (second: number) => {
     let minute = Math.floor(second / 60)
@@ -220,15 +223,79 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
     }
   }
 
+  const destroyHls = () => {
+    if (hls) {
+      try {
+        hls.destroy()
+      } catch (e) {
+      }
+      hls = null
+    }
+  }
+
+  const setupSource = () => {
+    if (!audio.value) return
+    const current = props.audioList?.[currentPlayIndex.value]
+    const src = current?.src
+    destroyHls()
+
+    try {
+      audio.value.removeAttribute('src')
+      audio.value.load()
+    } catch (e) {
+    }
+
+    if (!src) return
+
+    if ((current as AudioItem)?.type === 'm3u8') {
+      if (Hls.isSupported()) {
+        hls = new Hls()
+        hls.attachMedia(audio.value)
+        hls.loadSource(src)
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+        })
+        hls.on(Hls.Events.ERROR, (_, data) => {
+          const msg = data?.details || data?.type || 'hls error'
+          handleShowErrorMessage({ message: `HLS error: ${msg}` })  // 显示 hls 的错误消息
+          try {
+            emit('play-error', data)
+          } catch (e) {
+          }
+        })
+      } else if (audio.value.canPlayType('application/vnd.apple.mpegurl')) {
+        audio.value.src = src // Safari
+      } else {
+        handleShowErrorMessage({ message: '当前浏览器不支持 m3u8 播放' })
+      }
+    } else {
+      // 普通音频
+      audio.value.src = src
+    }
+
+    if (audio.value) {
+      audio.value.volume = currentVolume.value
+      audio.value.playbackRate = playbackRate.value
+    }
+  }
+
   onMounted(() => {
     if (audio.value) {
       audio.value.volume = currentVolume.value
       audio.value.playbackRate = playbackRate.value
     }
+
+    watch(
+      [() => audio.value, () => currentPlayIndex.value, () => props.audioList],
+      () => {
+        setupSource()
+      },
+      { immediate: true }
+    )
   })
 
   onBeforeUnmount(() => {
     clearTimer()
+    destroyHls()
   })
 
   return {
