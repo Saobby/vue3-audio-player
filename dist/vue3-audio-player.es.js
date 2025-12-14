@@ -340,14 +340,14 @@ const Qo = /* @__PURE__ */ ft({
       le("div", el, St(a.duration), 1)
     ]));
   }
-}), Fn = /* @__PURE__ */ Ve(tl, [["__scopeId", "data-v-2df0268a"]]), U = Number.isFinite || function(a) {
+}), Fn = /* @__PURE__ */ Ve(tl, [["__scopeId", "data-v-2df0268a"]]), $ = Number.isFinite || function(a) {
   return typeof a == "number" && isFinite(a);
 }, sl = Number.isSafeInteger || function(a) {
   return typeof a == "number" && Math.abs(a) <= il;
 }, il = Number.MAX_SAFE_INTEGER || 9007199254740991;
 let Y = /* @__PURE__ */ (function(a) {
   return a.NETWORK_ERROR = "networkError", a.MEDIA_ERROR = "mediaError", a.KEY_SYSTEM_ERROR = "keySystemError", a.MUX_ERROR = "muxError", a.OTHER_ERROR = "otherError", a;
-})({}), b = /* @__PURE__ */ (function(a) {
+})({}), _ = /* @__PURE__ */ (function(a) {
   return a.KEY_SYSTEM_NO_KEYS = "keySystemNoKeys", a.KEY_SYSTEM_NO_ACCESS = "keySystemNoAccess", a.KEY_SYSTEM_NO_SESSION = "keySystemNoSession", a.KEY_SYSTEM_NO_CONFIGURED_LICENSE = "keySystemNoConfiguredLicense", a.KEY_SYSTEM_LICENSE_REQUEST_FAILED = "keySystemLicenseRequestFailed", a.KEY_SYSTEM_SERVER_CERTIFICATE_REQUEST_FAILED = "keySystemServerCertificateRequestFailed", a.KEY_SYSTEM_SERVER_CERTIFICATE_UPDATE_FAILED = "keySystemServerCertificateUpdateFailed", a.KEY_SYSTEM_SESSION_UPDATE_FAILED = "keySystemSessionUpdateFailed", a.KEY_SYSTEM_STATUS_OUTPUT_RESTRICTED = "keySystemStatusOutputRestricted", a.KEY_SYSTEM_STATUS_INTERNAL_ERROR = "keySystemStatusInternalError", a.KEY_SYSTEM_DESTROY_MEDIA_KEYS_ERROR = "keySystemDestroyMediaKeysError", a.KEY_SYSTEM_DESTROY_CLOSE_SESSION_ERROR = "keySystemDestroyCloseSessionError", a.KEY_SYSTEM_DESTROY_REMOVE_SESSION_ERROR = "keySystemDestroyRemoveSessionError", a.MANIFEST_LOAD_ERROR = "manifestLoadError", a.MANIFEST_LOAD_TIMEOUT = "manifestLoadTimeOut", a.MANIFEST_PARSING_ERROR = "manifestParsingError", a.MANIFEST_INCOMPATIBLE_CODECS_ERROR = "manifestIncompatibleCodecsError", a.LEVEL_EMPTY_ERROR = "levelEmptyError", a.LEVEL_LOAD_ERROR = "levelLoadError", a.LEVEL_LOAD_TIMEOUT = "levelLoadTimeOut", a.LEVEL_PARSING_ERROR = "levelParsingError", a.LEVEL_SWITCH_ERROR = "levelSwitchError", a.AUDIO_TRACK_LOAD_ERROR = "audioTrackLoadError", a.AUDIO_TRACK_LOAD_TIMEOUT = "audioTrackLoadTimeOut", a.SUBTITLE_LOAD_ERROR = "subtitleTrackLoadError", a.SUBTITLE_TRACK_LOAD_TIMEOUT = "subtitleTrackLoadTimeOut", a.FRAG_LOAD_ERROR = "fragLoadError", a.FRAG_LOAD_TIMEOUT = "fragLoadTimeOut", a.FRAG_DECRYPT_ERROR = "fragDecryptError", a.FRAG_PARSING_ERROR = "fragParsingError", a.FRAG_GAP = "fragGap", a.REMUX_ALLOC_ERROR = "remuxAllocError", a.KEY_LOAD_ERROR = "keyLoadError", a.KEY_LOAD_TIMEOUT = "keyLoadTimeOut", a.BUFFER_ADD_CODEC_ERROR = "bufferAddCodecError", a.BUFFER_INCOMPATIBLE_CODECS_ERROR = "bufferIncompatibleCodecsError", a.BUFFER_APPEND_ERROR = "bufferAppendError", a.BUFFER_APPENDING_ERROR = "bufferAppendingError", a.BUFFER_STALLED_ERROR = "bufferStalledError", a.BUFFER_FULL_ERROR = "bufferFullError", a.BUFFER_SEEK_OVER_HOLE = "bufferSeekOverHole", a.BUFFER_NUDGE_ON_STALL = "bufferNudgeOnStall", a.ASSET_LIST_LOAD_ERROR = "assetListLoadError", a.ASSET_LIST_LOAD_TIMEOUT = "assetListLoadTimeout", a.ASSET_LIST_PARSING_ERROR = "assetListParsingError", a.INTERSTITIAL_ASSET_ITEM_ERROR = "interstitialAssetItemError", a.INTERNAL_EXCEPTION = "internalException", a.INTERNAL_ABORTED = "aborted", a.ATTACH_MEDIA_ERROR = "attachMediaError", a.UNKNOWN = "unknown", a;
 })({}), m = /* @__PURE__ */ (function(a) {
   return a.MEDIA_ATTACHING = "hlsMediaAttaching", a.MEDIA_ATTACHED = "hlsMediaAttached", a.MEDIA_DETACHING = "hlsMediaDetaching", a.MEDIA_DETACHED = "hlsMediaDetached", a.MEDIA_ENDED = "hlsMediaEnded", a.STALL_RESOLVED = "hlsStallResolved", a.BUFFER_RESET = "hlsBufferReset", a.BUFFER_CODECS = "hlsBufferCodecs", a.BUFFER_CREATED = "hlsBufferCreated", a.BUFFER_APPENDING = "hlsBufferAppending", a.BUFFER_APPENDED = "hlsBufferAppended", a.BUFFER_EOS = "hlsBufferEos", a.BUFFERED_TO_END = "hlsBufferedToEnd", a.BUFFER_FLUSHING = "hlsBufferFlushing", a.BUFFER_FLUSHED = "hlsBufferFlushed", a.MANIFEST_LOADING = "hlsManifestLoading", a.MANIFEST_LOADED = "hlsManifestLoaded", a.MANIFEST_PARSED = "hlsManifestParsed", a.LEVEL_SWITCHING = "hlsLevelSwitching", a.LEVEL_SWITCHED = "hlsLevelSwitched", a.LEVEL_LOADING = "hlsLevelLoading", a.LEVEL_LOADED = "hlsLevelLoaded", a.LEVEL_UPDATED = "hlsLevelUpdated", a.LEVEL_PTS_UPDATED = "hlsLevelPtsUpdated", a.LEVELS_UPDATED = "hlsLevelsUpdated", a.AUDIO_TRACKS_UPDATED = "hlsAudioTracksUpdated", a.AUDIO_TRACK_SWITCHING = "hlsAudioTrackSwitching", a.AUDIO_TRACK_SWITCHED = "hlsAudioTrackSwitched", a.AUDIO_TRACK_LOADING = "hlsAudioTrackLoading", a.AUDIO_TRACK_LOADED = "hlsAudioTrackLoaded", a.AUDIO_TRACK_UPDATED = "hlsAudioTrackUpdated", a.SUBTITLE_TRACKS_UPDATED = "hlsSubtitleTracksUpdated", a.SUBTITLE_TRACKS_CLEARED = "hlsSubtitleTracksCleared", a.SUBTITLE_TRACK_SWITCH = "hlsSubtitleTrackSwitch", a.SUBTITLE_TRACK_LOADING = "hlsSubtitleTrackLoading", a.SUBTITLE_TRACK_LOADED = "hlsSubtitleTrackLoaded", a.SUBTITLE_TRACK_UPDATED = "hlsSubtitleTrackUpdated", a.SUBTITLE_FRAG_PROCESSED = "hlsSubtitleFragProcessed", a.CUES_PARSED = "hlsCuesParsed", a.NON_NATIVE_TEXT_TRACKS_FOUND = "hlsNonNativeTextTracksFound", a.INIT_PTS_FOUND = "hlsInitPtsFound", a.FRAG_LOADING = "hlsFragLoading", a.FRAG_LOAD_EMERGENCY_ABORTED = "hlsFragLoadEmergencyAborted", a.FRAG_LOADED = "hlsFragLoaded", a.FRAG_DECRYPTED = "hlsFragDecrypted", a.FRAG_PARSING_INIT_SEGMENT = "hlsFragParsingInitSegment", a.FRAG_PARSING_USERDATA = "hlsFragParsingUserdata", a.FRAG_PARSING_METADATA = "hlsFragParsingMetadata", a.FRAG_PARSED = "hlsFragParsed", a.FRAG_BUFFERED = "hlsFragBuffered", a.FRAG_CHANGED = "hlsFragChanged", a.FPS_DROP = "hlsFpsDrop", a.FPS_DROP_LEVEL_CAPPING = "hlsFpsDropLevelCapping", a.MAX_AUTO_LEVEL_UPDATED = "hlsMaxAutoLevelUpdated", a.ERROR = "hlsError", a.DESTROYING = "hlsDestroying", a.KEY_LOADING = "hlsKeyLoading", a.KEY_LOADED = "hlsKeyLoaded", a.LIVE_BACK_BUFFER_REACHED = "hlsLiveBackBufferReached", a.BACK_BUFFER_REACHED = "hlsBackBufferReached", a.STEERING_MANIFEST_LOADED = "hlsSteeringManifestLoaded", a.ASSET_LIST_LOADING = "hlsAssetListLoading", a.ASSET_LIST_LOADED = "hlsAssetListLoaded", a.INTERSTITIALS_UPDATED = "hlsInterstitialsUpdated", a.INTERSTITIALS_BUFFERED_TO_BOUNDARY = "hlsInterstitialsBufferedToBoundary", a.INTERSTITIAL_ASSET_PLAYER_CREATED = "hlsInterstitialAssetPlayerCreated", a.INTERSTITIAL_STARTED = "hlsInterstitialStarted", a.INTERSTITIAL_ASSET_STARTED = "hlsInterstitialAssetStarted", a.INTERSTITIAL_ASSET_ENDED = "hlsInterstitialAssetEnded", a.INTERSTITIAL_ASSET_ERROR = "hlsInterstitialAssetError", a.INTERSTITIAL_ENDED = "hlsInterstitialEnded", a.INTERSTITIALS_PRIMARY_RESUMED = "hlsInterstitialsPrimaryResumed", a.PLAYOUT_LIMIT_REACHED = "hlsPlayoutLimitReached", a.EVENT_CUE_ENTER = "hlsEventCueEnter", a;
@@ -764,7 +764,7 @@ class Ks extends Bn {
     }
     if (this.byteRange.length) {
       const e = this.byteRange[0], t = this.byteRange[1];
-      if (U(e) && U(t))
+      if ($(e) && $(t))
         return t - e;
     }
     return null;
@@ -799,7 +799,7 @@ class Ks extends Bn {
   get endProgramDateTime() {
     if (this.programDateTime === null)
       return null;
-    const e = U(this.duration) ? this.duration : 0;
+    const e = $(this.duration) ? this.duration : 0;
     return this.programDateTime + e * 1e3;
   }
   get encrypted() {
@@ -818,7 +818,7 @@ class Ks extends Bn {
     return this._programDateTime === null && this.rawProgramDateTime && (this.programDateTime = Date.parse(this.rawProgramDateTime)), this._programDateTime;
   }
   set programDateTime(e) {
-    if (!U(e)) {
+    if (!$(e)) {
       this._programDateTime = this.rawProgramDateTime = null;
       return;
     }
@@ -1210,7 +1210,7 @@ function Al(a, e, t) {
     if (h) {
       const v = h[0];
       let S = q(h, 4);
-      v === 1 && (S === dr ? t.warn("[mp4-demuxer]: Ignoring assumed invalid signed 64-bit track fragment decode time") : (S *= dr + 1, S += q(h, 8))), U(S) && (!U(u.start) || S < u.start) && (u.start = S);
+      v === 1 && (S === dr ? t.warn("[mp4-demuxer]: Ignoring assumed invalid signed 64-bit track fragment decode time") : (S *= dr + 1, S += q(h, 8))), $(S) && (!$(u.start) || S < u.start) && (u.start = S);
     }
     const d = l.default, g = q(o, 0) | (d == null ? void 0 : d.flags);
     let f = (d == null ? void 0 : d.duration) || 0;
@@ -1220,10 +1220,10 @@ function Al(a, e, t) {
     for (let v = 0; v < p.length; v++) {
       const S = p[v], x = q(S, 4), D = u.sampleCount;
       u.sampleCount += x;
-      const A = S[3] & 1, _ = S[3] & 4, R = S[2] & 1, L = S[2] & 2, C = S[2] & 4, F = S[2] & 8;
-      let $ = 8, K = x;
-      for (A && ($ += 4), _ && x && (!(S[$ + 1] & 1) && u.keyFrameIndex === void 0 && (u.keyFrameIndex = D), $ += 4, R ? (T = q(S, $), $ += 4) : T = f, L && ($ += 4), F && ($ += 4), y += T, E += T, K--); K--; )
-        R ? (T = q(S, $), $ += 4) : T = f, L && ($ += 4), C && (S[$ + 1] & 1 || u.keyFrameIndex === void 0 && (u.keyFrameIndex = u.sampleCount - (K + 1), u.keyFrameStart = y), $ += 4), F && ($ += 4), y += T, E += T;
+      const A = S[3] & 1, R = S[3] & 4, b = S[2] & 1, L = S[2] & 2, C = S[2] & 4, F = S[2] & 8;
+      let B = 8, K = x;
+      for (A && (B += 4), R && x && (!(S[B + 1] & 1) && u.keyFrameIndex === void 0 && (u.keyFrameIndex = D), B += 4, b ? (T = q(S, B), B += 4) : T = f, L && (B += 4), F && (B += 4), y += T, E += T, K--); K--; )
+        b ? (T = q(S, B), B += 4) : T = f, L && (B += 4), C && (S[B + 1] & 1 || u.keyFrameIndex === void 0 && (u.keyFrameIndex = u.sampleCount - (K + 1), u.keyFrameStart = y), B += 4), F && (B += 4), y += T, E += T;
       !E && f && (E += f * x);
     }
     u.duration += E;
@@ -1239,7 +1239,7 @@ function Al(a, e, t) {
         n = Math.max(n, u + l.earliestPresentationTime / l.timescale);
       }
     }
-    n && U(n) && Object.keys(s).forEach((c) => {
+    n && $(n) && Object.keys(s).forEach((c) => {
       s[c].duration || (s[c].duration = n * s[c].timescale - s[c].start);
     });
   }
@@ -1277,32 +1277,32 @@ function gr(a, e) {
         let x = 0;
         const D = (p & 32) !== 0;
         let A = 8;
-        f === r && (y && (A += 8), E && (A += 4), T && (v = q(g, A), A += 4), S && (x = q(g, A), A += 4), D && (A += 4), e.type === "video" && (n = Fs(e.codec)), Q(h, ["trun"]).map((_) => {
-          const R = _[0], L = q(_, 0) & 16777215, C = (L & 1) !== 0;
+        f === r && (y && (A += 8), E && (A += 4), T && (v = q(g, A), A += 4), S && (x = q(g, A), A += 4), D && (A += 4), e.type === "video" && (n = Fs(e.codec)), Q(h, ["trun"]).map((R) => {
+          const b = R[0], L = q(R, 0) & 16777215, C = (L & 1) !== 0;
           let F = 0;
-          const $ = (L & 4) !== 0, K = (L & 256) !== 0;
-          let B = 0;
+          const B = (L & 4) !== 0, K = (L & 256) !== 0;
+          let N = 0;
           const w = (L & 512) !== 0;
-          let k = 0;
-          const N = (L & 1024) !== 0, G = (L & 2048) !== 0;
+          let U = 0;
+          const k = (L & 1024) !== 0, G = (L & 2048) !== 0;
           let W = 0;
-          const O = q(_, 4);
-          let M = 8;
-          C && (F = q(_, M), M += 4), $ && (M += 4);
+          const M = q(R, 4);
+          let O = 8;
+          C && (F = q(R, O), O += 4), B && (O += 4);
           let j = F + l;
-          for (let te = 0; te < O; te++) {
-            if (K ? (B = q(_, M), M += 4) : B = v, w ? (k = q(_, M), M += 4) : k = x, N && (M += 4), G && (R === 0 ? W = q(_, M) : W = Kn(_, M), M += 4), e.type === ne.VIDEO) {
+          for (let J = 0; J < M; J++) {
+            if (K ? (N = q(R, O), O += 4) : N = v, w ? (U = q(R, O), O += 4) : U = x, k && (O += 4), G && (b === 0 ? W = q(R, O) : W = Kn(R, O), O += 4), e.type === ne.VIDEO) {
               let z = 0;
-              for (; z < k; ) {
-                const J = q(s, j);
+              for (; z < U; ) {
+                const ee = q(s, j);
                 if (j += 4, Il(n, s[j])) {
-                  const xe = s.subarray(j, j + J);
+                  const xe = s.subarray(j, j + ee);
                   Fi(xe, n ? 2 : 1, a + W / i, t);
                 }
-                j += J, z += J + 4;
+                j += ee, z += ee + 4;
               }
             }
-            a += B / i;
+            a += N / i;
           }
         }));
       });
@@ -1774,7 +1774,7 @@ function Bl(a, e, t, s, i, r) {
       return !0;
     }
   return n !== void 0 && // Force media capabilities check for HEVC to avoid failure on Windows
-  (n.split(",").some((d) => Fs(d)) || a.width > 1920 && a.height > 1088 || a.height > 1920 && a.width > 1088 || a.frameRate > Math.max(s, 30) || a.videoRange !== "SDR" && a.videoRange !== t || a.bitrate > Math.max(i, 8e6)) || !!h && U(u) && Object.keys(h).some((d) => parseInt(d) > u);
+  (n.split(",").some((d) => Fs(d)) || a.width > 1920 && a.height > 1088 || a.height > 1920 && a.width > 1088 || a.frameRate > Math.max(s, 30) || a.videoRange !== "SDR" && a.videoRange !== t || a.bitrate > Math.max(i, 8e6)) || !!h && $(u) && Object.keys(h).some((d) => parseInt(d) > u);
 }
 function zn(a, e, t, s = {}) {
   const i = a.videoCodec;
@@ -2022,43 +2022,43 @@ function jl(a, e, t, s, i) {
     preferHDR: T,
     allowedVideoRanges: v
   } = Wl(e, i);
-  for (let _ = r.length; _--; ) {
-    const R = a[r[_]];
-    u || (u = R.channels[2] > 0), d = Math.min(d, R.minHeight), g = Math.min(g, R.minFramerate), f = Math.min(f, R.minBitrate), v.filter((C) => R.videoRanges[C] > 0).length > 0 && (h = !0);
+  for (let R = r.length; R--; ) {
+    const b = a[r[R]];
+    u || (u = b.channels[2] > 0), d = Math.min(d, b.minHeight), g = Math.min(g, b.minFramerate), f = Math.min(f, b.minBitrate), v.filter((C) => b.videoRanges[C] > 0).length > 0 && (h = !0);
   }
-  d = U(d) ? d : 0, g = U(g) ? g : 0;
+  d = $(d) ? d : 0, g = $(g) ? g : 0;
   const S = Math.max(1080, d), x = Math.max(30, g);
-  f = U(f) ? f : t, t = Math.max(f, t), h || (e = void 0);
+  f = $(f) ? f : t, t = Math.max(f, t), h || (e = void 0);
   const D = r.length > 1;
   return {
-    codecSet: r.reduce((_, R) => {
-      const L = a[R];
-      if (R === _)
-        return _;
+    codecSet: r.reduce((R, b) => {
+      const L = a[b];
+      if (b === R)
+        return R;
       if (E = h ? v.filter((C) => L.videoRanges[C] > 0) : [], D) {
         if (L.minBitrate > t)
-          return Ye(R, `min bitrate of ${L.minBitrate} > current estimate of ${t}`), _;
+          return Ye(b, `min bitrate of ${L.minBitrate} > current estimate of ${t}`), R;
         if (!L.hasDefaultAudio)
-          return Ye(R, "no renditions with default or auto-select sound found"), _;
-        if (o && R.indexOf(o.substring(0, 4)) % 5 !== 0)
-          return Ye(R, `audio codec preference "${o}" not found`), _;
+          return Ye(b, "no renditions with default or auto-select sound found"), R;
+        if (o && b.indexOf(o.substring(0, 4)) % 5 !== 0)
+          return Ye(b, `audio codec preference "${o}" not found`), R;
         if (n && !l) {
           if (!L.channels[n])
-            return Ye(R, `no renditions with ${n} channel sound found (channels options: ${Object.keys(L.channels)})`), _;
+            return Ye(b, `no renditions with ${n} channel sound found (channels options: ${Object.keys(L.channels)})`), R;
         } else if ((!o || l) && u && L.channels[2] === 0)
-          return Ye(R, "no renditions with stereo sound found"), _;
+          return Ye(b, "no renditions with stereo sound found"), R;
         if (L.minHeight > S)
-          return Ye(R, `min resolution of ${L.minHeight} > maximum of ${S}`), _;
+          return Ye(b, `min resolution of ${L.minHeight} > maximum of ${S}`), R;
         if (L.minFramerate > x)
-          return Ye(R, `min framerate of ${L.minFramerate} > maximum of ${x}`), _;
+          return Ye(b, `min framerate of ${L.minFramerate} > maximum of ${x}`), R;
         if (!E.some((C) => L.videoRanges[C] > 0))
-          return Ye(R, `no variants with VIDEO-RANGE of ${ae(E)} found`), _;
-        if (c && R.indexOf(c.substring(0, 4)) % 5 !== 0)
-          return Ye(R, `video codec preference "${c}" not found`), _;
+          return Ye(b, `no variants with VIDEO-RANGE of ${ae(E)} found`), R;
+        if (c && b.indexOf(c.substring(0, 4)) % 5 !== 0)
+          return Ye(b, `video codec preference "${c}" not found`), R;
         if (L.maxScore < y)
-          return Ye(R, `max score of ${L.maxScore} < selected max of ${y}`), _;
+          return Ye(b, `max score of ${L.maxScore} < selected max of ${y}`), R;
       }
-      return _ && (Ls(R) >= Ls(_) || L.fragmentError > a[_].fragmentError) ? _ : (p = L.minIndex, y = L.maxScore, R);
+      return R && (Ls(b) >= Ls(R) || L.fragmentError > a[R].fragmentError) ? R : (p = L.minIndex, y = L.maxScore, b);
     }, void 0),
     videoRanges: E,
     preferHDR: T,
@@ -2236,46 +2236,46 @@ class Jl extends Be {
       const v = this.bwEstimator.getEstimateTTFB(), S = Math.abs(c.playbackRate);
       if (d <= Math.max(v, 1e3 * (h / (S * 2))))
         return;
-      const x = T ? T.len / S : 0, D = u.loading.first ? u.loading.first - u.loading.start : -1, A = u.loaded && D > -1, _ = this.getBwEstimate(), R = n.levels, L = R[f], C = Math.max(u.loaded, Math.round(h * (i.bitrate || L.averageBitrate) / 8));
+      const x = T ? T.len / S : 0, D = u.loading.first ? u.loading.first - u.loading.start : -1, A = u.loaded && D > -1, R = this.getBwEstimate(), b = n.levels, L = b[f], C = Math.max(u.loaded, Math.round(h * (i.bitrate || L.averageBitrate) / 8));
       let F = A ? d - D : d;
-      F < 1 && A && (F = Math.min(d, u.loaded * 8 / _));
-      const $ = A ? u.loaded * 1e3 / F : 0, K = v / 1e3, B = $ ? (C - u.loaded) / $ : C * 8 / _ + K;
-      if (B <= x)
+      F < 1 && A && (F = Math.min(d, u.loaded * 8 / R));
+      const B = A ? u.loaded * 1e3 / F : 0, K = v / 1e3, N = B ? (C - u.loaded) / B : C * 8 / R + K;
+      if (N <= x)
         return;
-      const w = $ ? $ * 8 : _, k = ((s = (t == null ? void 0 : t.details) || this.hls.latestLevelDetails) == null ? void 0 : s.live) === !0, N = this.hls.config.abrBandWidthUpFactor;
+      const w = B ? B * 8 : R, U = ((s = (t == null ? void 0 : t.details) || this.hls.latestLevelDetails) == null ? void 0 : s.live) === !0, k = this.hls.config.abrBandWidthUpFactor;
       let G = Number.POSITIVE_INFINITY, W;
       for (W = f - 1; W > g; W--) {
-        const te = R[W].maxBitrate, z = !R[W].details || k;
-        if (G = this.getTimeToLoadFrag(K, w, h * te, z), G < Math.min(x, h + K))
+        const J = b[W].maxBitrate, z = !b[W].details || U;
+        if (G = this.getTimeToLoadFrag(K, w, h * J, z), G < Math.min(x, h + K))
           break;
       }
-      if (G >= B || G > h * 10)
+      if (G >= N || G > h * 10)
         return;
       A ? this.bwEstimator.sample(d - Math.min(v, D), u.loaded) : this.bwEstimator.sampleTTFB(d);
-      const O = R[W].maxBitrate;
-      this.getBwEstimate() * N > O && this.resetEstimator(O);
-      const M = this.findBestLevel(O, g, W, 0, x, 1, 1);
-      M > -1 && (W = M), this.warn(`Fragment ${i.sn}${r ? " part " + r.index : ""} of level ${f} is loading too slowly;
+      const M = b[W].maxBitrate;
+      this.getBwEstimate() * k > M && this.resetEstimator(M);
+      const O = this.findBestLevel(M, g, W, 0, x, 1, 1);
+      O > -1 && (W = O), this.warn(`Fragment ${i.sn}${r ? " part " + r.index : ""} of level ${f} is loading too slowly;
       Fragment duration: ${i.duration.toFixed(3)}
       Time to underbuffer: ${x.toFixed(3)} s
-      Estimated load time for current fragment: ${B.toFixed(3)} s
+      Estimated load time for current fragment: ${N.toFixed(3)} s
       Estimated load time for down switch fragment: ${G.toFixed(3)} s
       TTFB estimate: ${D | 0} ms
-      Current BW estimate: ${U(_) ? _ | 0 : "Unknown"} bps
+      Current BW estimate: ${$(R) ? R | 0 : "Unknown"} bps
       New BW estimate: ${this.getBwEstimate() | 0} bps
-      Switching to level ${W} @ ${O | 0} bps`), n.nextLoadLevel = n.nextAutoLevel = W, this.clearTimer();
+      Switching to level ${W} @ ${M | 0} bps`), n.nextLoadLevel = n.nextAutoLevel = W, this.clearTimer();
       const j = () => {
         if (this.clearTimer(), this.fragCurrent === i && this.hls.loadLevel === W && W > 0) {
-          const te = this.getStarvationDelay();
+          const J = this.getStarvationDelay();
           if (this.warn(`Aborting inflight request ${W > 0 ? "and switching down" : ""}
       Fragment duration: ${i.duration.toFixed(3)} s
-      Time to underbuffer: ${te.toFixed(3)} s`), i.abortRequests(), this.fragCurrent = this.partCurrent = null, W > g) {
-            let z = this.findBestLevel(this.hls.levels[g].bitrate, g, W, 0, te, 1, 1);
+      Time to underbuffer: ${J.toFixed(3)} s`), i.abortRequests(), this.fragCurrent = this.partCurrent = null, W > g) {
+            let z = this.findBestLevel(this.hls.levels[g].bitrate, g, W, 0, J, 1, 1);
             z === -1 && (z = g), this.hls.nextLoadLevel = this.hls.nextAutoLevel = z, this.resetEstimator(this.hls.levels[z].bitrate);
           }
         }
       };
-      y || B > G * 2 ? j() : this.timer = self.setInterval(j, G * 1e3), n.trigger(m.FRAG_LOAD_EMERGENCY_ABORTED, {
+      y || N > G * 2 ? j() : this.timer = self.setInterval(j, G * 1e3), n.trigger(m.FRAG_LOAD_EMERGENCY_ABORTED, {
         frag: i,
         part: r,
         stats: u
@@ -2329,11 +2329,11 @@ class Jl extends Be {
   onError(e, t) {
     if (!t.fatal)
       switch (t.details) {
-        case b.BUFFER_ADD_CODEC_ERROR:
-        case b.BUFFER_APPEND_ERROR:
+        case _.BUFFER_ADD_CODEC_ERROR:
+        case _.BUFFER_APPEND_ERROR:
           this.lastLoadedFragLevel = -1, this.firstSelection = -1;
           break;
-        case b.FRAG_LOAD_TIMEOUT: {
+        case _.FRAG_LOAD_TIMEOUT: {
           const s = t.frag, {
             fragCurrent: i,
             partCurrent: r
@@ -2358,7 +2358,7 @@ class Jl extends Be {
     const s = this.hls.config, {
       loading: i
     } = t.stats, r = i.end - i.first;
-    U(r) && (this.lastLevelLoadSec = r / 1e3), t.details.live ? this.bwEstimator.update(s.abrEwmaSlowLive, s.abrEwmaFastLive) : this.bwEstimator.update(s.abrEwmaSlowVoD, s.abrEwmaFastVoD), this.timer > -1 && this._abandonRulesCheck(t.levelInfo);
+    $(r) && (this.lastLevelLoadSec = r / 1e3), t.details.live ? this.bwEstimator.update(s.abrEwmaSlowLive, s.abrEwmaFastLive) : this.bwEstimator.update(s.abrEwmaSlowVoD, s.abrEwmaFastVoD), this.timer > -1 && this._abandonRulesCheck(t.levelInfo);
   }
   onFragLoaded(e, {
     frag: t,
@@ -2486,60 +2486,60 @@ class Jl extends Be {
     const T = f[h], v = !!((c = this.hls.latestLevelDetails) != null && c.live), S = y === -1 || u === -1;
     let x, D = "SDR", A = (T == null ? void 0 : T.frameRate) || 0;
     const {
-      audioPreference: _,
-      videoPreference: R
+      audioPreference: R,
+      videoPreference: b
     } = E, L = this.audioTracksByGroup || (this.audioTracksByGroup = Zn(p));
     let C = -1;
     if (S) {
       if (this.firstSelection !== -1)
         return this.firstSelection;
-      const w = this.codecTiers || (this.codecTiers = Xl(f, L, t, s)), k = jl(w, D, e, _, R), {
-        codecSet: N,
+      const w = this.codecTiers || (this.codecTiers = Xl(f, L, t, s)), U = jl(w, D, e, R, b), {
+        codecSet: k,
         videoRanges: G,
         minFramerate: W,
-        minBitrate: O,
-        minIndex: M,
+        minBitrate: M,
+        minIndex: O,
         preferHDR: j
-      } = k;
-      C = M, x = N, D = j ? G[G.length - 1] : G[0], A = W, e = Math.max(e, O), this.log(`picked start tier ${ae(k)}`);
+      } = U;
+      C = O, x = k, D = j ? G[G.length - 1] : G[0], A = W, e = Math.max(e, M), this.log(`picked start tier ${ae(U)}`);
     } else
       x = T == null ? void 0 : T.codecSet, D = T == null ? void 0 : T.videoRange;
-    const F = g ? g.duration : d ? d.duration : 0, $ = this.bwEstimator.getEstimateTTFB() / 1e3, K = [];
+    const F = g ? g.duration : d ? d.duration : 0, B = this.bwEstimator.getEstimateTTFB() / 1e3, K = [];
     for (let w = s; w >= t; w--) {
-      var B;
-      const k = f[w], N = w > h;
-      if (!k)
+      var N;
+      const U = f[w], k = w > h;
+      if (!U)
         continue;
-      if (E.useMediaCapabilities && !k.supportedResult && !k.supportedPromise) {
+      if (E.useMediaCapabilities && !U.supportedResult && !U.supportedPromise) {
         const z = navigator.mediaCapabilities;
-        typeof (z == null ? void 0 : z.decodingInfo) == "function" && Bl(k, L, D, A, e, _) ? (k.supportedPromise = zn(k, L, z, this.supportedCache), k.supportedPromise.then((J) => {
+        typeof (z == null ? void 0 : z.decodingInfo) == "function" && Bl(U, L, D, A, e, R) ? (U.supportedPromise = zn(U, L, z, this.supportedCache), U.supportedPromise.then((ee) => {
           if (!this.hls)
             return;
-          k.supportedResult = J;
-          const xe = this.hls.levels, Ee = xe.indexOf(k);
-          J.error ? this.warn(`MediaCapabilities decodingInfo error: "${J.error}" for level ${Ee} ${ae(J)}`) : J.supported ? J.decodingInfoResults.some((Oe) => Oe.smooth === !1 || Oe.powerEfficient === !1) && this.log(`MediaCapabilities decodingInfo for level ${Ee} not smooth or powerEfficient: ${ae(J)}`) : (this.warn(`Unsupported MediaCapabilities decodingInfo result for level ${Ee} ${ae(J)}`), Ee > -1 && xe.length > 1 && (this.log(`Removing unsupported level ${Ee}`), this.hls.removeLevel(Ee), this.hls.loadLevel === -1 && (this.hls.nextLoadLevel = 0)));
-        }).catch((J) => {
-          this.warn(`Error handling MediaCapabilities decodingInfo: ${J}`);
-        })) : k.supportedResult = jn;
+          U.supportedResult = ee;
+          const xe = this.hls.levels, Ee = xe.indexOf(U);
+          ee.error ? this.warn(`MediaCapabilities decodingInfo error: "${ee.error}" for level ${Ee} ${ae(ee)}`) : ee.supported ? ee.decodingInfoResults.some((Oe) => Oe.smooth === !1 || Oe.powerEfficient === !1) && this.log(`MediaCapabilities decodingInfo for level ${Ee} not smooth or powerEfficient: ${ae(ee)}`) : (this.warn(`Unsupported MediaCapabilities decodingInfo result for level ${Ee} ${ae(ee)}`), Ee > -1 && xe.length > 1 && (this.log(`Removing unsupported level ${Ee}`), this.hls.removeLevel(Ee), this.hls.loadLevel === -1 && (this.hls.nextLoadLevel = 0)));
+        }).catch((ee) => {
+          this.warn(`Error handling MediaCapabilities decodingInfo: ${ee}`);
+        })) : U.supportedResult = jn;
       }
-      if ((x && k.codecSet !== x || D && k.videoRange !== D || N && A > k.frameRate || !N && A > 0 && A < k.frameRate || (B = k.supportedResult) != null && (B = B.decodingInfoResults) != null && B.some((z) => z.smooth === !1)) && (!S || w !== C)) {
+      if ((x && U.codecSet !== x || D && U.videoRange !== D || k && A > U.frameRate || !k && A > 0 && A < U.frameRate || (N = U.supportedResult) != null && (N = N.decodingInfoResults) != null && N.some((z) => z.smooth === !1)) && (!S || w !== C)) {
         K.push(w);
         continue;
       }
-      const G = k.details, W = (g ? G == null ? void 0 : G.partTarget : G == null ? void 0 : G.averagetargetduration) || F;
-      let O;
-      N ? O = o * e : O = n * e;
-      const M = F && i >= F * 2 && r === 0 ? k.averageBitrate : k.maxBitrate, j = this.getTimeToLoadFrag($, O, M * W, G === void 0);
+      const G = U.details, W = (g ? G == null ? void 0 : G.partTarget : G == null ? void 0 : G.averagetargetduration) || F;
+      let M;
+      k ? M = o * e : M = n * e;
+      const O = F && i >= F * 2 && r === 0 ? U.averageBitrate : U.maxBitrate, j = this.getTimeToLoadFrag(B, M, O * W, G === void 0);
       if (
         // if adjusted bw is greater than level bitrate AND
-        O >= M && // no level change, or new level has no error history
-        (w === u || k.loadError === 0 && k.fragmentError === 0) && // fragment fetchDuration unknown OR live stream OR fragment fetchDuration less than max allowed fetch duration, then this level matches
+        M >= O && // no level change, or new level has no error history
+        (w === u || U.loadError === 0 && U.fragmentError === 0) && // fragment fetchDuration unknown OR live stream OR fragment fetchDuration less than max allowed fetch duration, then this level matches
         // we don't account for max Fetch Duration for live streams, this is to avoid switching down when near the edge of live sliding window ...
         // special case to support startLevel = -1 (bitrateTest) on live streams : in that case we should not exit loop so that findBestLevel will return -1
-        (j <= $ || !U(j) || v && !this.bitrateTestDelay || j < l)
+        (j <= B || !$(j) || v && !this.bitrateTestDelay || j < l)
       ) {
         const z = this.forcedAutoLevel;
-        return w !== y && (z === -1 || z !== y) && (K.length && this.trace(`Skipped level(s) ${K.join(",")} of ${s} max with CODECS and VIDEO-RANGE:"${f[K[0]].codecs}" ${f[K[0]].videoRange}; not compatible with "${x}" ${D}`), this.info(`switch candidate:${h}->${w} adjustedbw(${Math.round(O)})-bitrate=${Math.round(O - M)} ttfb:${$.toFixed(1)} avgDuration:${W.toFixed(1)} maxFetchDuration:${l.toFixed(1)} fetchDuration:${j.toFixed(1)} firstSelection:${S} codecSet:${k.codecSet} videoRange:${k.videoRange} hls.loadLevel:${y}`)), S && (this.firstSelection = w), w;
+        return w !== y && (z === -1 || z !== y) && (K.length && this.trace(`Skipped level(s) ${K.join(",")} of ${s} max with CODECS and VIDEO-RANGE:"${f[K[0]].codecs}" ${f[K[0]].videoRange}; not compatible with "${x}" ${D}`), this.info(`switch candidate:${h}->${w} adjustedbw(${Math.round(M)})-bitrate=${Math.round(M - O)} ttfb:${B.toFixed(1)} avgDuration:${W.toFixed(1)} maxFetchDuration:${l.toFixed(1)} fetchDuration:${j.toFixed(1)} firstSelection:${S} codecSet:${U.codecSet} videoRange:${U.videoRange} hls.loadLevel:${y}`)), S && (this.firstSelection = w), w;
       }
     }
     return -1;
@@ -2588,7 +2588,7 @@ const Jn = {
   }
 };
 function ec(a, e, t) {
-  if (e === null || !Array.isArray(a) || !a.length || !U(e))
+  if (e === null || !Array.isArray(a) || !a.length || !$(e))
     return null;
   const s = a[0].programDateTime;
   if (e < (s || 0))
@@ -2646,10 +2646,10 @@ function ea(a, e, t) {
 }
 function _s(a) {
   switch (a.details) {
-    case b.FRAG_LOAD_TIMEOUT:
-    case b.KEY_LOAD_TIMEOUT:
-    case b.LEVEL_LOAD_TIMEOUT:
-    case b.MANIFEST_LOAD_TIMEOUT:
+    case _.FRAG_LOAD_TIMEOUT:
+    case _.KEY_LOAD_TIMEOUT:
+    case _.LEVEL_LOAD_TIMEOUT:
+    case _.MANIFEST_LOAD_TIMEOUT:
       return !0;
   }
   return !1;
@@ -2751,39 +2751,39 @@ class rc extends Be {
       return;
     const i = this.hls, r = t.context;
     switch (t.details) {
-      case b.FRAG_LOAD_ERROR:
-      case b.FRAG_LOAD_TIMEOUT:
-      case b.KEY_LOAD_ERROR:
-      case b.KEY_LOAD_TIMEOUT:
+      case _.FRAG_LOAD_ERROR:
+      case _.FRAG_LOAD_TIMEOUT:
+      case _.KEY_LOAD_ERROR:
+      case _.KEY_LOAD_TIMEOUT:
         t.errorAction = this.getFragRetryOrSwitchAction(t);
         return;
-      case b.FRAG_PARSING_ERROR:
+      case _.FRAG_PARSING_ERROR:
         if ((s = t.frag) != null && s.gap) {
           t.errorAction = kt();
           return;
         }
       // falls through
-      case b.FRAG_GAP:
-      case b.FRAG_DECRYPT_ERROR: {
+      case _.FRAG_GAP:
+      case _.FRAG_DECRYPT_ERROR: {
         t.errorAction = this.getFragRetryOrSwitchAction(t), t.errorAction.action = Te.SendAlternateToPenaltyBox;
         return;
       }
-      case b.LEVEL_EMPTY_ERROR:
-      case b.LEVEL_PARSING_ERROR:
+      case _.LEVEL_EMPTY_ERROR:
+      case _.LEVEL_PARSING_ERROR:
         {
           var n;
           const c = t.parent === V.MAIN ? t.level : i.loadLevel;
-          t.details === b.LEVEL_EMPTY_ERROR && ((n = t.context) != null && (n = n.levelDetails) != null && n.live) ? t.errorAction = this.getPlaylistRetryOrSwitchAction(t, c) : (t.levelRetry = !1, t.errorAction = this.getLevelSwitchAction(t, c));
+          t.details === _.LEVEL_EMPTY_ERROR && ((n = t.context) != null && (n = n.levelDetails) != null && n.live) ? t.errorAction = this.getPlaylistRetryOrSwitchAction(t, c) : (t.levelRetry = !1, t.errorAction = this.getLevelSwitchAction(t, c));
         }
         return;
-      case b.LEVEL_LOAD_ERROR:
-      case b.LEVEL_LOAD_TIMEOUT:
+      case _.LEVEL_LOAD_ERROR:
+      case _.LEVEL_LOAD_TIMEOUT:
         typeof (r == null ? void 0 : r.level) == "number" && (t.errorAction = this.getPlaylistRetryOrSwitchAction(t, r.level));
         return;
-      case b.AUDIO_TRACK_LOAD_ERROR:
-      case b.AUDIO_TRACK_LOAD_TIMEOUT:
-      case b.SUBTITLE_LOAD_ERROR:
-      case b.SUBTITLE_TRACK_LOAD_TIMEOUT:
+      case _.AUDIO_TRACK_LOAD_ERROR:
+      case _.AUDIO_TRACK_LOAD_TIMEOUT:
+      case _.SUBTITLE_LOAD_ERROR:
+      case _.SUBTITLE_TRACK_LOAD_TIMEOUT:
         if (r) {
           const c = i.loadLevelObj;
           if (c && (r.type === Z.AUDIO_TRACK && c.hasAudioGroup(r.groupId) || r.type === Z.SUBTITLE_TRACK && c.hasSubtitleGroup(r.groupId))) {
@@ -2792,35 +2792,35 @@ class rc extends Be {
           }
         }
         return;
-      case b.KEY_SYSTEM_STATUS_OUTPUT_RESTRICTED:
+      case _.KEY_SYSTEM_STATUS_OUTPUT_RESTRICTED:
         t.errorAction = {
           action: Te.SendAlternateToPenaltyBox,
           flags: De.MoveAllAlternatesMatchingHDCP
         };
         return;
-      case b.KEY_SYSTEM_SESSION_UPDATE_FAILED:
-      case b.KEY_SYSTEM_STATUS_INTERNAL_ERROR:
-      case b.KEY_SYSTEM_NO_SESSION:
+      case _.KEY_SYSTEM_SESSION_UPDATE_FAILED:
+      case _.KEY_SYSTEM_STATUS_INTERNAL_ERROR:
+      case _.KEY_SYSTEM_NO_SESSION:
         t.errorAction = {
           action: Te.SendAlternateToPenaltyBox,
           flags: De.MoveAllAlternatesMatchingKey
         };
         return;
-      case b.BUFFER_ADD_CODEC_ERROR:
-      case b.REMUX_ALLOC_ERROR:
-      case b.BUFFER_APPEND_ERROR:
+      case _.BUFFER_ADD_CODEC_ERROR:
+      case _.REMUX_ALLOC_ERROR:
+      case _.BUFFER_APPEND_ERROR:
         if (!t.errorAction) {
           var o;
           t.errorAction = this.getLevelSwitchAction(t, (o = t.level) != null ? o : i.loadLevel);
         }
         return;
-      case b.INTERNAL_EXCEPTION:
-      case b.BUFFER_APPENDING_ERROR:
-      case b.BUFFER_FULL_ERROR:
-      case b.LEVEL_SWITCH_ERROR:
-      case b.BUFFER_STALLED_ERROR:
-      case b.BUFFER_SEEK_OVER_HOLE:
-      case b.BUFFER_NUDGE_ON_STALL:
+      case _.INTERNAL_EXCEPTION:
+      case _.BUFFER_APPENDING_ERROR:
+      case _.BUFFER_FULL_ERROR:
+      case _.LEVEL_SWITCH_ERROR:
+      case _.BUFFER_STALLED_ERROR:
+      case _.BUFFER_SEEK_OVER_HOLE:
+      case _.BUFFER_NUDGE_ON_STALL:
         t.errorAction = kt();
         return;
     }
@@ -2843,7 +2843,7 @@ class rc extends Be {
       fragLoadPolicy: r,
       keyLoadPolicy: n
     } = t.config, o = Lr(ta(e) ? n : r, e), c = t.levels.reduce((u, h) => u + h.fragmentError, 0);
-    if (i && (e.details !== b.FRAG_GAP && i.fragmentError++, !sa(e) && Ds(o, c, _s(e), e.response)))
+    if (i && (e.details !== _.FRAG_GAP && i.fragmentError++, !sa(e) && Ds(o, c, _s(e), e.response)))
       return {
         action: Te.RetryRequest,
         flags: De.None,
@@ -2860,7 +2860,7 @@ class rc extends Be {
     if (i) {
       var r, n;
       const l = e.details;
-      i.loadError++, l === b.BUFFER_APPEND_ERROR && i.fragmentError++;
+      i.loadError++, l === _.BUFFER_APPEND_ERROR && i.fragmentError++;
       let u = -1;
       const {
         levels: h,
@@ -2869,9 +2869,9 @@ class rc extends Be {
         maxAutoLevel: f
       } = s;
       !s.autoLevelEnabled && !s.config.preserveManualLevelOnError && (s.loadLevel = -1);
-      const p = (r = e.frag) == null ? void 0 : r.type, E = (p === V.AUDIO && l === b.FRAG_PARSING_ERROR || e.sourceBufferName === "audio" && (l === b.BUFFER_ADD_CODEC_ERROR || l === b.BUFFER_APPEND_ERROR)) && h.some(({
+      const p = (r = e.frag) == null ? void 0 : r.type, E = (p === V.AUDIO && l === _.FRAG_PARSING_ERROR || e.sourceBufferName === "audio" && (l === _.BUFFER_ADD_CODEC_ERROR || l === _.BUFFER_APPEND_ERROR)) && h.some(({
         audioCodec: D
-      }) => i.audioCodec !== D), v = e.sourceBufferName === "video" && (l === b.BUFFER_ADD_CODEC_ERROR || l === b.BUFFER_APPEND_ERROR) && h.some(({
+      }) => i.audioCodec !== D), v = e.sourceBufferName === "video" && (l === _.BUFFER_ADD_CODEC_ERROR || l === _.BUFFER_APPEND_ERROR) && h.some(({
         codecSet: D,
         audioCodec: A
       }) => i.codecSet !== D && i.audioCodec === A), {
@@ -2882,18 +2882,18 @@ class rc extends Be {
         const A = (D + d) % h.length;
         if (A !== d && A >= g && A <= f && h[A].loadError === 0) {
           var o, c;
-          const _ = h[A];
-          if (l === b.FRAG_GAP && p === V.MAIN && e.frag) {
-            const R = h[A].details;
-            if (R) {
-              const L = xt(e.frag, R.fragments, e.frag.start);
+          const R = h[A];
+          if (l === _.FRAG_GAP && p === V.MAIN && e.frag) {
+            const b = h[A].details;
+            if (b) {
+              const L = xt(e.frag, b.fragments, e.frag.start);
               if (L != null && L.gap)
                 continue;
             }
           } else {
-            if (S === Z.AUDIO_TRACK && _.hasAudioGroup(x) || S === Z.SUBTITLE_TRACK && _.hasSubtitleGroup(x))
+            if (S === Z.AUDIO_TRACK && R.hasAudioGroup(x) || S === Z.SUBTITLE_TRACK && R.hasSubtitleGroup(x))
               continue;
-            if (p === V.AUDIO && (o = i.audioGroups) != null && o.some((R) => _.hasAudioGroup(R)) || p === V.SUBTITLE && (c = i.subtitleGroups) != null && c.some((R) => _.hasSubtitleGroup(R)) || E && i.audioCodec === _.audioCodec || v && i.codecSet === _.codecSet || !E && i.codecSet !== _.codecSet)
+            if (p === V.AUDIO && (o = i.audioGroups) != null && o.some((b) => R.hasAudioGroup(b)) || p === V.SUBTITLE && (c = i.subtitleGroups) != null && c.some((b) => R.hasSubtitleGroup(b)) || E && i.audioCodec === R.audioCodec || v && i.codecSet === R.codecSet || !E && i.codecSet !== R.codecSet)
               continue;
           }
           u = A;
@@ -2918,7 +2918,7 @@ class rc extends Be {
       case Te.DoNothing:
         break;
       case Te.SendAlternateToPenaltyBox:
-        this.sendAlternateToPenaltyBox(t), !t.errorAction.resolved && t.details !== b.FRAG_GAP ? t.fatal = !0 : /MediaSource readyState: ended/.test(t.error.message) && (this.warn(`MediaSource ended after "${t.sourceBufferName}" sourceBuffer append error. Attempting to recover from media error.`), this.hls.recoverMediaError());
+        this.sendAlternateToPenaltyBox(t), !t.errorAction.resolved && t.details !== _.FRAG_GAP ? t.fatal = !0 : /MediaSource readyState: ended/.test(t.error.message) && (this.warn(`MediaSource ended after "${t.sourceBufferName}" sourceBuffer append error. Attempting to recover from media error.`), this.hls.recoverMediaError());
         break;
     }
     if (t.fatal) {
@@ -2970,7 +2970,7 @@ class rc extends Be {
     s.resolved || this.switchLevel(e, r);
   }
   switchLevel(e, t) {
-    if (t !== void 0 && e.errorAction && (this.warn(`switching to level ${t} after ${e.details}`), this.hls.nextAutoLevel = t, e.errorAction.resolved = !0, this.hls.nextLoadLevel = this.hls.nextAutoLevel, e.details === b.BUFFER_ADD_CODEC_ERROR && e.mimeType && e.sourceBufferName !== "audiovideo")) {
+    if (t !== void 0 && e.errorAction && (this.warn(`switching to level ${t} after ${e.details}`), this.hls.nextAutoLevel = t, e.errorAction.resolved = !0, this.hls.nextLoadLevel = this.hls.nextAutoLevel, e.details === _.BUFFER_ADD_CODEC_ERROR && e.mimeType && e.sourceBufferName !== "audiovideo")) {
       const s = gi(e.mimeType), i = this.hls.levels;
       for (let r = i.length; r--; )
         i[r][`${e.sourceBufferName}Codec`] === s && (this.log(`Removing level ${r} for ${e.details} ("${s}" not supported)`), this.hls.removeLevel(r));
@@ -3361,12 +3361,12 @@ class lc {
     const i = this.keySize + 6, r = this.invKeySchedule, n = this.invSBox, o = this.invSubMix, c = o[0], l = o[1], u = o[2], h = o[3], d = this.uint8ArrayToUint32Array_(s);
     let g = d[0], f = d[1], p = d[2], y = d[3];
     const E = new Int32Array(e), T = new Int32Array(E.length);
-    let v, S, x, D, A, _, R, L, C, F, $, K, B, w;
-    const k = this.networkToHostOrderSwap;
+    let v, S, x, D, A, R, b, L, C, F, B, K, N, w;
+    const U = this.networkToHostOrderSwap;
     for (; t < E.length; ) {
-      for (C = k(E[t]), F = k(E[t + 1]), $ = k(E[t + 2]), K = k(E[t + 3]), A = C ^ r[0], _ = K ^ r[1], R = $ ^ r[2], L = F ^ r[3], B = 4, w = 1; w < i; w++)
-        v = c[A >>> 24] ^ l[_ >> 16 & 255] ^ u[R >> 8 & 255] ^ h[L & 255] ^ r[B], S = c[_ >>> 24] ^ l[R >> 16 & 255] ^ u[L >> 8 & 255] ^ h[A & 255] ^ r[B + 1], x = c[R >>> 24] ^ l[L >> 16 & 255] ^ u[A >> 8 & 255] ^ h[_ & 255] ^ r[B + 2], D = c[L >>> 24] ^ l[A >> 16 & 255] ^ u[_ >> 8 & 255] ^ h[R & 255] ^ r[B + 3], A = v, _ = S, R = x, L = D, B = B + 4;
-      v = n[A >>> 24] << 24 ^ n[_ >> 16 & 255] << 16 ^ n[R >> 8 & 255] << 8 ^ n[L & 255] ^ r[B], S = n[_ >>> 24] << 24 ^ n[R >> 16 & 255] << 16 ^ n[L >> 8 & 255] << 8 ^ n[A & 255] ^ r[B + 1], x = n[R >>> 24] << 24 ^ n[L >> 16 & 255] << 16 ^ n[A >> 8 & 255] << 8 ^ n[_ & 255] ^ r[B + 2], D = n[L >>> 24] << 24 ^ n[A >> 16 & 255] << 16 ^ n[_ >> 8 & 255] << 8 ^ n[R & 255] ^ r[B + 3], T[t] = k(v ^ g), T[t + 1] = k(D ^ f), T[t + 2] = k(x ^ p), T[t + 3] = k(S ^ y), g = C, f = F, p = $, y = K, t = t + 4;
+      for (C = U(E[t]), F = U(E[t + 1]), B = U(E[t + 2]), K = U(E[t + 3]), A = C ^ r[0], R = K ^ r[1], b = B ^ r[2], L = F ^ r[3], N = 4, w = 1; w < i; w++)
+        v = c[A >>> 24] ^ l[R >> 16 & 255] ^ u[b >> 8 & 255] ^ h[L & 255] ^ r[N], S = c[R >>> 24] ^ l[b >> 16 & 255] ^ u[L >> 8 & 255] ^ h[A & 255] ^ r[N + 1], x = c[b >>> 24] ^ l[L >> 16 & 255] ^ u[A >> 8 & 255] ^ h[R & 255] ^ r[N + 2], D = c[L >>> 24] ^ l[A >> 16 & 255] ^ u[R >> 8 & 255] ^ h[b & 255] ^ r[N + 3], A = v, R = S, b = x, L = D, N = N + 4;
+      v = n[A >>> 24] << 24 ^ n[R >> 16 & 255] << 16 ^ n[b >> 8 & 255] << 8 ^ n[L & 255] ^ r[N], S = n[R >>> 24] << 24 ^ n[b >> 16 & 255] << 16 ^ n[L >> 8 & 255] << 8 ^ n[A & 255] ^ r[N + 1], x = n[b >>> 24] << 24 ^ n[L >> 16 & 255] << 16 ^ n[A >> 8 & 255] << 8 ^ n[R & 255] ^ r[N + 2], D = n[L >>> 24] << 24 ^ n[A >> 16 & 255] << 16 ^ n[R >> 8 & 255] << 8 ^ n[b & 255] ^ r[N + 3], T[t] = U(v ^ g), T[t + 1] = U(D ^ f), T[t + 2] = U(x ^ p), T[t + 3] = U(S ^ y), g = C, f = F, p = B, y = K, t = t + 4;
     }
     return T.buffer;
   }
@@ -3495,7 +3495,7 @@ class dc {
     if (!s)
       return Promise.reject(new tt({
         type: Y.NETWORK_ERROR,
-        details: b.FRAG_LOAD_ERROR,
+        details: _.FRAG_LOAD_ERROR,
         fatal: !1,
         frag: e,
         error: new Error(`Fragment does not have a ${s ? "part list" : "url"}`),
@@ -3535,7 +3535,7 @@ class dc {
         onError: (f, p, y, E) => {
           this.resetLoader(e, l), c(new tt({
             type: Y.NETWORK_ERROR,
-            details: b.FRAG_LOAD_ERROR,
+            details: _.FRAG_LOAD_ERROR,
             fatal: !1,
             frag: e,
             response: se({
@@ -3550,7 +3550,7 @@ class dc {
         onAbort: (f, p, y) => {
           this.resetLoader(e, l), c(new tt({
             type: Y.NETWORK_ERROR,
-            details: b.INTERNAL_ABORTED,
+            details: _.INTERNAL_ABORTED,
             fatal: !1,
             frag: e,
             error: new Error("Aborted"),
@@ -3561,7 +3561,7 @@ class dc {
         onTimeout: (f, p, y) => {
           this.resetLoader(e, l), c(new tt({
             type: Y.NETWORK_ERROR,
-            details: b.FRAG_LOAD_TIMEOUT,
+            details: _.FRAG_LOAD_TIMEOUT,
             fatal: !1,
             frag: e,
             error: new Error(`Timeout after ${d.timeout}ms`),
@@ -3610,7 +3610,7 @@ class dc {
         onError: (g, f, p, y) => {
           this.resetLoader(e, l), c(new tt({
             type: Y.NETWORK_ERROR,
-            details: b.FRAG_LOAD_ERROR,
+            details: _.FRAG_LOAD_ERROR,
             fatal: !1,
             frag: e,
             part: t,
@@ -3626,7 +3626,7 @@ class dc {
         onAbort: (g, f, p) => {
           e.stats.aborted = t.stats.aborted, this.resetLoader(e, l), c(new tt({
             type: Y.NETWORK_ERROR,
-            details: b.INTERNAL_ABORTED,
+            details: _.INTERNAL_ABORTED,
             fatal: !1,
             frag: e,
             part: t,
@@ -3638,7 +3638,7 @@ class dc {
         onTimeout: (g, f, p) => {
           this.resetLoader(e, l), c(new tt({
             type: Y.NETWORK_ERROR,
-            details: b.FRAG_LOAD_TIMEOUT,
+            details: _.FRAG_LOAD_TIMEOUT,
             fatal: !1,
             frag: e,
             part: t,
@@ -3674,7 +3674,7 @@ function _r(a, e = null) {
     rangeStart: 0,
     rangeEnd: 0
   }, i = t.byteRangeStartOffset, r = t.byteRangeEndOffset;
-  if (U(i) && U(r)) {
+  if ($(i) && $(r)) {
     var n;
     let o = i, c = r;
     if (a.sn === "initSegment" && fc((n = a.decryptdata) == null ? void 0 : n.method)) {
@@ -3688,7 +3688,7 @@ function _r(a, e = null) {
 function Dr(a, e) {
   const t = new Error(`GAP ${a.gap ? "tag" : "attribute"} found`), s = {
     type: Y.MEDIA_ERROR,
-    details: b.FRAG_GAP,
+    details: _.FRAG_GAP,
     fatal: !1,
     frag: a,
     error: t,
@@ -4048,7 +4048,7 @@ class na {
     }
     if (this.attr = e, t ? (this._startDate = t._startDate, this._cue = t._cue, this._endDate = t._endDate, this._dateAtEnd = t._dateAtEnd) : this._startDate = new Date(e["START-DATE"]), "END-DATE" in this.attr) {
       const r = (t == null ? void 0 : t.endDate) || new Date(this.attr["END-DATE"]);
-      U(r.getTime()) && (this._endDate = r);
+      $(r.getTime()) && (this._endDate = r);
     }
   }
   get id() {
@@ -4084,7 +4084,7 @@ class na {
   get duration() {
     if ("DURATION" in this.attr) {
       const e = this.attr.decimalFloatingPoint("DURATION");
-      if (U(e))
+      if ($(e))
         return e;
     } else if (this._endDate)
       return (this._endDate.getTime() - this._startDate.getTime()) / 1e3;
@@ -4100,7 +4100,7 @@ class na {
     return this.class === pc;
   }
   get isValid() {
-    return !!this.id && !this._badValueForSameId && U(this.startDate.getTime()) && (this.duration === null || this.duration >= 0) && (!this.endOnNext || !!this.class) && (!this.attr.CUE || !this.cue.pre && !this.cue.post || this.cue.pre !== this.cue.post) && (!this.isInterstitial || "X-ASSET-URI" in this.attr || "X-ASSET-LIST" in this.attr);
+    return !!this.id && !this._badValueForSameId && $(this.startDate.getTime()) && (this.duration === null || this.duration >= 0) && (!this.endOnNext || !!this.class) && (!this.attr.CUE || !this.cue.pre && !this.cue.post || this.cue.pre !== this.cue.post) && (!this.isInterstitial || "X-ASSET-URI" in this.attr || "X-ASSET-LIST" in this.attr);
   }
 }
 const Tc = 10;
@@ -4123,7 +4123,7 @@ class vc {
     });
   }
   get hasProgramDateTime() {
-    return this.fragments.length ? U(this.fragments[this.fragments.length - 1].programDateTime) : !1;
+    return this.fragments.length ? $(this.fragments[this.fragments.length - 1].programDateTime) : !1;
   }
   get levelTargetDuration() {
     return this.averagetargetduration || this.targetduration || Tc;
@@ -4557,21 +4557,21 @@ class ze {
     const c = {
       url: t
     }, l = new vc(t), u = l.fragments, h = [];
-    let d = null, g = 0, f = 0, p = 0, y = 0, E = 0, T = null, v = new Ks(i, c), S, x, D, A = -1, _ = !1, R = null, L;
+    let d = null, g = 0, f = 0, p = 0, y = 0, E = 0, T = null, v = new Ks(i, c), S, x, D, A = -1, R = !1, b = null, L;
     if (Ws.lastIndex = 0, l.m3u8 = e, l.hasVariableRefs = Pr(e), ((o = Ws.exec(e)) == null ? void 0 : o[0]) !== "#EXTM3U")
       return l.playlistParsingError = new Error("Missing format identifier #EXTM3U"), l;
     for (; (S = Ws.exec(e)) !== null; ) {
-      _ && (_ = !1, v = new Ks(i, c), v.playlistOffset = p, v.setStart(p), v.sn = g, v.cc = y, E && (v.bitrate = E), v.level = s, d && (v.initSegment = d, d.rawProgramDateTime && (v.rawProgramDateTime = d.rawProgramDateTime, d.rawProgramDateTime = null), R && (v.setByteRange(R), R = null)));
+      R && (R = !1, v = new Ks(i, c), v.playlistOffset = p, v.setStart(p), v.sn = g, v.cc = y, E && (v.bitrate = E), v.level = s, d && (v.initSegment = d, d.rawProgramDateTime && (v.rawProgramDateTime = d.rawProgramDateTime, d.rawProgramDateTime = null), b && (v.setByteRange(b), b = null)));
       const K = S[1];
       if (K) {
         v.duration = parseFloat(K);
-        const B = (" " + S[2]).slice(1);
-        v.title = B || null, v.tagList.push(B ? ["INF", K, B] : ["INF", K]);
+        const N = (" " + S[2]).slice(1);
+        v.title = N || null, v.tagList.push(N ? ["INF", K, N] : ["INF", K]);
       } else if (S[3]) {
-        if (U(v.duration)) {
+        if ($(v.duration)) {
           v.playlistOffset = p, v.setStart(p), D && Vr(v, D, l), v.sn = g, v.level = s, v.cc = y, u.push(v);
-          const B = (" " + S[3]).slice(1);
-          v.relurl = yi(l, B), Ti(v, T, h), T = v, p += v.duration, g++, f = 0, _ = !0;
+          const N = (" " + S[3]).slice(1);
+          v.relurl = yi(l, N), Ti(v, T, h), T = v, p += v.duration, g++, f = 0, R = !0;
         }
       } else {
         if (S = S[0].match(_c), !S) {
@@ -4580,8 +4580,8 @@ class ze {
         }
         for (x = 1; x < S.length && S[x] === void 0; x++)
           ;
-        const B = (" " + S[x]).slice(1), w = (" " + S[x + 1]).slice(1), k = S[x + 2] ? (" " + S[x + 2]).slice(1) : null;
-        switch (B) {
+        const N = (" " + S[x]).slice(1), w = (" " + S[x + 1]).slice(1), U = S[x + 2] ? (" " + S[x + 2]).slice(1) : null;
+        switch (N) {
           case "BYTERANGE":
             T ? v.setByteRange(w, T) : v.setByteRange(w);
             break;
@@ -4589,72 +4589,72 @@ class ze {
             v.rawProgramDateTime = w, v.tagList.push(["PROGRAM-DATE-TIME", w]), A === -1 && (A = u.length);
             break;
           case "PLAYLIST-TYPE":
-            l.type && Je(l, B, S), l.type = w.toUpperCase();
+            l.type && Je(l, N, S), l.type = w.toUpperCase();
             break;
           case "MEDIA-SEQUENCE":
-            l.startSN !== 0 ? Je(l, B, S) : u.length > 0 && Hr(l, B, S), g = l.startSN = parseInt(w);
+            l.startSN !== 0 ? Je(l, N, S) : u.length > 0 && Hr(l, N, S), g = l.startSN = parseInt(w);
             break;
           case "SKIP": {
-            l.skippedSegments && Je(l, B, S);
-            const N = new ce(w, l), G = N.decimalInteger("SKIPPED-SEGMENTS");
-            if (U(G)) {
+            l.skippedSegments && Je(l, N, S);
+            const k = new ce(w, l), G = k.decimalInteger("SKIPPED-SEGMENTS");
+            if ($(G)) {
               l.skippedSegments += G;
-              for (let O = G; O--; )
+              for (let M = G; M--; )
                 u.push(null);
               g += G;
             }
-            const W = N.enumeratedString("RECENTLY-REMOVED-DATERANGES");
+            const W = k.enumeratedString("RECENTLY-REMOVED-DATERANGES");
             W && (l.recentlyRemovedDateranges = (l.recentlyRemovedDateranges || []).concat(W.split("	")));
             break;
           }
           case "TARGETDURATION":
-            l.targetduration !== 0 && Je(l, B, S), l.targetduration = Math.max(parseInt(w), 1);
+            l.targetduration !== 0 && Je(l, N, S), l.targetduration = Math.max(parseInt(w), 1);
             break;
           case "VERSION":
-            l.version !== null && Je(l, B, S), l.version = parseInt(w);
+            l.version !== null && Je(l, N, S), l.version = parseInt(w);
             break;
           case "INDEPENDENT-SEGMENTS":
             break;
           case "ENDLIST":
-            l.live || Je(l, B, S), l.live = !1;
+            l.live || Je(l, N, S), l.live = !1;
             break;
           case "#":
-            (w || k) && v.tagList.push(k ? [w, k] : [w]);
+            (w || U) && v.tagList.push(U ? [w, U] : [w]);
             break;
           case "DISCONTINUITY":
             y++, v.tagList.push(["DIS"]);
             break;
           case "GAP":
-            v.gap = !0, v.tagList.push([B]);
+            v.gap = !0, v.tagList.push([N]);
             break;
           case "BITRATE":
-            v.tagList.push([B, w]), E = parseInt(w) * 1e3, U(E) ? v.bitrate = E : E = 0;
+            v.tagList.push([N, w]), E = parseInt(w) * 1e3, $(E) ? v.bitrate = E : E = 0;
             break;
           case "DATERANGE": {
-            const N = new ce(w, l), G = new na(N, l.dateRanges[N.ID], l.dateRangeTagCount);
+            const k = new ce(w, l), G = new na(k, l.dateRanges[k.ID], l.dateRangeTagCount);
             l.dateRangeTagCount++, G.isValid || l.skippedSegments ? l.dateRanges[G.id] = G : ie.warn(`Ignoring invalid DATERANGE tag: "${w}"`), v.tagList.push(["EXT-X-DATERANGE", w]);
             break;
           }
           case "DEFINE": {
             {
-              const N = new ce(w, l);
-              "IMPORT" in N ? gc(l, N, n) : kr(l, N, t);
+              const k = new ce(w, l);
+              "IMPORT" in k ? gc(l, k, n) : kr(l, k, t);
             }
             break;
           }
           case "DISCONTINUITY-SEQUENCE":
-            l.startCC !== 0 ? Je(l, B, S) : u.length > 0 && Hr(l, B, S), l.startCC = y = parseInt(w);
+            l.startCC !== 0 ? Je(l, N, S) : u.length > 0 && Hr(l, N, S), l.startCC = y = parseInt(w);
             break;
           case "KEY": {
-            const N = Br(w, t, l);
-            if (N.isSupported()) {
-              if (N.method === "NONE") {
+            const k = Br(w, t, l);
+            if (k.isSupported()) {
+              if (k.method === "NONE") {
                 D = void 0;
                 break;
               }
               D || (D = {});
-              const G = D[N.keyFormat];
-              G != null && G.matches(N) || (G && (D = re({}, D)), D[N.keyFormat] = N);
+              const G = D[k.keyFormat];
+              G != null && G.matches(k) || (G && (D = re({}, D)), D[k.keyFormat] = k);
             } else
               ie.warn(`[Keys] Ignoring unsupported EXT-X-KEY tag: "${w}"`);
             break;
@@ -4663,47 +4663,47 @@ class ze {
             l.startTimeOffset = $r(w);
             break;
           case "MAP": {
-            const N = new ce(w, l);
+            const k = new ce(w, l);
             if (v.duration) {
               const G = new Ks(i, c);
-              Kr(G, N, s, D), d = G, v.initSegment = d, d.rawProgramDateTime && !v.rawProgramDateTime && (v.rawProgramDateTime = d.rawProgramDateTime);
+              Kr(G, k, s, D), d = G, v.initSegment = d, d.rawProgramDateTime && !v.rawProgramDateTime && (v.rawProgramDateTime = d.rawProgramDateTime);
             } else {
               const G = v.byteRangeEndOffset;
               if (G) {
                 const W = v.byteRangeStartOffset;
-                R = `${G - W}@${W}`;
+                b = `${G - W}@${W}`;
               } else
-                R = null;
-              Kr(v, N, s, D), d = v, _ = !0;
+                b = null;
+              Kr(v, k, s, D), d = v, R = !0;
             }
             d.cc = y;
             break;
           }
           case "SERVER-CONTROL": {
-            L && Je(l, B, S), L = new ce(w), l.canBlockReload = L.bool("CAN-BLOCK-RELOAD"), l.canSkipUntil = L.optionalFloat("CAN-SKIP-UNTIL", 0), l.canSkipDateRanges = l.canSkipUntil > 0 && L.bool("CAN-SKIP-DATERANGES"), l.partHoldBack = L.optionalFloat("PART-HOLD-BACK", 0), l.holdBack = L.optionalFloat("HOLD-BACK", 0);
+            L && Je(l, N, S), L = new ce(w), l.canBlockReload = L.bool("CAN-BLOCK-RELOAD"), l.canSkipUntil = L.optionalFloat("CAN-SKIP-UNTIL", 0), l.canSkipDateRanges = l.canSkipUntil > 0 && L.bool("CAN-SKIP-DATERANGES"), l.partHoldBack = L.optionalFloat("PART-HOLD-BACK", 0), l.holdBack = L.optionalFloat("HOLD-BACK", 0);
             break;
           }
           case "PART-INF": {
-            l.partTarget && Je(l, B, S);
-            const N = new ce(w);
-            l.partTarget = N.decimalFloatingPoint("PART-TARGET");
+            l.partTarget && Je(l, N, S);
+            const k = new ce(w);
+            l.partTarget = k.decimalFloatingPoint("PART-TARGET");
             break;
           }
           case "PART": {
-            let N = l.partList;
-            N || (N = l.partList = []);
-            const G = f > 0 ? N[N.length - 1] : void 0, W = f++, O = new ce(w, l), M = new gl(O, v, c, W, G);
-            N.push(M), v.duration += M.duration;
+            let k = l.partList;
+            k || (k = l.partList = []);
+            const G = f > 0 ? k[k.length - 1] : void 0, W = f++, M = new ce(w, l), O = new gl(M, v, c, W, G);
+            k.push(O), v.duration += O.duration;
             break;
           }
           case "PRELOAD-HINT": {
-            const N = new ce(w, l);
-            l.preloadHint = N;
+            const k = new ce(w, l);
+            l.preloadHint = k;
             break;
           }
           case "RENDITION-REPORT": {
-            const N = new ce(w, l);
-            l.renditionReports = l.renditionReports || [], l.renditionReports.push(N);
+            const k = new ce(w, l);
+            l.renditionReports = l.renditionReports || [], l.renditionReports.push(k);
             break;
           }
           default:
@@ -4713,11 +4713,11 @@ class ze {
       }
     }
     T && !T.relurl ? (u.pop(), p -= T.duration, l.partList && (l.fragmentHint = T)) : l.partList && (Ti(v, T, h), v.cc = y, l.fragmentHint = v, D && Vr(v, D, l)), l.targetduration || (l.playlistParsingError = new Error("Missing Target Duration"));
-    const C = u.length, F = u[0], $ = u[C - 1];
-    if (p += l.skippedSegments * l.targetduration, p > 0 && C && $) {
+    const C = u.length, F = u[0], B = u[C - 1];
+    if (p += l.skippedSegments * l.targetduration, p > 0 && C && B) {
       l.averagetargetduration = p / C;
-      const K = $.sn;
-      l.endSN = K !== "initSegment" ? K : 0, l.live || ($.endList = !0), A > 0 && (Cc(u, A), F && h.unshift(F));
+      const K = B.sn;
+      l.endSN = K !== "initSegment" ? K : 0, l.live || (B.endList = !0), A > 0 && (Cc(u, A), F && h.unshift(F));
     }
     return l.fragmentHint && (p += l.fragmentHint.duration), l.totalduration = p, h.length && l.dateRangeTagCount && F && ua(h, l), l.endCC = y, l;
   }
@@ -4781,7 +4781,7 @@ function Br(a, e, t) {
 }
 function $r(a) {
   const t = new ce(a).decimalFloatingPoint("TIME-OFFSET");
-  return U(t) ? t : null;
+  return $(t) ? t : null;
 }
 function Ur(a, e) {
   let t = (a || "").split(/[ ,]+/).filter((s) => s);
@@ -4824,7 +4824,7 @@ function Hr(a, e, t) {
 }
 function qs(a, e) {
   const t = e.startPTS;
-  if (U(t)) {
+  if ($(t)) {
     let s = 0, i;
     e.sn > a.sn ? (s = t - a.start, i = a) : (s = a.start - t, i = e), i.duration !== s && i.setDuration(s);
   } else e.sn > a.sn ? a.cc === e.cc && a.minEndPTS ? e.setStart(a.start + (a.minEndPTS - a.start)) : e.setStart(a.start + a.duration) : e.setStart(Math.max(a.start - e.duration, 0));
@@ -4833,9 +4833,9 @@ function ha(a, e, t, s, i, r, n) {
   s - t <= 0 && (n.warn("Fragment should have a positive duration", e), s = t + e.duration, r = i + e.duration);
   let c = t, l = s;
   const u = e.startPTS, h = e.endPTS;
-  if (U(u)) {
+  if ($(u)) {
     const E = Math.abs(u - t);
-    a && E > a.totalduration ? n.warn(`media timestamps and playlist times differ by ${E}s for level ${e.level} ${a.url}`) : U(e.deltaPTS) ? e.deltaPTS = Math.max(E, e.deltaPTS) : e.deltaPTS = E, c = Math.max(t, u), t = Math.min(t, u), i = e.startDTS !== void 0 ? Math.min(i, e.startDTS) : i, l = Math.min(s, h), s = Math.max(s, h), r = e.endDTS !== void 0 ? Math.max(r, e.endDTS) : r;
+    a && E > a.totalduration ? n.warn(`media timestamps and playlist times differ by ${E}s for level ${e.level} ${a.url}`) : $(e.deltaPTS) ? e.deltaPTS = Math.max(E, e.deltaPTS) : e.deltaPTS = E, c = Math.max(t, u), t = Math.min(t, u), i = e.startDTS !== void 0 ? Math.min(i, e.startDTS) : i, l = Math.min(s, h), s = Math.max(s, h), r = e.endDTS !== void 0 ? Math.max(r, e.endDTS) : r;
   }
   const d = t - e.start;
   e.start !== 0 && e.setStart(t), e.setDuration(s - e.start), e.startPTS = t, e.maxStartPTS = c, e.startDTS = i, e.endPTS = s, e.minEndPTS = l, e.endDTS = r;
@@ -4871,7 +4871,7 @@ function Pc(a, e, t) {
         g[p].cc += f;
       e.endCC = g[g.length - 1].cc;
     }
-    U(u.startPTS) && U(u.endPTS) && (h.setStart(h.startPTS = u.startPTS), h.startDTS = u.startDTS, h.maxStartPTS = u.maxStartPTS, h.endPTS = u.endPTS, h.endDTS = u.endDTS, h.minEndPTS = u.minEndPTS, h.setDuration(u.endPTS - u.startPTS), h.duration && (r = h), e.PTSKnown = e.alignedSliding = !0), u.hasStreams && (h.elementaryStreams = u.elementaryStreams), h.loader = u.loader, u.hasStats && (h.stats = u.stats), u.initSegment && (h.initSegment = u.initSegment, s = u.initSegment);
+    $(u.startPTS) && $(u.endPTS) && (h.setStart(h.startPTS = u.startPTS), h.startDTS = u.startDTS, h.maxStartPTS = u.maxStartPTS, h.endPTS = u.endPTS, h.endDTS = u.endDTS, h.minEndPTS = u.minEndPTS, h.setDuration(u.endPTS - u.startPTS), h.duration && (r = h), e.PTSKnown = e.alignedSliding = !0), u.hasStreams && (h.elementaryStreams = u.elementaryStreams), h.loader = u.loader, u.hasStats && (h.stats = u.stats), u.initSegment && (h.initSegment = u.initSegment, s = u.initSegment);
   });
   const n = e.fragments, o = e.fragmentHint ? n.concat(e.fragmentHint) : n;
   if (s && o.forEach((u) => {
@@ -5112,7 +5112,7 @@ class Vi extends ia {
         mediaBuffer: l,
         state: u
       } = this, h = c ? c.currentTime : 0, d = X.bufferInfo(l || c, h, n.maxBufferHole), g = !d.len;
-      if (this.log(`Media seeking to ${U(h) ? h.toFixed(3) : h}, state: ${u}, ${g ? "out of" : "in"} buffer`), this.state === P.ENDED)
+      if (this.log(`Media seeking to ${$(h) ? h.toFixed(3) : h}, state: ${u}, ${g ? "out of" : "in"} buffer`), this.state === P.ENDED)
         this.resetLoadingState();
       else if (o) {
         const f = n.maxFragLookUpTolerance, p = o.start - f, y = o.start + o.duration + f;
@@ -5327,7 +5327,7 @@ class Vi extends ia {
         return this.decrypter.decrypt(new Uint8Array(n), o.key.buffer, o.iv.buffer, Gi(o.method)).catch((l) => {
           throw i.trigger(m.ERROR, {
             type: Y.MEDIA_ERROR,
-            details: b.FRAG_DECRYPT_ERROR,
+            details: _.FRAG_DECRYPT_ERROR,
             fatal: !1,
             error: l,
             reason: l.message,
@@ -5366,7 +5366,7 @@ class Vi extends ia {
       const n = this.media, o = new Error(`Encrypted track with no key in ${this.fragInfo(t)} (media ${n ? "attached mediaKeys: " + n.mediaKeys : "detached"})`);
       return this.warn(o.message), !n || n.mediaKeys ? !1 : (this.hls.trigger(m.ERROR, {
         type: Y.KEY_SYSTEM_ERROR,
-        details: b.KEY_SYSTEM_NO_KEYS,
+        details: _.KEY_SYSTEM_NO_KEYS,
         fatal: !1,
         error: o,
         frag: t
@@ -5455,7 +5455,7 @@ class Vi extends ia {
       this.log(`LL-Part loading OFF after next part miss @${s.toFixed(2)} Check buffer at sn: ${e.sn} loaded parts: ${(l = n.partList) == null ? void 0 : l.filter((d) => d.loaded).map((d) => `[${d.start}-${d.end}]`)}`), this.loadingParts = !1;
     } else if (!e.url)
       return Promise.resolve(null);
-    this.log(`Loading ${e.type} sn: ${e.sn} of ${this.fragInfo(e, !1)}) cc: ${e.cc} ${"[" + n.startSN + "-" + n.endSN + "]"}, target: ${parseFloat(s.toFixed(3))}`), U(e.sn) && !this.bitrateTest && (this.nextLoadPosition = e.start + e.duration), this.state = P.FRAG_LOADING;
+    this.log(`Loading ${e.type} sn: ${e.sn} of ${this.fragInfo(e, !1)}) cc: ${e.cc} ${"[" + n.startSN + "-" + n.endSN + "]"}, target: ${parseFloat(s.toFixed(3))}`), $(e.sn) && !this.bitrateTest && (this.nextLoadPosition = e.start + e.duration), this.state = P.FRAG_LOADING;
     const u = this.config.progressive && e.type !== V.SUBTITLE;
     let h;
     return u && o ? h = o.then((d) => !d || this.fragContextChanged(d.frag) ? null : this.fragmentLoader.load(e, i)).catch((d) => this.handleFragLoadError(d)) : h = Promise.all([this.fragmentLoader.load(e, u ? i : void 0), o]).then(([d]) => (!u && i && i(d), d)).catch((d) => this.handleFragLoadError(d)), this.hls.trigger(m.FRAG_LOADING, {
@@ -5488,11 +5488,11 @@ class Vi extends ia {
   handleFragLoadError(e) {
     if ("data" in e) {
       const t = e.data;
-      t.frag && t.details === b.INTERNAL_ABORTED ? this.handleFragLoadAborted(t.frag, t.part) : t.frag && t.type === Y.KEY_SYSTEM_ERROR ? (t.frag.abortRequests(), this.resetStartWhenNotLoaded(), this.resetFragmentLoading(t.frag)) : this.hls.trigger(m.ERROR, t);
+      t.frag && t.details === _.INTERNAL_ABORTED ? this.handleFragLoadAborted(t.frag, t.part) : t.frag && t.type === Y.KEY_SYSTEM_ERROR ? (t.frag.abortRequests(), this.resetStartWhenNotLoaded(), this.resetFragmentLoading(t.frag)) : this.hls.trigger(m.ERROR, t);
     } else
       this.hls.trigger(m.ERROR, {
         type: Y.OTHER_ERROR,
-        details: b.INTERNAL_EXCEPTION,
+        details: _.INTERNAL_EXCEPTION,
         err: e,
         error: e,
         fatal: !0
@@ -5590,7 +5590,7 @@ class Vi extends ia {
   getFwdBufferInfo(e, t) {
     var s;
     const i = this.getLoadPosition();
-    if (!U(i))
+    if (!$(i))
       return null;
     const n = this.lastCurrentTime > i || (s = this.media) != null && s.paused ? 0 : this.config.maxBufferHole;
     return this.getFwdBufferInfoAtPos(e, i, t, n);
@@ -5783,7 +5783,7 @@ class Vi extends ia {
     const i = e.fragments.length;
     if (!i)
       return this.warn("No fragments in live playlist"), 0;
-    const r = e.fragmentStart, n = !t, o = e.alignedSliding && U(r);
+    const r = e.fragmentStart, n = !t, o = e.alignedSliding && $(r);
     if (n || !o && !r) {
       Nc(s, e);
       const c = e.fragmentStart;
@@ -5800,7 +5800,7 @@ class Vi extends ia {
     const i = this.timelineOffset;
     if (s === -1) {
       const r = this.startTimeOffset !== null, n = r ? this.startTimeOffset : e.startTimeOffset;
-      n !== null && U(n) ? (s = t + n, n < 0 && (s += e.edge), s = Math.min(Math.max(t, s), t + e.totalduration), this.log(`Setting startPosition to ${s} for start time offset ${n} found in ${r ? "multivariant" : "media"} playlist`), this.startPosition = s) : e.live ? (s = this.hls.liveSyncPosition || t, this.log(`Setting startPosition to -1 to start at live edge ${s}`), this.startPosition = -1) : (this.log("setting startPosition to 0 by default"), this.startPosition = s = 0), this.lastCurrentTime = s + i;
+      n !== null && $(n) ? (s = t + n, n < 0 && (s += e.edge), s = Math.min(Math.max(t, s), t + e.totalduration), this.log(`Setting startPosition to ${s} for start time offset ${n} found in ${r ? "multivariant" : "media"} playlist`), this.startPosition = s) : e.live ? (s = this.hls.liveSyncPosition || t, this.log(`Setting startPosition to -1 to start at live edge ${s}`), this.startPosition = -1) : (this.log("setting startPosition to 0 by default"), this.startPosition = s = 0), this.lastCurrentTime = s + i;
     }
     this.nextLoadPosition = s + i;
   }
@@ -5832,7 +5832,7 @@ class Vi extends ia {
       this.warn(`Frag load error must match current frag to retry ${i.url} > ${(r = this.fragCurrent) == null ? void 0 : r.url}`);
       return;
     }
-    const n = t.details === b.FRAG_GAP;
+    const n = t.details === _.FRAG_GAP;
     n && this.fragmentTracker.fragBuffered(i, !0);
     const o = t.errorAction;
     if (!o) {
@@ -5934,7 +5934,7 @@ class Vi extends ia {
         const l = new Error(`Found no media in fragment ${e.sn} of ${this.playlistLabel()} ${e.level} resetting transmuxer to fallback to playlist timing`);
         if (this.warn(l.message), this.hls.trigger(m.ERROR, {
           type: Y.MEDIA_ERROR,
-          details: b.FRAG_PARSING_ERROR,
+          details: _.FRAG_PARSING_ERROR,
           fatal: !1,
           error: l,
           frag: e,
@@ -6181,7 +6181,7 @@ function Wc(a, e, t, s) {
     const g = new Error(`invalid ADTS sampling index:${n}`);
     a.emit(m.ERROR, m.ERROR, {
       type: Y.MEDIA_ERROR,
-      details: b.FRAG_PARSING_ERROR,
+      details: _.FRAG_PARSING_ERROR,
       fatal: !0,
       error: g,
       reason: g.message
@@ -6471,7 +6471,7 @@ class ji {
     this.cachedData && (e = Ne(this.cachedData, e), this.cachedData = null);
     let s = zt(e, 0), i = s ? s.length : 0, r;
     const n = this._audioTrack, o = this._id3Track, c = s ? qi(s) : void 0, l = e.length;
-    for ((this.basePTS === null || this.frameIndex === 0 && U(c)) && (this.basePTS = uu(c, t, this.initPTS), this.lastPTS = this.basePTS), this.lastPTS === null && (this.lastPTS = this.basePTS), s && s.length > 0 && o.samples.push({
+    for ((this.basePTS === null || this.frameIndex === 0 && $(c)) && (this.basePTS = uu(c, t, this.initPTS), this.lastPTS = this.basePTS), this.lastPTS === null && (this.lastPTS = this.basePTS), s && s.length > 0 && o.samples.push({
       pts: this.lastPTS,
       dts: this.lastPTS,
       data: s,
@@ -6517,7 +6517,7 @@ class ji {
   }
 }
 const uu = (a, e, t) => {
-  if (U(a))
+  if ($(a))
     return a * 90;
   const s = t ? t.baseTime * 9e4 / t.timescale : 0;
   return e * 9e4 + s;
@@ -6888,7 +6888,7 @@ class vu {
   }
 }
 function Qr(a, e) {
-  return U(a.presentationTime) ? a.presentationTime / a.timeScale : e + a.presentationTimeDelta / a.timeScale;
+  return $(a.presentationTime) ? a.presentationTime / a.timeScale : e + a.presentationTimeDelta / a.timeScale;
 }
 class Su {
   constructor(e, t, s) {
@@ -7213,9 +7213,9 @@ class xu extends Oa {
     u();
     const T = u();
     if (h(5), f(3), u(), y(), T === 100 || T === 110 || T === 122 || T === 244 || T === 44 || T === 83 || T === 86 || T === 118 || T === 128) {
-      const _ = d();
-      if (_ === 3 && f(1), y(), y(), f(1), g())
-        for (c = _ !== 3 ? 8 : 12, l = 0; l < c; l++)
+      const R = d();
+      if (R === 3 && f(1), y(), y(), f(1), g())
+        for (c = R !== 3 ? 8 : 12, l = 0; l < c; l++)
           g() && (l < 6 ? E(16, t) : E(64, t));
     }
     y();
@@ -7408,21 +7408,21 @@ class Au extends Oa {
     const s = t.readBits(3);
     t.readBoolean();
     const i = t.readBits(2), r = t.readBoolean(), n = t.readBits(5), o = t.readUByte(), c = t.readUByte(), l = t.readUByte(), u = t.readUByte(), h = t.readUByte(), d = t.readUByte(), g = t.readUByte(), f = t.readUByte(), p = t.readUByte(), y = t.readUByte(), E = t.readUByte(), T = [], v = [];
-    for (let ee = 0; ee < s; ee++)
+    for (let te = 0; te < s; te++)
       T.push(t.readBoolean()), v.push(t.readBoolean());
     if (s > 0)
-      for (let ee = s; ee < 8; ee++)
+      for (let te = s; te < 8; te++)
         t.readBits(2);
-    for (let ee = 0; ee < s; ee++)
-      T[ee] && (t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte()), v[ee] && t.readUByte();
+    for (let te = 0; te < s; te++)
+      T[te] && (t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte(), t.readUByte()), v[te] && t.readUByte();
     t.readUEG();
     const S = t.readUEG();
     S == 3 && t.skipBits(1);
     const x = t.readUEG(), D = t.readUEG(), A = t.readBoolean();
-    let _ = 0, R = 0, L = 0, C = 0;
-    A && (_ += t.readUEG(), R += t.readUEG(), L += t.readUEG(), C += t.readUEG());
-    const F = t.readUEG(), $ = t.readUEG(), K = t.readUEG(), B = t.readBoolean();
-    for (let ee = B ? 0 : s; ee <= s; ee++)
+    let R = 0, b = 0, L = 0, C = 0;
+    A && (R += t.readUEG(), b += t.readUEG(), L += t.readUEG(), C += t.readUEG());
+    const F = t.readUEG(), B = t.readUEG(), K = t.readUEG(), N = t.readBoolean();
+    for (let te = N ? 0 : s; te <= s; te++)
       t.skipUEG(), t.skipUEG(), t.skipUEG();
     if (t.skipUEG(), t.skipUEG(), t.skipUEG(), t.skipUEG(), t.skipUEG(), t.skipUEG(), t.readBoolean() && t.readBoolean())
       for (let Ae = 0; Ae < 4; Ae++)
@@ -7436,12 +7436,12 @@ class Au extends Oa {
               t.readEG();
           }
     t.readBoolean(), t.readBoolean(), t.readBoolean() && (t.readUByte(), t.skipUEG(), t.skipUEG(), t.readBoolean());
-    const N = t.readUEG();
+    const k = t.readUEG();
     let G = 0;
-    for (let ee = 0; ee < N; ee++) {
+    for (let te = 0; te < k; te++) {
       let Ae = !1;
-      if (ee !== 0 && (Ae = t.readBoolean()), Ae) {
-        ee === N && t.readUEG(), t.readBoolean(), t.readUEG();
+      if (te !== 0 && (Ae = t.readBoolean()), Ae) {
+        te === k && t.readUEG(), t.readBoolean(), t.readUEG();
         let Fe = 0;
         for (let mt = 0; mt <= G; mt++) {
           const $e = t.readBoolean();
@@ -7459,28 +7459,28 @@ class Au extends Oa {
       }
     }
     if (t.readBoolean()) {
-      const ee = t.readUEG();
-      for (let Ae = 0; Ae < ee; Ae++) {
+      const te = t.readUEG();
+      for (let Ae = 0; Ae < te; Ae++) {
         for (let Fe = 0; Fe < K + 4; Fe++)
           t.readBits(1);
         t.readBits(1);
       }
     }
-    let O = 0, M = 1, j = 1, te = !0, z = 1, J = 0;
+    let M = 0, O = 1, j = 1, J = !0, z = 1, ee = 0;
     t.readBoolean(), t.readBoolean();
     let xe = !1;
     if (t.readBoolean()) {
       if (t.readBoolean()) {
         const pt = t.readUByte(), ir = [1, 12, 10, 16, 40, 24, 20, 32, 80, 18, 15, 64, 160, 4, 3, 2], Jt = [1, 11, 11, 11, 33, 11, 11, 11, 33, 11, 11, 33, 99, 3, 2, 1];
-        pt > 0 && pt < 16 ? (M = ir[pt - 1], j = Jt[pt - 1]) : pt === 255 && (M = t.readBits(16), j = t.readBits(16));
+        pt > 0 && pt < 16 ? (O = ir[pt - 1], j = Jt[pt - 1]) : pt === 255 && (O = t.readBits(16), j = t.readBits(16));
       }
-      if (t.readBoolean() && t.readBoolean(), t.readBoolean() && (t.readBits(3), t.readBoolean(), t.readBoolean() && (t.readUByte(), t.readUByte(), t.readUByte())), t.readBoolean() && (t.readUEG(), t.readUEG()), t.readBoolean(), t.readBoolean(), t.readBoolean(), xe = t.readBoolean(), xe && (t.skipUEG(), t.skipUEG(), t.skipUEG(), t.skipUEG()), t.readBoolean() && (z = t.readBits(32), J = t.readBits(32), t.readBoolean() && t.readUEG(), t.readBoolean())) {
+      if (t.readBoolean() && t.readBoolean(), t.readBoolean() && (t.readBits(3), t.readBoolean(), t.readBoolean() && (t.readUByte(), t.readUByte(), t.readUByte())), t.readBoolean() && (t.readUEG(), t.readUEG()), t.readBoolean(), t.readBoolean(), t.readBoolean(), xe = t.readBoolean(), xe && (t.skipUEG(), t.skipUEG(), t.skipUEG(), t.skipUEG()), t.readBoolean() && (z = t.readBits(32), ee = t.readBits(32), t.readBoolean() && t.readUEG(), t.readBoolean())) {
         const Jt = t.readBoolean(), rr = t.readBoolean();
         let Bt = !1;
         (Jt || rr) && (Bt = t.readBoolean(), Bt && (t.readUByte(), t.readBits(5), t.readBoolean(), t.readBits(5)), t.readBits(4), t.readBits(4), Bt && t.readBits(4), t.readBits(5), t.readBits(5), t.readBits(5));
         for (let nr = 0; nr <= s; nr++) {
-          te = t.readBoolean();
-          const po = te || t.readBoolean();
+          J = t.readBoolean();
+          const po = J || t.readBoolean();
           let ar = !1;
           po ? t.readEG() : ar = t.readBoolean();
           const or = ar ? 1 : t.readUEG() + 1;
@@ -7492,17 +7492,17 @@ class Au extends Oa {
               t.readUEG(), t.readUEG(), Bt && (t.readUEG(), t.readUEG()), t.skipBits(1);
         }
       }
-      t.readBoolean() && (t.readBoolean(), t.readBoolean(), t.readBoolean(), O = t.readUEG());
+      t.readBoolean() && (t.readBoolean(), t.readBoolean(), t.readBoolean(), M = t.readUEG());
     }
     let Oe = x, He = D;
     if (A) {
-      let ee = 1, Ae = 1;
-      S === 1 ? ee = Ae = 2 : S == 2 && (ee = 2), Oe = x - ee * R - ee * _, He = D - Ae * C - Ae * L;
+      let te = 1, Ae = 1;
+      S === 1 ? te = Ae = 2 : S == 2 && (te = 2), Oe = x - te * b - te * R, He = D - Ae * C - Ae * L;
     }
     const gt = i ? ["A", "B", "C"][i] : "", mo = o << 24 | c << 16 | l << 8 | u;
     let Bs = 0;
-    for (let ee = 0; ee < 32; ee++)
-      Bs = (Bs | (mo >> ee & 1) << 31 - ee) >>> 0;
+    for (let te = 0; te < 32; te++)
+      Bs = (Bs | (mo >> te & 1) << 31 - te) >>> 0;
     let $s = Bs.toString(16);
     return n === 1 && $s === "2" && ($s = "6"), {
       codecString: `hvc1.${gt}${n}.${$s}.${r ? "H" : "L"}${E}.B0`,
@@ -7515,17 +7515,17 @@ class Au extends Oa {
         general_level_idc: E,
         bit_depth: F + 8,
         bit_depth_luma_minus8: F,
-        bit_depth_chroma_minus8: $,
-        min_spatial_segmentation_idc: O,
+        bit_depth_chroma_minus8: B,
+        min_spatial_segmentation_idc: M,
         chroma_format_idc: S,
         frame_rate: {
-          fixed: te,
-          fps: J / z
+          fixed: J,
+          fps: ee / z
         }
       },
       width: Oe,
       height: He,
-      pixelRatio: [M, j]
+      pixelRatio: [O, j]
     };
   }
   readPPS(e) {
@@ -7618,22 +7618,22 @@ class ot {
     let x = 0;
     for (let A = S; A < v; A += ye)
       if (e[A] === 71) {
-        const _ = !!(e[A + 1] & 64), R = Si(e, A), L = (e[A + 3] & 48) >> 4;
+        const R = !!(e[A + 1] & 64), b = Si(e, A), L = (e[A + 3] & 48) >> 4;
         let C;
         if (L > 1) {
           if (C = A + 5 + e[A + 4], C === A + ye)
             continue;
         } else
           C = A + 4;
-        switch (R) {
+        switch (b) {
           case u:
-            _ && (h && (r = bt(h, this.logger)) && (this.readyVideoParser(n.segmentCodec), this.videoParser !== null && this.videoParser.parsePES(n, l, r, !1)), h = {
+            R && (h && (r = bt(h, this.logger)) && (this.readyVideoParser(n.segmentCodec), this.videoParser !== null && this.videoParser.parsePES(n, l, r, !1)), h = {
               data: [],
               size: 0
             }), h && (h.data.push(e.subarray(C, A + ye)), h.size += A + ye - C);
             break;
           case d:
-            if (_) {
+            if (R) {
               if (f && (r = bt(f, this.logger)))
                 switch (o.segmentCodec) {
                   case "aac":
@@ -7654,16 +7654,16 @@ class ot {
             f && (f.data.push(e.subarray(C, A + ye)), f.size += A + ye - C);
             break;
           case g:
-            _ && (p && (r = bt(p, this.logger)) && this.parseID3PES(c, r), p = {
+            R && (p && (r = bt(p, this.logger)) && this.parseID3PES(c, r), p = {
               data: [],
               size: 0
             }), p && (p.data.push(e.subarray(C, A + ye)), p.size += A + ye - C);
             break;
           case 0:
-            _ && (C += e[C] + 1), T = this._pmtId = Lu(e, C);
+            R && (C += e[C] + 1), T = this._pmtId = Lu(e, C);
             break;
           case T: {
-            _ && (C += e[C] + 1);
+            R && (C += e[C] + 1);
             const F = Iu(e, C, this.typeSupported, s, this.observer, this.logger);
             u = F.videoPid, u > 0 && (n.pid = u, n.segmentCodec = F.segmentVideoCodec), d = F.audioPid, d > 0 && (o.pid = d, o.segmentCodec = F.segmentAudioCodec), g = F.id3Pid, g > 0 && (c.pid = g), y !== null && !E && (this.logger.warn(`MPEG-TS PMT found at ${A} after unknown PID '${y}'. Backtracking to sync byte @${S} to parse all TS packets.`), y = null, A = S - 188), E = this.pmtParsed = !0;
             break;
@@ -7672,7 +7672,7 @@ class ot {
           case 8191:
             break;
           default:
-            y = R;
+            y = b;
             break;
         }
       } else
@@ -7919,7 +7919,7 @@ function Iu(a, e, t, s, i, r) {
 function xi(a, e, t, s) {
   s.warn(`parsing error: ${e.message}`), a.emit(m.ERROR, m.ERROR, {
     type: Y.MEDIA_ERROR,
-    details: b.FRAG_PARSING_ERROR,
+    details: _.FRAG_PARSING_ERROR,
     fatal: !1,
     levelRetry: t,
     error: e,
@@ -9254,18 +9254,18 @@ class Es extends Be {
     const E = e.pid > -1, T = t.pid > -1, v = t.samples.length, S = e.samples.length > 0, x = o && v > 0 || v > 1;
     if ((!E || S) && (!T || x) || this.ISGenerated || o) {
       if (this.ISGenerated) {
-        var A, _, R, L;
+        var A, R, b, L;
         const K = this.videoTrackConfig;
-        (K && (t.width !== K.width || t.height !== K.height || ((A = t.pixelRatio) == null ? void 0 : A[0]) !== ((_ = K.pixelRatio) == null ? void 0 : _[0]) || ((R = t.pixelRatio) == null ? void 0 : R[1]) !== ((L = K.pixelRatio) == null ? void 0 : L[1])) || !K && x || this.nextAudioTs === null && S) && this.resetInitSegment();
+        (K && (t.width !== K.width || t.height !== K.height || ((A = t.pixelRatio) == null ? void 0 : A[0]) !== ((R = K.pixelRatio) == null ? void 0 : R[0]) || ((b = t.pixelRatio) == null ? void 0 : b[1]) !== ((L = K.pixelRatio) == null ? void 0 : L[1])) || !K && x || this.nextAudioTs === null && S) && this.resetInitSegment();
       }
       this.ISGenerated || (h = this.generateIS(e, t, r, n));
       const C = this.isVideoContiguous;
-      let F = -1, $;
+      let F = -1, B;
       if (x && (F = wu(t.samples), !C && this.config.forceKeyFrameOnDiscontinuity))
         if (f = !0, F > 0) {
           this.warn(`Dropped ${F} out of ${v} video samples due to a missing keyframe`);
           const K = this.getVideoStartPts(t.samples);
-          t.samples = t.samples.slice(F), t.dropped += F, y += (t.samples[0].pts - K) / t.inputTimeScale, $ = y;
+          t.samples = t.samples.slice(F), t.dropped += F, y += (t.samples[0].pts - K) / t.inputTimeScale, B = y;
         } else F === -1 && (this.warn(`No keyframe found out of ${v} video samples`), f = !1);
       if (this.ISGenerated) {
         if (S && x) {
@@ -9278,7 +9278,7 @@ class Es extends Be {
             t.inputTimeScale || (this.warn("regenerate InitSegment as video detected"), h = this.generateIS(e, t, r, n)), l = this.remuxVideo(t, y, C, K);
           }
         } else x && (l = this.remuxVideo(t, y, C, 0));
-        l && (l.firstKeyFrame = F, l.independent = F !== -1, l.firstKeyFramePTS = $);
+        l && (l.firstKeyFrame = F, l.independent = F !== -1, l.firstKeyFramePTS = B);
       }
     }
     return this.ISGenerated && this._initPTS && this._initDTS && (s.samples.length && (g = Ma(s, r, this._initPTS, this._initDTS)), i.samples.length && (d = Na(i, r, this._initPTS))), {
@@ -9362,111 +9362,111 @@ class Es extends Be {
     const r = e.inputTimeScale, n = e.samples, o = [], c = n.length, l = this._initPTS, u = l.baseTime * r / l.timescale;
     let h = this.nextVideoTs, d = 8, g = this.videoSampleDuration, f, p, y = Number.POSITIVE_INFINITY, E = Number.NEGATIVE_INFINITY, T = !1;
     if (!s || h === null) {
-      const O = u + t * r, M = n[0].pts - Ce(n[0].dts, n[0].pts);
-      _t && h !== null && Math.abs(O - M - (h + u)) < 15e3 ? s = !0 : h = O - M - u;
+      const M = u + t * r, O = n[0].pts - Ce(n[0].dts, n[0].pts);
+      _t && h !== null && Math.abs(M - O - (h + u)) < 15e3 ? s = !0 : h = M - O - u;
     }
     const v = h + u;
-    for (let O = 0; O < c; O++) {
-      const M = n[O];
-      M.pts = Ce(M.pts, v), M.dts = Ce(M.dts, v), M.dts < n[O > 0 ? O - 1 : O].dts && (T = !0);
+    for (let M = 0; M < c; M++) {
+      const O = n[M];
+      O.pts = Ce(O.pts, v), O.dts = Ce(O.dts, v), O.dts < n[M > 0 ? M - 1 : M].dts && (T = !0);
     }
-    T && n.sort(function(O, M) {
-      const j = O.dts - M.dts, te = O.pts - M.pts;
-      return j || te;
+    T && n.sort(function(M, O) {
+      const j = M.dts - O.dts, J = M.pts - O.pts;
+      return j || J;
     }), f = n[0].dts, p = n[n.length - 1].dts;
     const S = p - f, x = S ? Math.round(S / (c - 1)) : g || e.inputTimeScale / 30;
     if (s) {
-      const O = f - v, M = O > x, j = O < -1;
-      if ((M || j) && (M ? this.warn(`${(e.segmentCodec || "").toUpperCase()}: ${Ut(O, !0)} ms (${O}dts) hole between fragments detected at ${t.toFixed(3)}`) : this.warn(`${(e.segmentCodec || "").toUpperCase()}: ${Ut(-O, !0)} ms (${O}dts) overlapping between fragments detected at ${t.toFixed(3)}`), !j || v >= n[0].pts || _t)) {
+      const M = f - v, O = M > x, j = M < -1;
+      if ((O || j) && (O ? this.warn(`${(e.segmentCodec || "").toUpperCase()}: ${Ut(M, !0)} ms (${M}dts) hole between fragments detected at ${t.toFixed(3)}`) : this.warn(`${(e.segmentCodec || "").toUpperCase()}: ${Ut(-M, !0)} ms (${M}dts) overlapping between fragments detected at ${t.toFixed(3)}`), !j || v >= n[0].pts || _t)) {
         f = v;
-        const te = n[0].pts - O;
-        if (M)
-          n[0].dts = f, n[0].pts = te;
+        const J = n[0].pts - M;
+        if (O)
+          n[0].dts = f, n[0].pts = J;
         else {
           let z = !0;
-          for (let J = 0; J < n.length && !(n[J].dts > te && z); J++) {
-            const xe = n[J].pts;
-            if (n[J].dts -= O, n[J].pts -= O, J < n.length - 1) {
-              const Ee = n[J + 1].pts, Oe = n[J].pts, He = Ee <= Oe, gt = Ee <= xe;
+          for (let ee = 0; ee < n.length && !(n[ee].dts > J && z); ee++) {
+            const xe = n[ee].pts;
+            if (n[ee].dts -= M, n[ee].pts -= M, ee < n.length - 1) {
+              const Ee = n[ee + 1].pts, Oe = n[ee].pts, He = Ee <= Oe, gt = Ee <= xe;
               z = He == gt;
             }
           }
         }
-        this.log(`Video: Initial PTS/DTS adjusted: ${Ut(te, !0)}/${Ut(f, !0)}, delta: ${Ut(O, !0)} ms`);
+        this.log(`Video: Initial PTS/DTS adjusted: ${Ut(J, !0)}/${Ut(f, !0)}, delta: ${Ut(M, !0)} ms`);
       }
     }
     f = Math.max(0, f);
-    let D = 0, A = 0, _ = f;
-    for (let O = 0; O < c; O++) {
-      const M = n[O], j = M.units, te = j.length;
+    let D = 0, A = 0, R = f;
+    for (let M = 0; M < c; M++) {
+      const O = n[M], j = O.units, J = j.length;
       let z = 0;
-      for (let J = 0; J < te; J++)
-        z += j[J].data.length;
-      A += z, D += te, M.length = z, M.dts < _ ? (M.dts = _, _ += x / 4 | 0 || 1) : _ = M.dts, y = Math.min(M.pts, y), E = Math.max(M.pts, E);
+      for (let ee = 0; ee < J; ee++)
+        z += j[ee].data.length;
+      A += z, D += J, O.length = z, O.dts < R ? (O.dts = R, R += x / 4 | 0 || 1) : R = O.dts, y = Math.min(O.pts, y), E = Math.max(O.pts, E);
     }
     p = n[c - 1].dts;
-    const R = A + 4 * D + 8;
+    const b = A + 4 * D + 8;
     let L;
     try {
-      L = new Uint8Array(R);
-    } catch (O) {
+      L = new Uint8Array(b);
+    } catch (M) {
       this.observer.emit(m.ERROR, m.ERROR, {
         type: Y.MUX_ERROR,
-        details: b.REMUX_ALLOC_ERROR,
+        details: _.REMUX_ALLOC_ERROR,
         fatal: !1,
-        error: O,
-        bytes: R,
-        reason: `fail allocating video mdat ${R}`
+        error: M,
+        bytes: b,
+        reason: `fail allocating video mdat ${b}`
       });
       return;
     }
     const C = new DataView(L.buffer);
-    C.setUint32(0, R), L.set(I.types.mdat, 4);
-    let F = !1, $ = Number.POSITIVE_INFINITY, K = Number.POSITIVE_INFINITY, B = Number.NEGATIVE_INFINITY, w = Number.NEGATIVE_INFINITY;
-    for (let O = 0; O < c; O++) {
-      const M = n[O], j = M.units;
-      let te = 0;
+    C.setUint32(0, b), L.set(I.types.mdat, 4);
+    let F = !1, B = Number.POSITIVE_INFINITY, K = Number.POSITIVE_INFINITY, N = Number.NEGATIVE_INFINITY, w = Number.NEGATIVE_INFINITY;
+    for (let M = 0; M < c; M++) {
+      const O = n[M], j = O.units;
+      let J = 0;
       for (let xe = 0, Ee = j.length; xe < Ee; xe++) {
         const Oe = j[xe], He = Oe.data, gt = Oe.data.byteLength;
-        C.setUint32(d, gt), d += 4, L.set(He, d), d += gt, te += 4 + gt;
+        C.setUint32(d, gt), d += 4, L.set(He, d), d += gt, J += 4 + gt;
       }
       let z;
-      if (O < c - 1)
-        g = n[O + 1].dts - M.dts, z = n[O + 1].pts - M.pts;
+      if (M < c - 1)
+        g = n[M + 1].dts - O.dts, z = n[M + 1].pts - O.pts;
       else {
-        const xe = this.config, Ee = O > 0 ? M.dts - n[O - 1].dts : x;
-        if (z = O > 0 ? M.pts - n[O - 1].pts : x, xe.stretchShortVideoTrack && this.nextAudioTs !== null) {
-          const Oe = Math.floor(xe.maxBufferHole * r), He = (i ? y + i * r : this.nextAudioTs + u) - M.pts;
+        const xe = this.config, Ee = M > 0 ? O.dts - n[M - 1].dts : x;
+        if (z = M > 0 ? O.pts - n[M - 1].pts : x, xe.stretchShortVideoTrack && this.nextAudioTs !== null) {
+          const Oe = Math.floor(xe.maxBufferHole * r), He = (i ? y + i * r : this.nextAudioTs + u) - O.pts;
           He > Oe ? (g = He - Ee, g < 0 ? g = Ee : F = !0, this.log(`It is approximately ${He / 90} ms to the next segment; using duration ${g / 90} ms for the last video frame.`)) : g = Ee;
         } else
           g = Ee;
       }
-      const J = Math.round(M.pts - M.dts);
-      $ = Math.min($, g), B = Math.max(B, g), K = Math.min(K, z), w = Math.max(w, z), o.push(Jr(M.key, g, te, J));
+      const ee = Math.round(O.pts - O.dts);
+      B = Math.min(B, g), N = Math.max(N, g), K = Math.min(K, z), w = Math.max(w, z), o.push(Jr(O.key, g, J, ee));
     }
     if (o.length) {
       if (_t) {
         if (_t < 70) {
-          const O = o[0].flags;
-          O.dependsOn = 2, O.isNonSync = 0;
+          const M = o[0].flags;
+          M.dependsOn = 2, M.isNonSync = 0;
         }
-      } else if (Qs && w - K < B - $ && x / B < 0.025 && o[0].cts === 0) {
+      } else if (Qs && w - K < N - B && x / N < 0.025 && o[0].cts === 0) {
         this.warn("Found irregular gaps in sample duration. Using PTS instead of DTS to determine MP4 sample duration.");
-        let O = f;
-        for (let M = 0, j = o.length; M < j; M++) {
-          const te = O + o[M].duration, z = O + o[M].cts;
-          if (M < j - 1) {
-            const J = te + o[M + 1].cts;
-            o[M].duration = J - z;
+        let M = f;
+        for (let O = 0, j = o.length; O < j; O++) {
+          const J = M + o[O].duration, z = M + o[O].cts;
+          if (O < j - 1) {
+            const ee = J + o[O + 1].cts;
+            o[O].duration = ee - z;
           } else
-            o[M].duration = M ? o[M - 1].duration : x;
-          o[M].cts = 0, O = te;
+            o[O].duration = O ? o[O - 1].duration : x;
+          o[O].cts = 0, M = J;
         }
       }
     }
     g = F || !g ? x : g;
-    const k = p + g;
-    this.nextVideoTs = h = k - u, this.videoSampleDuration = g, this.isVideoContiguous = !0;
+    const U = p + g;
+    this.nextVideoTs = h = U - u, this.videoSampleDuration = g, this.isVideoContiguous = !0;
     const W = {
       data1: I.moof(e.sequenceNumber++, f, re(e, {
         samples: o
@@ -9502,51 +9502,51 @@ class Es extends Be {
       w.pts = Ce(w.pts, v);
     }), !s || E < 0) {
       const w = p.length;
-      if (p = p.filter((k) => k.pts >= 0), w !== p.length && this.warn(`Removed ${p.length - w} of ${w} samples (initPTS ${T} / ${n})`), !p.length)
+      if (p = p.filter((U) => U.pts >= 0), w !== p.length && this.warn(`Removed ${p.length - w} of ${w} samples (initPTS ${T} / ${n})`), !p.length)
         return;
       r === 0 ? E = 0 : i && !f ? E = Math.max(0, v - T) : E = p[0].pts - T;
     }
     if (e.segmentCodec === "aac") {
       const w = this.config.maxAudioFramesDrift;
-      for (let k = 0, N = E + T; k < p.length; k++) {
-        const G = p[k], W = G.pts, O = W - N, M = Math.abs(1e3 * O / n);
-        if (O <= -w * u && f)
-          k === 0 && (this.warn(`Audio frame @ ${(W / n).toFixed(3)}s overlaps marker by ${Math.round(1e3 * O / n)} ms.`), this.nextAudioTs = E = W - T, N = W);
-        else if (O >= w * u && M < Du && f) {
-          let j = Math.round(O / u);
-          for (N = W - j * u; N < 0 && j && u; )
-            j--, N += u;
-          k === 0 && (this.nextAudioTs = E = N - T), this.warn(`Injecting ${j} audio frames @ ${((N - T) / n).toFixed(3)}s due to ${Math.round(1e3 * O / n)} ms gap.`);
-          for (let te = 0; te < j; te++) {
+      for (let U = 0, k = E + T; U < p.length; U++) {
+        const G = p[U], W = G.pts, M = W - k, O = Math.abs(1e3 * M / n);
+        if (M <= -w * u && f)
+          U === 0 && (this.warn(`Audio frame @ ${(W / n).toFixed(3)}s overlaps marker by ${Math.round(1e3 * M / n)} ms.`), this.nextAudioTs = E = W - T, k = W);
+        else if (M >= w * u && O < Du && f) {
+          let j = Math.round(M / u);
+          for (k = W - j * u; k < 0 && j && u; )
+            j--, k += u;
+          U === 0 && (this.nextAudioTs = E = k - T), this.warn(`Injecting ${j} audio frames @ ${((k - T) / n).toFixed(3)}s due to ${Math.round(1e3 * M / n)} ms gap.`);
+          for (let J = 0; J < j; J++) {
             let z = Ru.getSilentFrame(e.parsedCodec || e.manifestCodec || e.codec, e.channelCount);
-            z || (this.log("Unable to get silent frame for given audio codec; duplicating last frame instead."), z = G.unit.subarray()), p.splice(k, 0, {
+            z || (this.log("Unable to get silent frame for given audio codec; duplicating last frame instead."), z = G.unit.subarray()), p.splice(U, 0, {
               unit: z,
-              pts: N
-            }), N += u, k++;
+              pts: k
+            }), k += u, U++;
           }
         }
-        G.pts = N, N += u;
+        G.pts = k, k += u;
       }
     }
-    let S = null, x = null, D, A = 0, _ = p.length;
-    for (; _--; )
-      A += p[_].unit.byteLength;
-    for (let w = 0, k = p.length; w < k; w++) {
-      const N = p[w], G = N.unit;
-      let W = N.pts;
+    let S = null, x = null, D, A = 0, R = p.length;
+    for (; R--; )
+      A += p[R].unit.byteLength;
+    for (let w = 0, U = p.length; w < U; w++) {
+      const k = p[w], G = k.unit;
+      let W = k.pts;
       if (x !== null) {
-        const M = g[w - 1];
-        M.duration = Math.round((W - x) / c);
+        const O = g[w - 1];
+        O.duration = Math.round((W - x) / c);
       } else if (s && e.segmentCodec === "aac" && (W = E + T), S = W, A > 0) {
         A += y;
         try {
           D = new Uint8Array(A);
-        } catch (M) {
+        } catch (O) {
           this.observer.emit(m.ERROR, m.ERROR, {
             type: Y.MUX_ERROR,
-            details: b.REMUX_ALLOC_ERROR,
+            details: _.REMUX_ALLOC_ERROR,
             fatal: !1,
-            error: M,
+            error: O,
             bytes: A,
             reason: `fail allocating audio mdat ${A}`
           });
@@ -9556,11 +9556,11 @@ class Es extends Be {
       } else
         return;
       D.set(G, y);
-      const O = G.byteLength;
-      y += O, g.push(Jr(!0, l, O, 0)), x = W;
+      const M = G.byteLength;
+      y += M, g.push(Jr(!0, l, M, 0)), x = W;
     }
-    const R = g.length;
-    if (!R)
+    const b = g.length;
+    if (!b)
       return;
     const L = g[g.length - 1];
     E = x - T, this.nextAudioTs = E + c * L.duration;
@@ -9568,19 +9568,19 @@ class Es extends Be {
       samples: g
     }));
     e.samples = [];
-    const F = (S - T) / n, $ = this.nextAudioTs / n, B = {
+    const F = (S - T) / n, B = this.nextAudioTs / n, N = {
       data1: C,
       data2: D,
       startPTS: F,
-      endPTS: $,
+      endPTS: B,
       startDTS: F,
-      endDTS: $,
+      endDTS: B,
       type: "audio",
       hasAudio: !0,
       hasVideo: !1,
-      nb: R
+      nb: b
     };
-    return this.isAudioContiguous = !0, B;
+    return this.isAudioContiguous = !0, N;
   }
 }
 function Ce(a, e) {
@@ -9699,7 +9699,7 @@ class Ou extends Be {
       id3: s,
       initSegment: void 0
     };
-    U(u) || (u = this.lastEndTime = r || 0);
+    $(u) || (u = this.lastEndTime = r || 0);
     const d = t.samples;
     if (!d.length)
       return h;
@@ -9714,10 +9714,10 @@ class Ou extends Be {
     this.emitInitSegment && (g.tracks = this.initTracks, this.emitInitSegment = !1);
     const p = Al(d, f, this), y = f.audio ? p[f.audio.id] : null, E = f.video ? p[f.video.id] : null, T = as(E, 1 / 0), v = as(y, 1 / 0), S = as(E, 0, !0), x = as(y, 0, !0);
     let D = r, A = 0;
-    const _ = y && (!E || !l && v < T || l && l.trackId === f.audio.id), R = _ ? y : E;
-    if (R) {
-      const N = R.timescale, G = R.start - r * N, W = _ ? f.audio.id : f.video.id;
-      D = R.start / N, A = _ ? x - v : S - T, (n || !l) && (Fu(l, D, r, A) || N !== l.timescale) && (l && this.warn(`Timestamps at playlist time: ${n ? "" : "~"}${r} ${G / N} != initPTS: ${l.baseTime / l.timescale} (${l.baseTime}/${l.timescale}) trackId: ${l.trackId}`), this.log(`Found initPTS at playlist time: ${r} offset: ${D - r} (${G}/${N}) trackId: ${W}`), l = null, g.initPTS = G, g.timescale = N, g.trackId = W);
+    const R = y && (!E || !l && v < T || l && l.trackId === f.audio.id), b = R ? y : E;
+    if (b) {
+      const k = b.timescale, G = b.start - r * k, W = R ? f.audio.id : f.video.id;
+      D = b.start / k, A = R ? x - v : S - T, (n || !l) && (Fu(l, D, r, A) || k !== l.timescale) && (l && this.warn(`Timestamps at playlist time: ${n ? "" : "~"}${r} ${G / k} != initPTS: ${l.baseTime / l.timescale} (${l.baseTime}/${l.timescale}) trackId: ${l.trackId}`), this.log(`Found initPTS at playlist time: ${r} offset: ${D - r} (${G}/${k}) trackId: ${W}`), l = null, g.initPTS = G, g.timescale = k, g.trackId = W);
     } else
       this.warn(`No audio or video samples found for initPTS at playlist time: ${r}`);
     l ? (g.initPTS = l.baseTime, g.timescale = l.timescale, g.trackId = l.trackId) : ((!g.timescale || g.trackId === void 0 || g.initPTS === void 0) && (this.warn("Could not set initPTS"), g.initPTS = D, g.timescale = 1, g.trackId = -1), this.initPTS = l = {
@@ -9727,10 +9727,10 @@ class Ou extends Be {
     });
     const L = D - l.baseTime / l.timescale, C = L + A;
     A > 0 ? this.lastEndTime = C : (this.warn("Duration parsed from mp4 should be greater than zero"), this.resetNextTimestamp());
-    const F = !!f.audio, $ = !!f.video;
+    const F = !!f.audio, B = !!f.video;
     let K = "";
-    F && (K += "audio"), $ && (K += "video");
-    const B = (f.audio ? f.audio.encrypted : !1) || (f.video ? f.video.encrypted : !1), w = {
+    F && (K += "audio"), B && (K += "video");
+    const N = (f.audio ? f.audio.encrypted : !1) || (f.video ? f.video.encrypted : !1), w = {
       data1: d,
       startPTS: L,
       startDTS: L,
@@ -9738,16 +9738,16 @@ class Ou extends Be {
       endDTS: C,
       type: K,
       hasAudio: F,
-      hasVideo: $,
+      hasVideo: B,
       nb: 1,
       dropped: 0,
-      encrypted: B
+      encrypted: N
     };
-    h.audio = F && !$ ? w : void 0, h.video = $ ? w : void 0;
-    const k = E == null ? void 0 : E.sampleCount;
-    if (k) {
-      const N = E.keyFrameIndex, G = N !== -1;
-      w.nb = k, w.dropped = N === 0 || this.isVideoContiguous ? 0 : G ? N : k, w.independent = G, w.firstKeyFrame = N, G && E.keyFrameStart && (w.firstKeyFramePTS = (E.keyFrameStart - l.baseTime) / l.timescale), this.isVideoContiguous || (h.independent = G), this.isVideoContiguous || (this.isVideoContiguous = G), w.dropped && this.warn(`fmp4 does not start with IDR: firstIDR ${N}/${k} dropped: ${w.dropped} start: ${w.firstKeyFramePTS || "NA"}`);
+    h.audio = F && !B ? w : void 0, h.video = B ? w : void 0;
+    const U = E == null ? void 0 : E.sampleCount;
+    if (U) {
+      const k = E.keyFrameIndex, G = k !== -1;
+      w.nb = U, w.dropped = k === 0 || this.isVideoContiguous ? 0 : G ? k : U, w.independent = G, w.firstKeyFrame = k, G && E.keyFrameStart && (w.firstKeyFramePTS = (E.keyFrameStart - l.baseTime) / l.timescale), this.isVideoContiguous || (h.independent = G), this.isVideoContiguous || (this.isVideoContiguous = G), w.dropped && this.warn(`fmp4 does not start with IDR: firstIDR ${k}/${U} dropped: ${w.dropped} start: ${w.firstKeyFramePTS || "NA"}`);
     }
     return h.initSegment = g, h.id3 = Ma(s, r, l, l), i.samples.length && (h.text = Na(i, r, l)), h;
   }
@@ -9819,32 +9819,32 @@ class tn {
       initSegmentData: v
     } = c, S = Mu(n, t);
     if (S && wt(S.method)) {
-      const _ = this.getDecrypter(), R = Gi(S.method);
-      if (_.isSync()) {
-        let L = _.softwareDecrypt(n, S.key.buffer, S.iv.buffer, R);
+      const R = this.getDecrypter(), b = Gi(S.method);
+      if (R.isSync()) {
+        let L = R.softwareDecrypt(n, S.key.buffer, S.iv.buffer, b);
         if (s.part > -1) {
-          const F = _.flush();
+          const F = R.flush();
           L = F && F.buffer;
         }
         if (!L)
           return r.executeEnd = st(), Zs(s);
         n = new Uint8Array(L);
       } else
-        return this.asyncResult = !0, this.decryptionPromise = _.webCryptoDecrypt(n, S.key.buffer, S.iv.buffer, R).then((L) => {
+        return this.asyncResult = !0, this.decryptionPromise = R.webCryptoDecrypt(n, S.key.buffer, S.iv.buffer, b).then((L) => {
           const C = this.push(L, null, s);
           return this.decryptionPromise = null, C;
         }), this.decryptionPromise;
     }
     const x = this.needsProbing(u, h);
     if (x) {
-      const _ = this.configureTransmuxer(n);
-      if (_)
-        return this.logger.warn(`[transmuxer] ${_.message}`), this.observer.emit(m.ERROR, m.ERROR, {
+      const R = this.configureTransmuxer(n);
+      if (R)
+        return this.logger.warn(`[transmuxer] ${R.message}`), this.observer.emit(m.ERROR, m.ERROR, {
           type: Y.MEDIA_ERROR,
-          details: b.FRAG_PARSING_ERROR,
+          details: _.FRAG_PARSING_ERROR,
           fatal: !1,
-          error: _,
-          reason: _.message
+          error: R,
+          reason: R.message
         }), r.executeEnd = st(), Zs(s);
     }
     (u || h || f || x) && this.resetInitSegment(v, p, y, T, t), (u || f || x) && this.resetInitialTimestamp(E), l || this.resetContiguity();
@@ -10031,7 +10031,7 @@ class Ba {
       const l = new Error(`${c.message}  (${c.filename}:${c.lineno})`);
       this.hls.config.enableWorker = !1, this.hls.logger.warn(`Error in "${this.id}" Web Worker, fallback to inline`), this.hls.trigger(m.ERROR, {
         type: Y.OTHER_ERROR,
-        details: b.INTERNAL_EXCEPTION,
+        details: _.INTERNAL_EXCEPTION,
         fatal: !1,
         event: "demuxerWorker",
         error: l
@@ -10106,17 +10106,17 @@ class Ba {
     const {
       instanceNo: g,
       transmuxer: f
-    } = this, p = n ? n.start : r.start, y = r.decryptdata, E = this.frag, T = !(E && r.cc === E.cc), v = !(E && l.level === E.level), S = E ? l.sn - E.sn : -1, x = this.part ? l.part - this.part.index : -1, D = S === 0 && l.id > 1 && l.id === (E == null ? void 0 : E.stats.chunkCount), A = !v && (S === 1 || S === 0 && (x === 1 || D && x <= 0)), _ = self.performance.now();
-    (v || S || r.stats.parsing.start === 0) && (r.stats.parsing.start = _), n && (x || !A) && (n.stats.parsing.start = _);
-    const R = !(E && ((h = r.initSegment) == null ? void 0 : h.url) === ((d = E.initSegment) == null ? void 0 : d.url)), L = new Bu(T, A, c, v, p, R);
-    if (!A || T || R) {
+    } = this, p = n ? n.start : r.start, y = r.decryptdata, E = this.frag, T = !(E && r.cc === E.cc), v = !(E && l.level === E.level), S = E ? l.sn - E.sn : -1, x = this.part ? l.part - this.part.index : -1, D = S === 0 && l.id > 1 && l.id === (E == null ? void 0 : E.stats.chunkCount), A = !v && (S === 1 || S === 0 && (x === 1 || D && x <= 0)), R = self.performance.now();
+    (v || S || r.stats.parsing.start === 0) && (r.stats.parsing.start = R), n && (x || !A) && (n.stats.parsing.start = R);
+    const b = !(E && ((h = r.initSegment) == null ? void 0 : h.url) === ((d = E.initSegment) == null ? void 0 : d.url)), L = new Bu(T, A, c, v, p, b);
+    if (!A || T || b) {
       this.hls.logger.log(`[transmuxer-interface]: Starting new transmux session for ${r.type} sn: ${l.sn}${l.part > -1 ? " part: " + l.part : ""} ${this.id === V.MAIN ? "level" : "track"}: ${l.level} id: ${l.id}
         discontinuity: ${T}
         trackSwitch: ${v}
         contiguous: ${A}
         accurateTimeOffset: ${c}
         timeOffset: ${p}
-        initSegmentChange: ${R}`);
+        initSegmentChange: ${b}`);
       const C = new Nu(s, i, t, o, u);
       this.configureTransmuxer(C);
     }
@@ -10162,7 +10162,7 @@ class Ba {
   transmuxerError(e, t, s) {
     this.hls && (this.error = e, this.hls.trigger(m.ERROR, {
       type: Y.MEDIA_ERROR,
-      details: b.FRAG_PARSING_ERROR,
+      details: _.FRAG_PARSING_ERROR,
       chunkMeta: t,
       frag: this.frag || void 0,
       part: this.part || void 0,
@@ -10513,32 +10513,32 @@ class $u extends Vi {
       return;
     }
     switch (t.details) {
-      case b.FRAG_GAP:
-      case b.FRAG_PARSING_ERROR:
-      case b.FRAG_DECRYPT_ERROR:
-      case b.FRAG_LOAD_ERROR:
-      case b.FRAG_LOAD_TIMEOUT:
-      case b.KEY_LOAD_ERROR:
-      case b.KEY_LOAD_TIMEOUT:
+      case _.FRAG_GAP:
+      case _.FRAG_PARSING_ERROR:
+      case _.FRAG_DECRYPT_ERROR:
+      case _.FRAG_LOAD_ERROR:
+      case _.FRAG_LOAD_TIMEOUT:
+      case _.KEY_LOAD_ERROR:
+      case _.KEY_LOAD_TIMEOUT:
         this.onFragmentOrKeyLoadError(V.AUDIO, t);
         break;
-      case b.AUDIO_TRACK_LOAD_ERROR:
-      case b.AUDIO_TRACK_LOAD_TIMEOUT:
-      case b.LEVEL_PARSING_ERROR:
+      case _.AUDIO_TRACK_LOAD_ERROR:
+      case _.AUDIO_TRACK_LOAD_TIMEOUT:
+      case _.LEVEL_PARSING_ERROR:
         !t.levelRetry && this.state === P.WAITING_TRACK && ((s = t.context) == null ? void 0 : s.type) === Z.AUDIO_TRACK && (this.state = P.IDLE);
         break;
-      case b.BUFFER_ADD_CODEC_ERROR:
-      case b.BUFFER_APPEND_ERROR:
+      case _.BUFFER_ADD_CODEC_ERROR:
+      case _.BUFFER_APPEND_ERROR:
         if (t.parent !== "audio")
           return;
         this.reduceLengthAndFlushBuffer(t) || this.resetLoadingState();
         break;
-      case b.BUFFER_FULL_ERROR:
+      case _.BUFFER_FULL_ERROR:
         if (t.parent !== "audio")
           return;
         this.reduceLengthAndFlushBuffer(t) && (this.bufferedTrack = null, super.flushMainBuffer(0, Number.POSITIVE_INFINITY, "audio"));
         break;
-      case b.INTERNAL_EXCEPTION:
+      case _.INTERNAL_EXCEPTION:
         this.recoverWorkerError(t);
         break;
     }
@@ -10780,7 +10780,7 @@ class Qi extends Be {
             } = t;
             v.trigger(m.ERROR, {
               type: Y.NETWORK_ERROR,
-              details: b.LEVEL_PARSING_ERROR,
+              details: _.LEVEL_PARSING_ERROR,
               fatal: !1,
               url: i.url,
               error: T,
@@ -10803,12 +10803,12 @@ class Qi extends Be {
       if (i.canBlockReload && i.endSN && i.advanced) {
         const T = this.hls.config.lowLatencyMode, v = i.lastPartSn, S = i.endSN, x = i.lastPartIndex, D = x !== -1, A = v === S;
         D ? A ? (y = S + 1, E = T ? 0 : x) : (y = v, E = T ? x + 1 : i.maxPartIndex) : y = S + 1;
-        const _ = i.age, R = _ + i.ageHeader;
-        let L = Math.min(R - i.partTarget, i.targetduration * 1.5);
+        const R = i.age, b = R + i.ageHeader;
+        let L = Math.min(b - i.partTarget, i.targetduration * 1.5);
         if (L > 0) {
-          if (R > i.targetduration * 3)
-            this.log(`Playlist last advanced ${_.toFixed(2)}s ago. Omitting segment and part directives.`), y = void 0, E = void 0;
-          else if (s != null && s.tuneInGoal && R - i.partTarget > s.tuneInGoal)
+          if (b > i.targetduration * 3)
+            this.log(`Playlist last advanced ${R.toFixed(2)}s ago. Omitting segment and part directives.`), y = void 0, E = void 0;
+          else if (s != null && s.tuneInGoal && b - i.partTarget > s.tuneInGoal)
             this.warn(`CDN Tune-in goal increased from: ${s.tuneInGoal} to: ${L} with playlist age: ${i.age}`), L = 0;
           else {
             const C = Math.floor(L / i.targetduration);
@@ -10816,7 +10816,7 @@ class Qi extends Be {
               const F = Math.round(L % i.targetduration / i.partTarget);
               E += F;
             }
-            this.log(`CDN Tune-in age: ${i.ageHeader}s last advanced ${_.toFixed(2)}s goal: ${L} skip sn ${C} to part ${E}`);
+            this.log(`CDN Tune-in age: ${i.ageHeader}s last advanced ${R.toFixed(2)}s goal: ${L} skip sn ${C} to part ${E}`);
           }
           i.tuneInGoal = L;
         }
@@ -10967,7 +10967,7 @@ class Uu extends Qi {
         const d = new Error(`No audio track selected for current audio group-ID(s): ${(n = this.groupIds) == null ? void 0 : n.join(",")} track count: ${o.length}`);
         this.warn(d.message), this.hls.trigger(m.ERROR, {
           type: Y.MEDIA_ERROR,
-          details: b.AUDIO_TRACK_LOAD_ERROR,
+          details: _.AUDIO_TRACK_LOAD_ERROR,
           fatal: !0,
           error: d
         });
@@ -11456,10 +11456,10 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
         metadata: y,
         id: d
       });
-      const A = ms(x, D), _ = A == null ? void 0 : A.replace(nn, "$1");
-      let R = ms(g, f);
-      const L = (u = R) == null ? void 0 : u.replace(nn, "$1");
-      R && A && _ !== L && (c.slice(0, 5) === "audio" && (R = Is(R, this.appendSource)), this.log(`switching codec ${x} to ${R}`), R !== (T.pendingCodec || T.codec) && (T.pendingCodec = R), T.container = p, this.appendChangeType(c, p, R));
+      const A = ms(x, D), R = A == null ? void 0 : A.replace(nn, "$1");
+      let b = ms(g, f);
+      const L = (u = b) == null ? void 0 : u.replace(nn, "$1");
+      b && A && R !== L && (c.slice(0, 5) === "audio" && (b = Is(b, this.appendSource)), this.log(`switching codec ${x} to ${b}`), b !== (T.pendingCodec || T.codec) && (T.pendingCodec = b), T.container = p, this.appendChangeType(c, p, b));
     }), (this.tracksReady || this.sourceBufferCount) && (t.tracks = this.sourceBufferTracks), !this.sourceBufferCount && (this.bufferCodecEventsTotal > 1 && !this.tracks.video && !t.video && ((s = t.audio) == null ? void 0 : s.id) === "main" && (this.log("Main audio-only"), this.bufferCodecEventsTotal = 1), this.mediaSourceOpenOrEnded && this.checkPendingTracks());
   }
   get sourceBufferTracks() {
@@ -11549,17 +11549,17 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
     r === "audio" && (E == null ? void 0 : E.container) === "audio/mpeg" && (T = !this.lastMpegAudioChunk || l.id === 1 || this.lastMpegAudioChunk.sn !== l.sn, this.lastMpegAudioChunk = l);
     const v = s.video, S = v == null ? void 0 : v.buffer;
     if (S && d !== "initSegment") {
-      const A = c || o, _ = this.blockedAudioAppend;
+      const A = c || o, R = this.blockedAudioAppend;
       if (r === "audio" && n !== "main" && !this.blockedAudioAppend && !(v.ending || v.ended)) {
         const L = A.start + A.duration * 0.05, C = S.buffered, F = this.currentOp("video");
         !C.length && !F ? this.blockAudio(A) : !F && !X.isBuffered(S, L) && this.lastVideoAppendEnd < L && this.blockAudio(A);
       } else if (r === "video") {
-        const R = A.end;
-        if (_) {
-          const L = _.frag.start;
-          (R > L || R < this.lastVideoAppendEnd || X.isBuffered(S, L)) && this.unblockAudio();
+        const b = A.end;
+        if (R) {
+          const L = R.frag.start;
+          (b > L || b < this.lastVideoAppendEnd || X.isBuffered(S, L)) && this.unblockAudio();
         }
-        this.lastVideoAppendEnd = R;
+        this.lastVideoAppendEnd = b;
       }
     }
     const x = (c || o).start, D = {
@@ -11567,32 +11567,32 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
       execute: () => {
         var A;
         h.executeStart = self.performance.now();
-        const _ = (A = this.tracks[r]) == null ? void 0 : A.buffer;
-        _ && (T ? this.updateTimestampOffset(_, x, 0.1, r, d, g) : u !== void 0 && U(u) && this.updateTimestampOffset(_, u, 1e-6, r, d, g)), this.appendExecutor(i, r);
+        const R = (A = this.tracks[r]) == null ? void 0 : A.buffer;
+        R && (T ? this.updateTimestampOffset(R, x, 0.1, r, d, g) : u !== void 0 && $(u) && this.updateTimestampOffset(R, u, 1e-6, r, d, g)), this.appendExecutor(i, r);
       },
       onStart: () => {
       },
       onComplete: () => {
         const A = self.performance.now();
         h.executeEnd = h.end = A, p.first === 0 && (p.first = A), y && y.first === 0 && (y.first = A);
-        const _ = {};
-        this.sourceBuffers.forEach(([R, L]) => {
-          R && (_[R] = X.getBuffered(L));
+        const R = {};
+        this.sourceBuffers.forEach(([b, L]) => {
+          b && (R[b] = X.getBuffered(L));
         }), this.appendErrors[r] = 0, r === "audio" || r === "video" ? this.appendErrors.audiovideo = 0 : (this.appendErrors.audio = 0, this.appendErrors.video = 0), this.hls.trigger(m.BUFFER_APPENDED, {
           type: r,
           frag: o,
           part: c,
           chunkMeta: l,
           parent: o.type,
-          timeRanges: _
+          timeRanges: R
         });
       },
       onError: (A) => {
-        var _;
-        const R = {
+        var R;
+        const b = {
           type: Y.MEDIA_ERROR,
           parent: o.type,
-          details: b.BUFFER_APPEND_ERROR,
+          details: _.BUFFER_APPEND_ERROR,
           sourceBufferName: r,
           frag: o,
           part: c,
@@ -11600,18 +11600,18 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
           error: A,
           err: A,
           fatal: !1
-        }, L = (_ = this.media) == null ? void 0 : _.error;
+        }, L = (R = this.media) == null ? void 0 : R.error;
         if (A.code === DOMException.QUOTA_EXCEEDED_ERR || A.name == "QuotaExceededError" || "quota" in A)
-          R.details = b.BUFFER_FULL_ERROR;
+          b.details = _.BUFFER_FULL_ERROR;
         else if (A.code === DOMException.INVALID_STATE_ERR && this.mediaSourceOpenOrEnded && !L)
-          R.errorAction = kt(!0);
+          b.errorAction = kt(!0);
         else if (A.name === Ua && this.sourceBufferCount === 0)
-          R.errorAction = kt(!0);
+          b.errorAction = kt(!0);
         else {
           const C = ++this.appendErrors[r];
-          this.warn(`Failed ${C}/${this.hls.config.appendErrorMaxRetry} times to append segment in "${r}" sourceBuffer (${L || "no media error"})`), (C >= this.hls.config.appendErrorMaxRetry || L) && (R.fatal = !0);
+          this.warn(`Failed ${C}/${this.hls.config.appendErrorMaxRetry} times to append segment in "${r}" sourceBuffer (${L || "no media error"})`), (C >= this.hls.config.appendErrorMaxRetry || L) && (b.fatal = !0);
         }
-        this.hls.trigger(m.ERROR, R);
+        this.hls.trigger(m.ERROR, b);
       }
     };
     this.log(`queuing "${r}" append sn: ${d}${c ? " p: " + c.index : ""} of ${o.type === V.MAIN ? "level" : "track"} ${o.level} cc: ${g}`), this.append(D, r, this.isPending(this.tracks[r]));
@@ -11724,10 +11724,10 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
     });
   }
   onError(e, t) {
-    if (t.details === b.BUFFER_APPEND_ERROR && t.frag) {
+    if (t.details === _.BUFFER_APPEND_ERROR && t.frag) {
       var s;
       const i = (s = t.errorAction) == null ? void 0 : s.nextAutoLevel;
-      U(i) && i !== t.frag.level && this.resetAppendErrors();
+      $(i) && i !== t.frag.level && this.resetAppendErrors();
     }
   }
   resetAppendErrors() {
@@ -11746,12 +11746,12 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
     if (!s || t === null || !this.sourceBufferCount)
       return;
     const i = e.config, r = s.currentTime, n = t.levelTargetDuration, o = t.live && i.liveBackBufferLength !== null ? i.liveBackBufferLength : i.backBufferLength;
-    if (U(o) && o >= 0) {
+    if ($(o) && o >= 0) {
       const l = Math.max(o, n), u = Math.floor(r / n) * n - l;
       this.flushBackBuffer(r, n, u);
     }
     const c = i.frontBufferFlushThreshold;
-    if (U(c) && c > 0) {
+    if ($(c) && c > 0) {
       const l = Math.max(i.maxBufferLength, c), u = Math.max(l, n), h = Math.floor(r / n) * n + u;
       this.flushFrontBuffer(r, n, h);
     }
@@ -11829,11 +11829,11 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
     }
     const r = (e = this.overrides) == null ? void 0 : e.duration;
     if (r)
-      return U(r) ? {
+      return $(r) ? {
         duration: r
       } : null;
-    const n = this.media.duration, o = U(s.duration) ? s.duration : 0;
-    return i > o && i > n || !U(n) ? {
+    const n = this.media.duration, o = $(s.duration) ? s.duration : 0;
+    return i > o && i > n || !$(n) ? {
       duration: i
     } : null;
   }
@@ -11843,7 +11843,7 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
     end: s
   }) {
     const i = this.mediaSource;
-    !this.media || !i || i.readyState !== "open" || (i.duration !== e && (U(e) && this.log(`Updating MediaSource duration to ${e.toFixed(3)}`), i.duration = e), t !== void 0 && s !== void 0 && (this.log(`MediaSource duration is set to ${i.duration}. Setting seekable range to ${t}-${s}.`), i.setLiveSeekableRange(t, s)));
+    !this.media || !i || i.readyState !== "open" || (i.duration !== e && ($(e) && this.log(`Updating MediaSource duration to ${e.toFixed(3)}`), i.duration = e), t !== void 0 && s !== void 0 && (this.log(`MediaSource duration is set to ${i.duration}. Setting seekable range to ${t}-${s}.`), i.setLiveSeekableRange(t, s)));
   }
   get tracksReady() {
     const e = this.pendingTrackCount;
@@ -11886,7 +11886,7 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
       const e = new Error("could not create source buffer for media codec(s)");
       this.hls.trigger(m.ERROR, {
         type: Y.MEDIA_ERROR,
-        details: b.BUFFER_INCOMPATIBLE_CODECS_ERROR,
+        details: _.BUFFER_INCOMPATIBLE_CODECS_ERROR,
         fatal: !0,
         error: e,
         reason: e.message
@@ -11913,7 +11913,7 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
           var i;
           this.error(`error while trying to add sourceBuffer: ${u.message}`), this.shiftAndExecuteNext(n), (i = this.operationQueue) == null || i.removeBlockers(), delete this.tracks[n], this.hls.trigger(m.ERROR, {
             type: Y.MEDIA_ERROR,
-            details: b.BUFFER_ADD_CODEC_ERROR,
+            details: _.BUFFER_ADD_CODEC_ERROR,
             fatal: !1,
             error: u,
             sourceBufferName: n,
@@ -11978,7 +11978,7 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
     const i = new Error(`${e} SourceBuffer error. MediaSource readyState: ${(s = this.mediaSource) == null ? void 0 : s.readyState}`);
     this.error(`${i}`, t), this.hls.trigger(m.ERROR, {
       type: Y.MEDIA_ERROR,
-      details: b.BUFFER_APPENDING_ERROR,
+      details: _.BUFFER_APPENDING_ERROR,
       sourceBufferName: e,
       error: i,
       fatal: !1
@@ -12000,7 +12000,7 @@ transfer tracks: ${ae(i, (c, l) => c === "initSegment" ? void 0 : l)}}`), !Mn(i,
       this.warn(`Attempting to remove from the ${e} SourceBuffer, but it does not exist`), this.shiftAndExecuteNext(e);
       return;
     }
-    const c = U(i.duration) ? i.duration : 1 / 0, l = U(r.duration) ? r.duration : 1 / 0, u = Math.max(0, t), h = Math.min(s, c, l);
+    const c = $(i.duration) ? i.duration : 1 / 0, l = $(r.duration) ? r.duration : 1 / 0, u = Math.max(0, t), h = Math.min(s, c, l);
     h > u && (!n.ending || n.ended) ? (n.ended = !1, this.log(`Removing [${u},${h}] from the ${e} SourceBuffer`), o.remove(u, h)) : this.shiftAndExecuteNext(e);
   }
   // This method must result in an updateend event; if append is not called, onSBUpdateEnd must be called manually
@@ -12150,7 +12150,7 @@ class Zi {
     this.restrictedLevels = [], this.firstLevel = t.firstLevel, s.config.capLevelToPlayerSize && t.video && this.startCapping();
   }
   onLevelsUpdated(e, t) {
-    this.timer && U(this.autoLevelCapping) && this.detectPlayerSize();
+    this.timer && $(this.autoLevelCapping) && this.detectPlayerSize();
   }
   // Only activate capping when playing a video stream; otherwise, multi-bitrate audio-only streams will be restricted
   // to the first level
@@ -12365,7 +12365,7 @@ function ln(a) {
 function Li(a) {
   switch (typeof a) {
     case "number":
-      if (!U(a))
+      if (!$(a))
         throw Ze(a, on);
       return Number.isInteger(a) ? Ka(a) : ah(a);
     case "string":
@@ -12494,7 +12494,7 @@ function Th(a) {
   return ["ot", "sf", "st", "e", "sta"].includes(a);
 }
 function vh(a) {
-  return typeof a == "number" ? U(a) : a != null && a !== "" && a !== !1;
+  return typeof a == "number" ? $(a) : a != null && a !== "" && a !== !1;
 }
 const Wa = "event";
 function Sh(a, e) {
@@ -12591,7 +12591,7 @@ function za(a, e = {}) {
         return;
       d = s;
     }
-    h == "pr" && d === 1 || (c && h === "ts" && !U(d) && (d = Date.now()), vh(d) && (Th(h) && typeof d == "string" && (d = new Ga(d)), t[h] = d));
+    h == "pr" && d === 1 || (c && h === "ts" && !$(d) && (d = Date.now()), vh(d) && (Th(h) && typeof d == "string" && (d = new Ga(d)), t[h] = d));
   }), t;
 }
 function wh(a, e = {}) {
@@ -12919,7 +12919,7 @@ class Kh extends Be {
         } = t.context;
         o && i ? n = this.getPathwayForGroupId(o, l, n) : c && (n = c);
       }
-      n in this.penalizedPathways || (this.penalizedPathways[n] = performance.now()), !r && i && (r = this.pathways()), r && r.length > 1 && (this.updatePathwayPriority(r), s.resolved = this.pathwayId !== n), t.details === b.BUFFER_APPEND_ERROR && !t.fatal ? s.resolved = !0 : s.resolved || this.warn(`Could not resolve ${t.details} ("${t.error.message}") with content-steering for Pathway: ${n} levels: ${i && i.length} priorities: ${ae(r)} penalized: ${ae(this.penalizedPathways)}`);
+      n in this.penalizedPathways || (this.penalizedPathways[n] = performance.now()), !r && i && (r = this.pathways()), r && r.length > 1 && (this.updatePathwayPriority(r), s.resolved = this.pathwayId !== n), t.details === _.BUFFER_APPEND_ERROR && !t.fatal ? s.resolved = !0 : s.resolved || this.warn(`Could not resolve ${t.details} ("${t.error.message}") with content-steering for Pathway: ${n} levels: ${i && i.length} priorities: ${ae(r)} penalized: ${ae(this.penalizedPathways)}`);
     }
   }
   filterParsedLevels(e) {
@@ -13214,7 +13214,7 @@ class Ot extends Be {
         })).catch((h) => {
           l.length ? c(l) : h instanceof _e ? o(h) : o(new _e({
             type: Y.KEY_SYSTEM_ERROR,
-            details: b.KEY_SYSTEM_NO_ACCESS,
+            details: _.KEY_SYSTEM_NO_ACCESS,
             error: h,
             fatal: !0
           }, h.message));
@@ -13374,7 +13374,7 @@ class Ot extends Be {
       } else
         this.error(e.message), this.hls.trigger(m.ERROR, {
           type: Y.KEY_SYSTEM_ERROR,
-          details: b.KEY_SYSTEM_NO_KEYS,
+          details: _.KEY_SYSTEM_NO_KEYS,
           error: e,
           fatal: !0
         });
@@ -13391,7 +13391,7 @@ class Ot extends Be {
     if (e.length || (e = Kt(this.config)), e.length === 0)
       throw new _e({
         type: Y.KEY_SYSTEM_ERROR,
-        details: b.KEY_SYSTEM_NO_CONFIGURED_LICENSE,
+        details: _.KEY_SYSTEM_NO_CONFIGURED_LICENSE,
         fatal: !0
       }, `Missing key-system license configuration options ${ae({
         drmSystems: this.config.drmSystems
@@ -13484,7 +13484,7 @@ class Ot extends Be {
     }).catch((f) => {
       throw new _e({
         type: Y.KEY_SYSTEM_ERROR,
-        details: b.KEY_SYSTEM_NO_SESSION,
+        details: _.KEY_SYSTEM_NO_SESSION,
         error: f,
         decryptdata: e.decryptdata,
         fatal: !1
@@ -13528,7 +13528,7 @@ class Ot extends Be {
         onError: (d, g, f, p) => {
           o(new _e({
             type: Y.KEY_SYSTEM_ERROR,
-            details: b.KEY_SYSTEM_SERVER_CERTIFICATE_REQUEST_FAILED,
+            details: _.KEY_SYSTEM_SERVER_CERTIFICATE_REQUEST_FAILED,
             fatal: !0,
             networkDetails: f,
             response: se({
@@ -13540,7 +13540,7 @@ class Ot extends Be {
         onTimeout: (d, g, f) => {
           o(new _e({
             type: Y.KEY_SYSTEM_ERROR,
-            details: b.KEY_SYSTEM_SERVER_CERTIFICATE_REQUEST_FAILED,
+            details: _.KEY_SYSTEM_SERVER_CERTIFICATE_REQUEST_FAILED,
             fatal: !0,
             networkDetails: f,
             response: {
@@ -13563,7 +13563,7 @@ class Ot extends Be {
       }).catch((n) => {
         r(new _e({
           type: Y.KEY_SYSTEM_ERROR,
-          details: b.KEY_SYSTEM_SERVER_CERTIFICATE_UPDATE_FAILED,
+          details: _.KEY_SYSTEM_SERVER_CERTIFICATE_UPDATE_FAILED,
           error: n,
           fatal: !0
         }, n.message));
@@ -13574,7 +13574,7 @@ class Ot extends Be {
     return this.requestLicense(e, new Uint8Array(t)).then((s) => this.updateKeySession(e, new Uint8Array(s)).catch((i) => {
       throw new _e({
         type: Y.KEY_SYSTEM_ERROR,
-        details: b.KEY_SYSTEM_SESSION_UPDATE_FAILED,
+        details: _.KEY_SYSTEM_SESSION_UPDATE_FAILED,
         decryptdata: e.decryptdata,
         error: i,
         fatal: !1
@@ -13645,7 +13645,7 @@ class Ot extends Be {
             if (this._requestLicenseFailureCount++, this._requestLicenseFailureCount > l || o.status >= 400 && o.status < 500)
               r(new _e({
                 type: Y.KEY_SYSTEM_ERROR,
-                details: b.KEY_SYSTEM_LICENSE_REQUEST_FAILED,
+                details: _.KEY_SYSTEM_LICENSE_REQUEST_FAILED,
                 decryptdata: e.decryptdata,
                 fatal: !0,
                 networkDetails: o,
@@ -13696,14 +13696,14 @@ class Ot extends Be {
     Ot.CDMCleanupPromise = Promise.all(i.map((n) => this.removeSession(n)).concat((s == null || (e = s.setMediaKeys(null)) == null ? void 0 : e.catch((n) => {
       this.log(`Could not clear media keys: ${n}`), this.hls && this.hls.trigger(m.ERROR, {
         type: Y.OTHER_ERROR,
-        details: b.KEY_SYSTEM_DESTROY_MEDIA_KEYS_ERROR,
+        details: _.KEY_SYSTEM_DESTROY_MEDIA_KEYS_ERROR,
         fatal: !1,
         error: new Error(`Could not clear media keys: ${n}`)
       });
     })) || Promise.resolve())).catch((n) => {
       this.log(`Could not close sessions and clear media keys: ${n}`), this.hls && this.hls.trigger(m.ERROR, {
         type: Y.OTHER_ERROR,
-        details: b.KEY_SYSTEM_DESTROY_CLOSE_SESSION_ERROR,
+        details: _.KEY_SYSTEM_DESTROY_CLOSE_SESSION_ERROR,
         fatal: !1,
         error: new Error(`Could not close sessions and clear media keys: ${n}`)
       });
@@ -13744,14 +13744,14 @@ class Ot extends Be {
       }) : Promise.resolve()).catch((l) => {
         this.log(`Could not remove session: ${l}`), this.hls && this.hls.trigger(m.ERROR, {
           type: Y.OTHER_ERROR,
-          details: b.KEY_SYSTEM_DESTROY_REMOVE_SESSION_ERROR,
+          details: _.KEY_SYSTEM_DESTROY_REMOVE_SESSION_ERROR,
           fatal: !1,
           error: new Error(`Could not remove session: ${l}`)
         });
       }).then(() => t.close()).catch((l) => {
         this.log(`Could not close session: ${l}`), this.hls && this.hls.trigger(m.ERROR, {
           type: Y.OTHER_ERROR,
-          details: b.KEY_SYSTEM_DESTROY_CLOSE_SESSION_ERROR,
+          details: _.KEY_SYSTEM_DESTROY_CLOSE_SESSION_ERROR,
           fatal: !1,
           error: new Error(`Could not close session: ${l}`)
         });
@@ -13780,7 +13780,7 @@ class _e extends Error {
   }
 }
 function hn(a, e) {
-  const t = a === "output-restricted", s = t ? b.KEY_SYSTEM_STATUS_OUTPUT_RESTRICTED : b.KEY_SYSTEM_STATUS_INTERNAL_ERROR;
+  const t = a === "output-restricted", s = t ? _.KEY_SYSTEM_STATUS_OUTPUT_RESTRICTED : _.KEY_SYSTEM_STATUS_INTERNAL_ERROR;
   return new _e({
     type: Y.KEY_SYSTEM_ERROR,
     details: s,
@@ -14159,7 +14159,7 @@ class qh extends Qi {
       this.queuedDefaultTrack = e;
       return;
     }
-    if (e < -1 || e >= t.length || !U(e)) {
+    if (e < -1 || e >= t.length || !$(e)) {
       this.warn(`Invalid subtitle track id: ${e}`);
       return;
     }
@@ -14278,7 +14278,7 @@ class zh {
     return !1;
   }
   get resumptionOffset() {
-    const e = this.resumeOffset, t = U(e) ? e : this.duration;
+    const e = this.resumeOffset, t = $(e) ? e : this.duration;
     return this.cumulativeDuration + t;
   }
   get resumeTime() {
@@ -14684,19 +14684,19 @@ class Jh extends Be {
         const d = u.cue.pre, g = u.cue.post, f = e[h - 1] || null, p = u.appendInPlace, y = g ? r : u.startOffset, E = u.duration, T = u.timelineOccupancy === Os.Range ? E : 0, v = u.resumptionOffset, S = (f == null ? void 0 : f.startTime) === y, x = y + u.cumulativeDuration;
         let D = p ? x + E : y + v;
         if (d || !g && y <= 0) {
-          const _ = l;
+          const R = l;
           l += T, u.timelineStart = x;
-          const R = n;
+          const b = n;
           n += E, s.push({
             event: u,
             start: x,
             end: D,
             playout: {
-              start: R,
+              start: b,
               end: n
             },
             integrated: {
-              start: _,
+              start: R,
               end: l
             }
           });
@@ -14706,7 +14706,7 @@ class Jh extends Be {
             if (L > dn) {
               const C = c, F = l;
               l += L;
-              const $ = n;
+              const B = n;
               n += L;
               const K = {
                 previousEvent: e[h - 1] || null,
@@ -14714,7 +14714,7 @@ class Jh extends Be {
                 start: C,
                 end: C + L,
                 playout: {
-                  start: $,
+                  start: B,
                   end: n
                 },
                 integrated: {
@@ -14726,19 +14726,19 @@ class Jh extends Be {
             } else L > 0 && f && (f.cumulativeDuration += L, s[s.length - 1].end = y);
           }
           g && (D = x), u.timelineStart = x;
-          const _ = l;
+          const R = l;
           l += T;
-          const R = n;
+          const b = n;
           n += E, s.push({
             event: u,
             start: x,
             end: D,
             playout: {
-              start: R,
+              start: b,
               end: n
             },
             integrated: {
-              start: _,
+              start: R,
               end: l
             }
           });
@@ -14797,7 +14797,7 @@ class Jh extends Be {
     e.forEach((o, c) => {
       const l = o.cue.pre, u = o.cue.post, h = l ? 0 : u ? i : o.startTime;
       this.updateAssetDurations(o), n === h ? o.cumulativeDuration = r : (r = 0, n = h), !u && o.snapOptions.in && (o.resumeAnchor = xt(null, s.fragments, o.startOffset + o.resumptionOffset, 0, 0) || void 0), o.appendInPlace && !o.appendInPlaceStarted && (this.primaryCanResumeInPlaceAt(o, t) || (o.appendInPlace = !1)), !o.appendInPlace && c + 1 < e.length && e[c + 1].startTime - e[c].resumeTime < dn && (e[c + 1].appendInPlace = !1, e[c + 1].appendInPlace && this.warn(`Could not change append strategy for abutting event ${o}`));
-      const g = U(o.resumeOffset) ? o.resumeOffset : o.duration;
+      const g = $(o.resumeOffset) ? o.resumeOffset : o.duration;
       r += g;
     });
   }
@@ -14847,7 +14847,7 @@ class ed {
     try {
       i = eo(s, this.hls.sessionId, e.baseUrl);
     } catch (d) {
-      const g = this.assignAssetListError(e, b.ASSET_LIST_LOAD_ERROR, d, s);
+      const g = this.assignAssetListError(e, _.ASSET_LIST_LOAD_ERROR, d, s);
       this.hls.trigger(m.ERROR, g);
       return;
     }
@@ -14865,7 +14865,7 @@ class ed {
       onSuccess: (d, g, f, p) => {
         const y = d.data, E = y == null ? void 0 : y.ASSETS;
         if (!Array.isArray(E)) {
-          const T = this.assignAssetListError(e, b.ASSET_LIST_PARSING_ERROR, new Error("Invalid interstitial asset list"), f.url, g, p);
+          const T = this.assignAssetListError(e, _.ASSET_LIST_PARSING_ERROR, new Error("Invalid interstitial asset list"), f.url, g, p);
           this.hls.trigger(m.ERROR, T);
           return;
         }
@@ -14876,11 +14876,11 @@ class ed {
         });
       },
       onError: (d, g, f, p) => {
-        const y = this.assignAssetListError(e, b.ASSET_LIST_LOAD_ERROR, new Error(`Error loading X-ASSET-LIST: HTTP status ${d.code} ${d.text} (${g.url})`), g.url, p, f);
+        const y = this.assignAssetListError(e, _.ASSET_LIST_LOAD_ERROR, new Error(`Error loading X-ASSET-LIST: HTTP status ${d.code} ${d.text} (${g.url})`), g.url, p, f);
         this.hls.trigger(m.ERROR, y);
       },
       onTimeout: (d, g, f) => {
-        const p = this.assignAssetListError(e, b.ASSET_LIST_LOAD_TIMEOUT, new Error(`Timeout loading X-ASSET-LIST (${g.url})`), g.url, d, f);
+        const p = this.assignAssetListError(e, _.ASSET_LIST_LOAD_TIMEOUT, new Error(`Timeout loading X-ASSET-LIST (${g.url})`), g.url, d, f);
         this.hls.trigger(m.ERROR, p);
       }
     };
@@ -15117,11 +15117,11 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
       e.log(`seek to ${h} "${d}"`);
       const y = e.effectivePlayingItem, E = e.schedule.findItemIndexAtTime(h, d), T = (f = e.schedule.items) == null ? void 0 : f[E], v = e.getBufferingPlayer(), S = v == null ? void 0 : v.interstitial, x = S == null ? void 0 : S.appendInPlace, D = y && e.itemsMatch(y, T);
       if (y && (x || D)) {
-        const A = s(e.playingAsset), _ = (A == null ? void 0 : A.media) || e.primaryMedia;
-        if (_) {
-          const R = d === "primary" ? _.currentTime : i(y, d, e.playingAsset, "timelinePos", "currentTime"), L = h - R, C = (x ? R : _.currentTime) + L;
+        const A = s(e.playingAsset), R = (A == null ? void 0 : A.media) || e.primaryMedia;
+        if (R) {
+          const b = d === "primary" ? R.currentTime : i(y, d, e.playingAsset, "timelinePos", "currentTime"), L = h - b, C = (x ? b : R.currentTime) + L;
           if (C >= 0 && (!A || x || C <= A.duration)) {
-            _.currentTime = C;
+            R.currentTime = C;
             return;
           }
         }
@@ -15129,31 +15129,31 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
       if (T) {
         let A = h;
         if (d !== "primary") {
-          const R = T[d].start, L = h - R;
+          const b = T[d].start, L = h - b;
           A = T.start + L;
         }
-        const _ = !e.isInterstitial(T);
-        if ((!e.isInterstitial(y) || y.event.appendInPlace) && (_ || T.event.appendInPlace)) {
-          const R = e.media || (x ? v == null ? void 0 : v.media : null);
-          R && (R.currentTime = A);
+        const R = !e.isInterstitial(T);
+        if ((!e.isInterstitial(y) || y.event.appendInPlace) && (R || T.event.appendInPlace)) {
+          const b = e.media || (x ? v == null ? void 0 : v.media : null);
+          b && (b.currentTime = A);
         } else if (y) {
-          const R = e.findItemIndex(y);
-          if (E > R) {
-            const C = e.schedule.findJumpRestrictedIndex(R + 1, E);
-            if (C > R) {
+          const b = e.findItemIndex(y);
+          if (E > b) {
+            const C = e.schedule.findJumpRestrictedIndex(b + 1, E);
+            if (C > b) {
               e.setSchedulePosition(C);
               return;
             }
           }
           let L = 0;
-          if (_)
+          if (R)
             e.timelinePos = A, e.checkBuffer();
           else {
             const C = T.event.assetList, F = h - (T[d] || T).start;
-            for (let $ = C.length; $--; ) {
-              const K = C[$];
+            for (let B = C.length; B--; ) {
+              const K = C[B];
               if (K.duration && F >= K.startOffset && F < K.startOffset + K.duration) {
-                L = $;
+                L = B;
                 break;
               }
             }
@@ -15313,7 +15313,7 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
     let i = this.media;
     !i && (e = this.bufferingItem) != null && (e = e.event) != null && e.appendInPlace && (i = this.primaryMedia);
     const r = (t = i) == null ? void 0 : t.currentTime;
-    if (!(r === void 0 || !U(r)))
+    if (!(r === void 0 || !$(r)))
       return r;
   }
   get primaryMedia() {
@@ -15937,13 +15937,13 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
     const y = (S) => {
       if (S.live) {
         var x;
-        const _ = new Error(`Interstitials MUST be VOD assets ${e}`), R = {
+        const R = new Error(`Interstitials MUST be VOD assets ${e}`), b = {
           fatal: !0,
           type: Y.OTHER_ERROR,
-          details: b.INTERSTITIAL_ASSET_ITEM_ERROR,
-          error: _
+          details: _.INTERSTITIAL_ASSET_ITEM_ERROR,
+          error: R
         }, L = ((x = this.schedule) == null ? void 0 : x.findEventIndex(e.identifier)) || -1;
-        this.handleAssetItemError(R, e, L, s, _.message);
+        this.handleAssetItemError(b, e, L, s, R.message);
         return;
       }
       const D = S.edge - S.fragmentStart, A = t.duration;
@@ -15983,7 +15983,7 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
       if (!this.schedule)
         return;
       const D = this.getAssetPlayer(h);
-      if (x.details === b.BUFFER_STALLED_ERROR) {
+      if (x.details === _.BUFFER_STALLED_ERROR) {
         if (D != null && D.appendInPlace) {
           this.handleInPlaceStall(e);
           return;
@@ -15998,7 +15998,7 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
       const x = new Error(`Asset player destroyed unexpectedly ${h}`), D = {
         fatal: !0,
         type: Y.OTHER_ERROR,
-        details: b.INTERSTITIAL_ASSET_ITEM_ERROR,
+        details: _.INTERSTITIAL_ASSET_ITEM_ERROR,
         error: x
       };
       this.handleAssetItemError(D, e, this.schedule.findEventIndex(e.identifier), s, x.message);
@@ -16080,7 +16080,7 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
         const d = new Error(`Asset ${Dt(n)} SourceBuffer tracks ('${Object.keys(e.tracks)}') are not compatible with primary content tracks ('${Object.keys(h)}')`), g = {
           fatal: !0,
           type: Y.OTHER_ERROR,
-          details: b.INTERSTITIAL_ASSET_ITEM_ERROR,
+          details: _.INTERSTITIAL_ASSET_ITEM_ERROR,
           error: d
         }, f = r.findAssetIndex(n);
         this.handleAssetItemError(g, r, o, f, d.message);
@@ -16110,7 +16110,7 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
     t && t.currentTime < e && (t.currentTime = e);
   }
   handleAssetItemError(e, t, s, i, r) {
-    if (e.details === b.BUFFER_STALLED_ERROR)
+    if (e.details === _.BUFFER_STALLED_ERROR)
       return;
     const n = t.assetList[i] || null;
     if (this.warn(`INTERSTITIAL_ASSET_ERROR ${n && Dt(n)} ${e.error}`), !this.schedule)
@@ -16191,14 +16191,14 @@ Schedule: ${c.map((p) => Ue(p))} pos: ${this.timelinePos}`), u.length && this.lo
   onError(e, t) {
     if (this.schedule)
       switch (t.details) {
-        case b.ASSET_LIST_PARSING_ERROR:
-        case b.ASSET_LIST_LOAD_ERROR:
-        case b.ASSET_LIST_LOAD_TIMEOUT: {
+        case _.ASSET_LIST_PARSING_ERROR:
+        case _.ASSET_LIST_LOAD_ERROR:
+        case _.ASSET_LIST_LOAD_TIMEOUT: {
           const s = t.interstitial;
           s && (this.updateSchedule(!0), this.primaryFallback(s));
           break;
         }
-        case b.BUFFER_STALLED_ERROR: {
+        case _.BUFFER_STALLED_ERROR: {
           const s = this.endedItem || this.waitingItem || this.playingItem;
           if (this.isInterstitial(s) && s.event.appendInPlace) {
             this.handleInPlaceStall(s.event);
@@ -16293,7 +16293,7 @@ class sd extends Vi {
   // If something goes wrong, proceed to next frag, if we were processing one.
   onError(e, t) {
     const s = t.frag;
-    (s == null ? void 0 : s.type) === V.SUBTITLE && (t.details === b.FRAG_GAP && this.fragmentTracker.fragBuffered(s, !0), this.fragCurrent && this.fragCurrent.abortRequests(), this.state !== P.STOPPED && (this.state = P.IDLE));
+    (s == null ? void 0 : s.type) === V.SUBTITLE && (t.details === _.FRAG_GAP && this.fragmentTracker.fragBuffered(s, !0), this.fragCurrent && this.fragCurrent.abortRequests(), this.state !== P.STOPPED && (this.state = P.IDLE));
   }
   // Got all new subtitle levels.
   onSubtitleTracksUpdated(e, {
@@ -16369,7 +16369,7 @@ class sd extends Vi {
       this.decrypter.decrypt(new Uint8Array(s), i.key.buffer, i.iv.buffer, Gi(i.method)).catch((o) => {
         throw r.trigger(m.ERROR, {
           type: Y.MEDIA_ERROR,
-          details: b.FRAG_DECRYPT_ERROR,
+          details: _.FRAG_DECRYPT_ERROR,
           fatal: !1,
           error: o,
           reason: o.message,
@@ -17223,7 +17223,7 @@ var tr = (function() {
       enumerable: !0
     };
     u.hasBeenReset = !1;
-    let d = "", g = !1, f = o, p = c, y = l, E = null, T = "", v = !0, S = "auto", x = "start", D = 50, A = "middle", _ = 50, R = "middle";
+    let d = "", g = !1, f = o, p = c, y = l, E = null, T = "", v = !0, S = "auto", x = "start", D = 50, A = "middle", R = 50, b = "middle";
     Object.defineProperty(u, "id", r({}, h, {
       get: function() {
         return d;
@@ -17327,22 +17327,22 @@ var tr = (function() {
       }
     })), Object.defineProperty(u, "size", r({}, h, {
       get: function() {
-        return _;
+        return R;
       },
       set: function(L) {
         if (L < 0 || L > 100)
           throw new Error("Size must be between 0 and 100.");
-        _ = L, this.hasBeenReset = !0;
+        R = L, this.hasBeenReset = !0;
       }
     })), Object.defineProperty(u, "align", r({}, h, {
       get: function() {
-        return R;
+        return b;
       },
       set: function(L) {
         const C = i(L);
         if (!C)
           throw new SyntaxError("An invalid or illegal string was specified.");
-        R = C, this.hasBeenReset = !0;
+        b = C, this.hasBeenReset = !0;
       }
     })), u.displayState = void 0;
   }
@@ -17584,7 +17584,7 @@ const Td = /\r\n|\n\r|\n|\r/g, ii = function(e, t, s = 0) {
 }, vd = function(e) {
   let t = parseInt(e.slice(-3));
   const s = parseInt(e.slice(-6, -4)), i = parseInt(e.slice(-9, -7)), r = e.length > 9 ? parseInt(e.substring(0, e.indexOf(":"))) : 0;
-  if (!U(t) || !U(s) || !U(i) || !U(r))
+  if (!$(t) || !$(s) || !$(i) || !$(r))
     throw Error(`Malformed X-TIMESTAMP-MAP: Local:${e}`);
   return t += 1e3 * s, t += 60 * 1e3 * i, t += 3600 * 1e3 * r, t;
 };
@@ -18249,7 +18249,7 @@ class xn {
       maxTimeToFirstByteMs: c,
       maxLoadTimeMs: l
     } = t.loadPolicy;
-    this.context = e, this.config = t, this.callbacks = s, this.request = this.fetchSetup(e, r), self.clearTimeout(this.requestTimeout), t.timeout = c && U(c) ? c : l, this.requestTimeout = self.setTimeout(() => {
+    this.context = e, this.config = t, this.callbacks = s, this.request = this.fetchSetup(e, r), self.clearTimeout(this.requestTimeout), t.timeout = c && $(c) ? c : l, this.requestTimeout = self.setTimeout(() => {
       this.callbacks && (this.abortInternal(), this.callbacks.onTimeout(i, e, this.response));
     }, t.timeout), (Qt(this.request) ? this.request.then(self.fetch) : self.fetch(this.request)).then((h) => {
       var d;
@@ -18266,7 +18266,7 @@ class xn {
       }
       i.loading.first = g, i.total = Md(h.headers) || i.total;
       const f = (d = this.callbacks) == null ? void 0 : d.onProgress;
-      return f && U(t.highWaterMark) ? this.loadProgressively(h, i, e, t.highWaterMark, f) : n ? h.arrayBuffer() : e.responseType === "json" ? h.json() : h.text();
+      return f && $(t.highWaterMark) ? this.loadProgressively(h, i, e, t.highWaterMark, f) : n ? h.arrayBuffer() : e.responseType === "json" ? h.json() : h.text();
     }).then((h) => {
       var d, g;
       const f = this.response;
@@ -18280,7 +18280,7 @@ class xn {
         data: h,
         code: f.status
       }, E = (d = this.callbacks) == null ? void 0 : d.onProgress;
-      E && !U(t.highWaterMark) && E(i, e, h, f), (g = this.callbacks) == null || g.onSuccess(y, i, e, f);
+      E && !$(t.highWaterMark) && E(i, e, h, f), (g = this.callbacks) == null || g.onSuccess(y, i, e, f);
     }).catch((h) => {
       var d;
       if (self.clearTimeout(this.requestTimeout), i.aborted)
@@ -18332,7 +18332,7 @@ function Md(a) {
   const e = a.get("Content-Range");
   if (e) {
     const s = Fd(e);
-    if (U(s))
+    if ($(s))
       return s;
   }
   const t = a.get("Content-Length");
@@ -18403,7 +18403,7 @@ class uo {
     if (i)
       for (const o in i)
         e.setRequestHeader(o, i[o]);
-    t.rangeEnd && e.setRequestHeader("Range", "bytes=" + t.rangeStart + "-" + (t.rangeEnd - 1)), e.onreadystatechange = this.readystatechange.bind(this), e.onprogress = this.loadprogress.bind(this), e.responseType = t.responseType, self.clearTimeout(this.requestTimeout), s.timeout = r && U(r) ? r : n, this.requestTimeout = self.setTimeout(this.loadtimeout.bind(this), s.timeout), e.send();
+    t.rangeEnd && e.setRequestHeader("Range", "bytes=" + t.rangeStart + "-" + (t.rangeEnd - 1)), e.onreadystatechange = this.readystatechange.bind(this), e.onprogress = this.loadprogress.bind(this), e.responseType = t.responseType, self.clearTimeout(this.requestTimeout), s.timeout = r && $(r) ? r : n, this.requestTimeout = self.setTimeout(this.loadtimeout.bind(this), s.timeout), e.send();
   }
   readystatechange() {
     const {
@@ -18937,8 +18937,8 @@ class jd extends ia {
     }
     const h = X.bufferInfo(n, e, 0), d = h.nextStart || 0, g = this.fragmentTracker;
     if (o && g && this.hls) {
-      const D = An(this.hls.inFlightFragments, e), A = h.len > xs, _ = !d || D || d - e > xs && !g.getPartialFragment(e);
-      if (A || _)
+      const D = An(this.hls.inFlightFragments, e), A = h.len > xs, R = !d || D || d - e > xs && !g.getPartialFragment(e);
+      if (A || R)
         return;
       this.moved = !1;
     }
@@ -18946,8 +18946,8 @@ class jd extends ia {
     if (!this.moved && this.stalled !== null && g) {
       if (!(h.len > 0) && !d)
         return;
-      const A = Math.max(d, h.start || 0) - e, R = !!(f != null && f.live) ? f.targetduration * 2 : xs, L = fs(e, g);
-      if (A > 0 && (A <= R || L)) {
+      const A = Math.max(d, h.start || 0) - e, b = !!(f != null && f.live) ? f.targetduration * 2 : xs, L = fs(e, g);
+      if (A > 0 && (A <= b || L)) {
         n.paused || this._trySkipBufferHole(L);
         return;
       }
@@ -19003,7 +19003,7 @@ class jd extends ia {
             const g = X.bufferInfo(this.media, e, 0);
             this.hls.trigger(m.ERROR, {
               type: Y.MEDIA_ERROR,
-              details: b.BUFFER_SEEK_OVER_HOLE,
+              details: _.BUFFER_SEEK_OVER_HOLE,
               fatal: !1,
               error: h,
               reason: h.message,
@@ -19062,7 +19062,7 @@ class jd extends ia {
       const n = new Error(`Playback stalling at @${s.currentTime} due to low buffer (${ae(e)})`);
       this.warn(n.message), t.trigger(m.ERROR, {
         type: Y.MEDIA_ERROR,
-        details: b.BUFFER_STALLED_ERROR,
+        details: _.BUFFER_STALLED_ERROR,
         fatal: !1,
         error: n,
         buffer: e.len,
@@ -19118,7 +19118,7 @@ class jd extends ia {
         if (this.warn(`skipping hole, adjusting currentTime from ${n} to ${g}`), this.moved = !0, i.currentTime = g, !(e != null && e.gap)) {
           const f = new Error(`fragment loaded with buffer holes, seeking from ${n} to ${g}`), p = {
             type: Y.MEDIA_ERROR,
-            details: b.BUFFER_SEEK_OVER_HOLE,
+            details: _.BUFFER_SEEK_OVER_HOLE,
             fatal: !1,
             error: f,
             reason: f.message,
@@ -19149,7 +19149,7 @@ class jd extends ia {
       const o = n + (i + 1) * r.nudgeOffset, c = new Error(`Nudging 'currentTime' from ${n} to ${o}`);
       this.warn(c.message), s.currentTime = o, t.trigger(m.ERROR, {
         type: Y.MEDIA_ERROR,
-        details: b.BUFFER_NUDGE_ON_STALL,
+        details: _.BUFFER_NUDGE_ON_STALL,
         error: c,
         fatal: !1,
         buffer: e.len,
@@ -19159,7 +19159,7 @@ class jd extends ia {
       const o = new Error(`Playhead still not moving while enough data buffered @${n} after ${r.nudgeMaxRetry} nudges`);
       this.error(o.message), t.trigger(m.ERROR, {
         type: Y.MEDIA_ERROR,
-        details: b.BUFFER_STALLED_ERROR,
+        details: _.BUFFER_STALLED_ERROR,
         error: o,
         fatal: !0,
         buffer: e.len,
@@ -19389,44 +19389,44 @@ class zd {
         h = this.dateRangeCuesAppended = {};
     }
     const f = e.fragments[e.fragments.length - 1];
-    if (!(u.length === 0 || !U(f == null ? void 0 : f.programDateTime))) {
+    if (!(u.length === 0 || !$(f == null ? void 0 : f.programDateTime))) {
       this.id3Track || (this.id3Track = this.createTrack(this.media));
       for (let p = 0; p < u.length; p++) {
         const y = u[p], E = l[y], T = E.startTime, v = h[y], S = (v == null ? void 0 : v.cues) || {};
         let x = (v == null ? void 0 : v.durationKnown) || !1, D = gs;
         const {
           duration: A,
-          endDate: _
+          endDate: R
         } = E;
-        if (_ && A !== null)
+        if (R && A !== null)
           D = T + A, x = !0;
         else if (E.endOnNext && !x) {
           const L = u.reduce((C, F) => {
             if (F !== E.id) {
-              const $ = l[F];
-              if ($.class === E.class && $.startDate > E.startDate && (!C || E.startDate < C.startDate))
-                return $;
+              const B = l[F];
+              if (B.class === E.class && B.startDate > E.startDate && (!C || E.startDate < C.startDate))
+                return B;
             }
             return C;
           }, null);
           L && (D = L.startTime, x = !0);
         }
-        const R = Object.keys(E.attr);
-        for (let L = 0; L < R.length; L++) {
-          const C = R[L];
+        const b = Object.keys(E.attr);
+        for (let L = 0; L < b.length; L++) {
+          const C = b[L];
           if (!yc(C))
             continue;
           const F = S[C];
           if (F)
             x && !(v != null && v.durationKnown) ? F.endTime = D : Math.abs(F.startTime - T) > 0.01 && (F.startTime = T, F.endTime = D);
           else if (o) {
-            let $ = E.attr[C];
-            Ec(C) && ($ = Nn($));
-            const B = li(o, T, D, {
+            let B = E.attr[C];
+            Ec(C) && (B = Nn(B));
+            const N = li(o, T, D, {
               key: C,
-              data: $
+              data: B
             }, Pe.dateRange);
-            B && (B.id = y, this.id3Track.addCue(B), S[C] = B, n && (C === "X-ASSET-LIST" || C === "X-ASSET-URL") && B.addEventListener("enter", this.onEventCueEnter));
+            N && (N.id = y, this.id3Track.addCue(N), S[C] = N, n && (C === "X-ASSET-LIST" || C === "X-ASSET-URL") && N.addEventListener("enter", this.onEventCueEnter));
           }
         }
         h[y] = {
@@ -19565,7 +19565,7 @@ class Qd {
   }
   onError(e, t) {
     var s;
-    t.details === b.BUFFER_STALLED_ERROR && (this.stallCount++, this.hls && (s = this.levelDetails) != null && s.live && this.hls.logger.warn("[latency-controller]: Stall detected, adjusting target latency"));
+    t.details === _.BUFFER_STALLED_ERROR && (this.stallCount++, this.hls && (s = this.levelDetails) != null && s.live && this.hls.logger.warn("[latency-controller]: Stall detected, adjusting target latency"));
   }
   changeMediaPlaybackRate(e, t) {
     var s, i;
@@ -19636,18 +19636,18 @@ class Zd extends Qi {
         "PATHWAY-ID": x,
         RESOLUTION: D,
         "VIDEO-RANGE": A
-      } = h, R = `${`${x || "."}-`}${u.bitrate}-${D}-${v}-${T}-${A}-${S}`;
-      if (r[R])
-        if (r[R].uri !== u.url && !u.attrs["PATHWAY-ID"]) {
-          const L = n[R] += 1;
+      } = h, b = `${`${x || "."}-`}${u.bitrate}-${D}-${v}-${T}-${A}-${S}`;
+      if (r[b])
+        if (r[b].uri !== u.url && !u.attrs["PATHWAY-ID"]) {
+          const L = n[b] += 1;
           u.attrs["PATHWAY-ID"] = new Array(L + 1).join(".");
           const C = this.createLevel(u);
-          r[R] = C, i.push(C);
+          r[b] = C, i.push(C);
         } else
-          r[R].addGroupId("audio", h.AUDIO), r[R].addGroupId("text", h.SUBTITLES);
+          r[b].addGroupId("audio", h.AUDIO), r[b].addGroupId("text", h.SUBTITLES);
       else {
         const L = this.createLevel(u);
-        r[R] = L, n[R] = 1, i.push(L);
+        r[b] = L, n[b] = 1, i.push(L);
       }
     }), this.filterAndSortMediaOptions(i, t, o, c, l);
   }
@@ -19682,7 +19682,7 @@ class Zd extends Qi {
           const S = new Error(T);
           this.hls.trigger(m.ERROR, {
             type: Y.MEDIA_ERROR,
-            details: b.MANIFEST_INCOMPATIBLE_CODECS_ERROR,
+            details: _.MANIFEST_INCOMPATIBLE_CODECS_ERROR,
             fatal: !0,
             url: t.url,
             error: S,
@@ -19766,7 +19766,7 @@ class Zd extends Qi {
       const u = new Error("invalid level idx"), h = e < 0;
       if (this.hls.trigger(m.ERROR, {
         type: Y.OTHER_ERROR,
-        details: b.LEVEL_SWITCH_ERROR,
+        details: _.LEVEL_SWITCH_ERROR,
         level: e,
         fatal: h,
         error: u,
@@ -19969,7 +19969,7 @@ class sf extends Vi {
       this.tick();
     }, this.onMediaSeeked = () => {
       const i = this.media, r = i ? i.currentTime : null;
-      if (r === null || !U(r) || (this.log(`Media seeked to ${r.toFixed(3)}`), !this.getBufferedFrag(r)))
+      if (r === null || !$(r) || (this.log(`Media seeked to ${r.toFixed(3)}`), !this.getBufferedFrag(r)))
         return;
       const n = this.getFwdBufferInfoAtPos(i, r, V.MAIN, 0);
       if (n === null || n.len === 0) {
@@ -20350,32 +20350,32 @@ class sf extends Vi {
       return;
     }
     switch (t.details) {
-      case b.FRAG_GAP:
-      case b.FRAG_PARSING_ERROR:
-      case b.FRAG_DECRYPT_ERROR:
-      case b.FRAG_LOAD_ERROR:
-      case b.FRAG_LOAD_TIMEOUT:
-      case b.KEY_LOAD_ERROR:
-      case b.KEY_LOAD_TIMEOUT:
+      case _.FRAG_GAP:
+      case _.FRAG_PARSING_ERROR:
+      case _.FRAG_DECRYPT_ERROR:
+      case _.FRAG_LOAD_ERROR:
+      case _.FRAG_LOAD_TIMEOUT:
+      case _.KEY_LOAD_ERROR:
+      case _.KEY_LOAD_TIMEOUT:
         this.onFragmentOrKeyLoadError(V.MAIN, t);
         break;
-      case b.LEVEL_LOAD_ERROR:
-      case b.LEVEL_LOAD_TIMEOUT:
-      case b.LEVEL_PARSING_ERROR:
+      case _.LEVEL_LOAD_ERROR:
+      case _.LEVEL_LOAD_TIMEOUT:
+      case _.LEVEL_PARSING_ERROR:
         !t.levelRetry && this.state === P.WAITING_LEVEL && ((s = t.context) == null ? void 0 : s.type) === Z.LEVEL && (this.state = P.IDLE);
         break;
-      case b.BUFFER_ADD_CODEC_ERROR:
-      case b.BUFFER_APPEND_ERROR:
+      case _.BUFFER_ADD_CODEC_ERROR:
+      case _.BUFFER_APPEND_ERROR:
         if (t.parent !== "main")
           return;
         this.reduceLengthAndFlushBuffer(t) && this.resetLoadingState();
         break;
-      case b.BUFFER_FULL_ERROR:
+      case _.BUFFER_FULL_ERROR:
         if (t.parent !== "main")
           return;
         this.reduceLengthAndFlushBuffer(t) && (!this.config.interstitialsController && this.config.assetPlayerId ? this._hasEnoughToStart = !0 : this.flushMainBuffer(0, Number.POSITIVE_INFINITY));
         break;
-      case b.INTERNAL_EXCEPTION:
+      case _.INTERNAL_EXCEPTION:
         this.recoverWorkerError(t);
         break;
     }
@@ -20477,7 +20477,7 @@ class sf extends Vi {
         });
       }
       const E = g.initPTS, T = g.timescale, v = this.initPTS[o.cc];
-      if (U(E) && (!v || v.baseTime !== E || v.timescale !== T)) {
+      if ($(E) && (!v || v.baseTime !== E || v.timescale !== T)) {
         const S = g.trackId;
         this.initPTS[o.cc] = {
           baseTime: E,
@@ -20510,8 +20510,8 @@ class sf extends Vi {
             endDTS: D
           };
         else if (u.firstKeyFrame && u.independent && r.id === 1 && !T && (this.couldBacktrack = !0), u.dropped && u.independent) {
-          const A = this.getMainFwdBufferInfo(), _ = (A ? A.end : this.getLoadPosition()) + this.config.maxBufferHole, R = u.firstKeyFramePTS ? u.firstKeyFramePTS : v;
-          if (!E && _ < R - this.config.maxBufferHole && !T) {
+          const A = this.getMainFwdBufferInfo(), R = (A ? A.end : this.getLoadPosition()) + this.config.maxBufferHole, b = u.firstKeyFramePTS ? u.firstKeyFramePTS : v;
+          if (!E && R < b - this.config.maxBufferHole && !T) {
             this.backtrack(o);
             return;
           } else T && (o.gap = !0);
@@ -20658,12 +20658,12 @@ class sf extends Vi {
     if (this.fragPlaying)
       return this.fragPlaying;
     const t = ((e = this.media) == null ? void 0 : e.currentTime) || this.lastCurrentTime;
-    return U(t) ? this.getAppendedFrag(t) : null;
+    return $(t) ? this.getAppendedFrag(t) : null;
   }
   get currentProgramDateTime() {
     var e;
     const t = ((e = this.media) == null ? void 0 : e.currentTime) || this.lastCurrentTime;
-    if (U(t)) {
+    if ($(t)) {
       const s = this.getLevelDetails(), i = this.currentFrag || (s ? xt(null, s.fragments, t) : null);
       if (i) {
         const r = i.programDateTime;
@@ -20716,7 +20716,7 @@ class rf extends Be {
     }
     this.keyIdToKeyInfo = {};
   }
-  createKeyLoadError(e, t = b.KEY_LOAD_ERROR, s, i, r) {
+  createKeyLoadError(e, t = _.KEY_LOAD_ERROR, s, i, r) {
     return new tt({
       type: Y.NETWORK_ERROR,
       details: t,
@@ -20759,11 +20759,11 @@ class rf extends Be {
     const r = e.decryptdata;
     if (!r) {
       const l = new Error(t ? `Expected frag.decryptdata to be defined after setting format ${t}` : `Missing decryption data on fragment in onKeyLoading (emeEnabled with controller: ${this.emeController && this.config.emeEnabled})`);
-      return Promise.reject(this.createKeyLoadError(e, b.KEY_LOAD_ERROR, l));
+      return Promise.reject(this.createKeyLoadError(e, _.KEY_LOAD_ERROR, l));
     }
     const n = r.uri;
     if (!n)
-      return Promise.reject(this.createKeyLoadError(e, b.KEY_LOAD_ERROR, new Error(`Invalid key URI: "${n}"`)));
+      return Promise.reject(this.createKeyLoadError(e, _.KEY_LOAD_ERROR, new Error(`Invalid key URI: "${n}"`)));
     const o = ci(r);
     let c = this.keyIdToKeyInfo[o];
     if ((s = c) != null && s.decryptdata.key)
@@ -20800,7 +20800,7 @@ class rf extends Be {
       case "AES-256-CTR":
         return this.loadKeyHTTP(c, e);
       default:
-        return Promise.reject(this.createKeyLoadError(e, b.KEY_LOAD_ERROR, new Error(`Key supplied with unsupported METHOD: "${r.method}"`)));
+        return Promise.reject(this.createKeyLoadError(e, _.KEY_LOAD_ERROR, new Error(`Key supplied with unsupported METHOD: "${r.method}"`)));
     }
   }
   loadKeyEME(e, t) {
@@ -20847,23 +20847,23 @@ class rf extends Be {
             keyInfo: E
           } = f, T = ci(E.decryptdata);
           if (!y.decryptdata || E !== this.keyIdToKeyInfo[T])
-            return o(this.createKeyLoadError(y, b.KEY_LOAD_ERROR, new Error("after key load, decryptdata unset or changed"), p));
+            return o(this.createKeyLoadError(y, _.KEY_LOAD_ERROR, new Error("after key load, decryptdata unset or changed"), p));
           E.decryptdata.key = y.decryptdata.key = new Uint8Array(d.data), y.keyLoader = null, E.loader = null, n({
             frag: y,
             keyInfo: E
           });
         },
         onError: (d, g, f, p) => {
-          this.resetLoader(g), o(this.createKeyLoadError(t, b.KEY_LOAD_ERROR, new Error(`HTTP Error ${d.code} loading key ${d.text}`), f, se({
+          this.resetLoader(g), o(this.createKeyLoadError(t, _.KEY_LOAD_ERROR, new Error(`HTTP Error ${d.code} loading key ${d.text}`), f, se({
             url: c.url,
             data: void 0
           }, d)));
         },
         onTimeout: (d, g, f) => {
-          this.resetLoader(g), o(this.createKeyLoadError(t, b.KEY_LOAD_TIMEOUT, new Error("key loading timed out"), f));
+          this.resetLoader(g), o(this.createKeyLoadError(t, _.KEY_LOAD_TIMEOUT, new Error("key loading timed out"), f));
         },
         onAbort: (d, g, f) => {
-          this.resetLoader(g), o(this.createKeyLoadError(t, b.INTERNAL_ABORTED, new Error("key loading aborted"), f));
+          this.resetLoader(g), o(this.createKeyLoadError(t, _.INTERNAL_ABORTED, new Error("key loading aborted"), f));
         }
       };
       r.load(c, u, h);
@@ -21046,7 +21046,7 @@ class nf {
     if (e.type === Z.MANIFEST ? r = s.manifestLoadPolicy.default : r = re({}, s.playlistLoadPolicy.default, {
       timeoutRetry: null,
       errorRetry: null
-    }), i = this.createInternalLoader(e), U((t = e.deliveryDirectives) == null ? void 0 : t.part)) {
+    }), i = this.createInternalLoader(e), $((t = e.deliveryDirectives) == null ? void 0 : t.part)) {
       let l;
       if (e.type === Z.LEVEL && e.level !== null ? l = this.hls.levels[e.level].details : e.type === Z.AUDIO_TRACK && e.id !== null ? l = this.hls.audioTracks[e.id].details : e.type === Z.SUBTITLE_TRACK && e.id !== null && (l = this.hls.subtitleTracks[e.id].details), l) {
         const u = l.partTarget, h = l.targetduration;
@@ -21120,8 +21120,8 @@ class nf {
           videoCodec: D
         } = T;
         for (let A = v.length; A--; ) {
-          const _ = v[A];
-          Wt(_, "audio", S) ? (T.audioCodec = x = x ? `${x},${_}` : _, Mt.audio[x.substring(0, 4)] = 2, v.splice(A, 1)) : Wt(_, "video", S) && (T.videoCodec = D = D ? `${D},${_}` : _, Mt.video[D.substring(0, 4)] = 2, v.splice(A, 1));
+          const R = v[A];
+          Wt(R, "audio", S) ? (T.audioCodec = x = x ? `${x},${R}` : R, Mt.audio[x.substring(0, 4)] = 2, v.splice(A, 1)) : Wt(R, "video", S) && (T.videoCodec = D = D ? `${D},${R}` : R, Mt.video[D.substring(0, 4)] = 2, v.splice(A, 1));
         }
       }
     });
@@ -21161,7 +21161,7 @@ class nf {
       id: o,
       level: c,
       type: l
-    } = s, u = ui(e, s), h = U(c) ? c : U(o) ? o : 0, d = Rn(s), g = ze.parseLevelPlaylist(e.data, u, h, d, 0, this.variableList);
+    } = s, u = ui(e, s), h = $(c) ? c : $(o) ? o : 0, d = Rn(s), g = ze.parseLevelPlaylist(e.data, u, h, d, 0, this.variableList);
     if (l === Z.MANIFEST) {
       const f = {
         attrs: new ce({}),
@@ -21188,7 +21188,7 @@ class nf {
   handleManifestParsingError(e, t, s, i, r) {
     this.hls.trigger(m.ERROR, {
       type: Y.NETWORK_ERROR,
-      details: b.MANIFEST_PARSING_ERROR,
+      details: _.MANIFEST_PARSING_ERROR,
       fatal: t.type === Z.MANIFEST,
       url: e.url,
       err: s,
@@ -21205,20 +21205,20 @@ class nf {
     e.type === Z.LEVEL ? n += `: ${e.level} id: ${e.id}` : (e.type === Z.AUDIO_TRACK || e.type === Z.SUBTITLE_TRACK) && (n += ` id: ${e.id} group-id: "${e.groupId}"`);
     const o = new Error(n);
     this.hls.logger.warn(`[playlist-loader]: ${n}`);
-    let c = b.UNKNOWN, l = !1;
+    let c = _.UNKNOWN, l = !1;
     const u = this.getInternalLoader(e);
     switch (e.type) {
       case Z.MANIFEST:
-        c = s ? b.MANIFEST_LOAD_TIMEOUT : b.MANIFEST_LOAD_ERROR, l = !0;
+        c = s ? _.MANIFEST_LOAD_TIMEOUT : _.MANIFEST_LOAD_ERROR, l = !0;
         break;
       case Z.LEVEL:
-        c = s ? b.LEVEL_LOAD_TIMEOUT : b.LEVEL_LOAD_ERROR, l = !1;
+        c = s ? _.LEVEL_LOAD_TIMEOUT : _.LEVEL_LOAD_ERROR, l = !1;
         break;
       case Z.AUDIO_TRACK:
-        c = s ? b.AUDIO_TRACK_LOAD_TIMEOUT : b.AUDIO_TRACK_LOAD_ERROR, l = !1;
+        c = s ? _.AUDIO_TRACK_LOAD_TIMEOUT : _.AUDIO_TRACK_LOAD_ERROR, l = !1;
         break;
       case Z.SUBTITLE_TRACK:
-        c = s ? b.SUBTITLE_TRACK_LOAD_TIMEOUT : b.SUBTITLE_LOAD_ERROR, l = !1;
+        c = s ? _.SUBTITLE_TRACK_LOAD_TIMEOUT : _.SUBTITLE_LOAD_ERROR, l = !1;
         break;
     }
     u && this.resetInternalLoader(e.type);
@@ -21257,7 +21257,7 @@ class nf {
       if (this.hls.logger.warn(`${E} ${e.url}`), !o.config.ignorePlaylistParsingErrors) {
         o.trigger(m.ERROR, {
           type: Y.NETWORK_ERROR,
-          details: b.LEVEL_PARSING_ERROR,
+          details: _.LEVEL_PARSING_ERROR,
           fatal: !1,
           url: f,
           error: E,
@@ -21277,7 +21277,7 @@ class nf {
       const T = e.playlistParsingError = new Error("No Segments found in Playlist");
       o.trigger(m.ERROR, {
         type: Y.NETWORK_ERROR,
-        details: b.LEVEL_EMPTY_ERROR,
+        details: _.LEVEL_EMPTY_ERROR,
         fatal: !1,
         url: f,
         error: T,
@@ -21373,7 +21373,7 @@ class Ke {
     return Y;
   }
   static get ErrorDetails() {
-    return b;
+    return _;
   }
   /**
    * Get the default configuration applied to new instances.
@@ -21401,18 +21401,18 @@ class Ke {
       capLevelController: n,
       errorController: o,
       fpsController: c
-    } = s, l = new o(this), u = this.abrController = new i(this), h = new nc(this), d = s.interstitialsController, g = d ? this.interstitialsController = new d(this, Ke) : null, f = this.bufferController = new r(this, h), p = this.capLevelController = new n(this), y = new c(this), E = new nf(this), T = s.contentSteeringController, v = T ? new T(this) : null, S = this.levelController = new Zd(this, v), x = new zd(this), D = new rf(this.config, this.logger), A = this.streamController = new sf(this, h, D), _ = this.gapController = new jd(this, h);
+    } = s, l = new o(this), u = this.abrController = new i(this), h = new nc(this), d = s.interstitialsController, g = d ? this.interstitialsController = new d(this, Ke) : null, f = this.bufferController = new r(this, h), p = this.capLevelController = new n(this), y = new c(this), E = new nf(this), T = s.contentSteeringController, v = T ? new T(this) : null, S = this.levelController = new Zd(this, v), x = new zd(this), D = new rf(this.config, this.logger), A = this.streamController = new sf(this, h, D), R = this.gapController = new jd(this, h);
     p.setStreamController(A), y.setStreamController(A);
-    const R = [E, S, A];
-    g && R.splice(1, 0, g), v && R.splice(1, 0, v), this.networkControllers = R;
-    const L = [u, f, _, p, y, x, h];
-    this.audioTrackController = this.createController(s.audioTrackController, R);
+    const b = [E, S, A];
+    g && b.splice(1, 0, g), v && b.splice(1, 0, v), this.networkControllers = b;
+    const L = [u, f, R, p, y, x, h];
+    this.audioTrackController = this.createController(s.audioTrackController, b);
     const C = s.audioStreamController;
-    C && R.push(this.audioStreamController = new C(this, h, D)), this.subtitleTrackController = this.createController(s.subtitleTrackController, R);
+    C && b.push(this.audioStreamController = new C(this, h, D)), this.subtitleTrackController = this.createController(s.subtitleTrackController, b);
     const F = s.subtitleStreamController;
-    F && R.push(this.subtititleStreamController = new F(this, h, D)), this.createController(s.timelineController, L), D.emeController = this.emeController = this.createController(s.emeController, L), this.cmcdController = this.createController(s.cmcdController, L), this.latencyController = this.createController(Qd, L), this.coreComponents = L, R.push(l);
-    const $ = l.onErrorOut;
-    typeof $ == "function" && this.on(m.ERROR, $, l), this.on(m.MANIFEST_LOADED, E.onManifestLoaded, E);
+    F && b.push(this.subtititleStreamController = new F(this, h, D)), this.createController(s.timelineController, L), D.emeController = this.emeController = this.createController(s.emeController, L), this.cmcdController = this.createController(s.cmcdController, L), this.latencyController = this.createController(Qd, L), this.coreComponents = L, b.push(l);
+    const B = l.onErrorOut;
+    typeof B == "function" && this.on(m.ERROR, B, l), this.on(m.MANIFEST_LOADED, E.onManifestLoaded, E);
   }
   createController(e, t) {
     if (e) {
@@ -21451,7 +21451,7 @@ class Ke {
         const i = e === m.ERROR;
         this.trigger(m.ERROR, {
           type: Y.OTHER_ERROR,
-          details: b.INTERNAL_EXCEPTION,
+          details: _.INTERNAL_EXCEPTION,
           fatal: i,
           event: e,
           error: s
@@ -21479,7 +21479,7 @@ class Ke {
       const r = new Error(`attachMedia failed: invalid argument (${e})`);
       this.trigger(m.ERROR, {
         type: Y.OTHER_ERROR,
-        details: b.ATTACH_MEDIA_ERROR,
+        details: _.ATTACH_MEDIA_ERROR,
         fatal: !0,
         error: r
       });
@@ -22047,44 +22047,44 @@ class Ke {
 Ke.defaultConfig = void 0;
 function go(a, e) {
   const t = ge(), s = ge(!1), i = ge(!1), r = ge(!1), n = ge("0"), o = ge(0), c = ge(1), l = ge(1), u = ge(0), h = ge(!1), d = ge(""), g = ge(null);
-  let f = null;
-  const p = (k) => {
-    let N = Math.floor(k / 60), G = Math.ceil(k % 60);
-    return G >= 60 && (N++, G = 0), `${String(N).padStart(2, "0")}:${String(G).padStart(2, "0")}`;
-  }, y = Le(() => n.value ? p(Number(n.value)) : "00:00"), E = Le(() => o.value ? p(o.value) : "00:00"), T = (k) => {
+  let f = null, p = null;
+  const y = (k) => {
+    let G = Math.floor(k / 60), W = Math.ceil(k % 60);
+    return W >= 60 && (G++, W = 0), `${String(G).padStart(2, "0")}:${String(W).padStart(2, "0")}`;
+  }, E = Le(() => n.value ? y(Number(n.value)) : "00:00"), T = Le(() => o.value ? y(o.value) : "00:00"), v = (k) => {
     d.value = k.message, h.value = !0, setTimeout(() => {
       h.value = !1;
     }, k.duration || 3e3);
-  }, v = () => {
-    g.value && (clearInterval(g.value), g.value = null);
   }, S = () => {
+    g.value && (clearInterval(g.value), g.value = null);
+  }, x = () => {
     !t.value || r.value || (n.value = String(t.value.currentTime), e("timeupdate"));
-  }, x = async (k = {}) => new Promise(async (N, G) => {
+  }, D = async (k = {}) => new Promise(async (G, W) => {
     i.value = !0;
-    const W = async () => {
-      var O, M;
-      K();
+    const M = async () => {
+      var O, j;
+      N();
       try {
-        await ((O = t.value) == null ? void 0 : O.play()), await Us(), k != null && k.currentTime && (t.value.currentTime = k.currentTime), g.value ? n.value = String((M = t.value) == null ? void 0 : M.currentTime) : g.value = window.setInterval(S, a.progressInterval), s.value = !0, i.value = !1, t.value && (t.value.playbackRate = l.value), e("play"), N(t.value);
-      } catch (j) {
-        T({
-          message: j.message
-        }), j.code === 9 && a.isAutoPlayNext && setTimeout(() => {
-          A();
-        }, 3e3), i.value = !1, e("play-error", j), G(j);
+        await ((O = t.value) == null ? void 0 : O.play()), await Us(), k != null && k.currentTime && (t.value.currentTime = k.currentTime), g.value ? n.value = String((j = t.value) == null ? void 0 : j.currentTime) : g.value = window.setInterval(x, a.progressInterval), s.value = !0, i.value = !1, t.value && (t.value.playbackRate = l.value), e("play"), G(t.value);
+      } catch (J) {
+        v({
+          message: J.message
+        }), J.code === 9 && a.isAutoPlayNext && setTimeout(() => {
+          R();
+        }, 3e3), i.value = !1, e("play-error", J), W(J);
       }
     };
     if (a.beforePlay) {
       a.beforePlay((O) => {
-        O !== !1 && W();
+        O !== !1 && M();
       });
       return;
     }
-    W();
-  }), D = () => {
+    M();
+  }), A = () => {
     var k;
     (k = t.value) == null || k.pause(), s.value = !1, e("pause");
-  }, A = async () => {
+  }, R = async () => {
     if (!(a.beforeNext && !await a.beforeNext())) {
       if (u.value >= a.audioList.length - 1)
         if (a.isLoop)
@@ -22093,9 +22093,9 @@ function go(a, e) {
           return;
       else
         u.value++;
-      e("play-next"), await Us(), await x();
+      e("play-next"), await Us(), await D();
     }
-  }, _ = async () => {
+  }, b = async () => {
     if (!(a.beforePrev && !await a.beforePrev())) {
       if (u.value <= 0)
         if (a.isLoop)
@@ -22104,19 +22104,19 @@ function go(a, e) {
           return;
       else
         u.value--;
-      e("play-prev"), await Us(), await x();
+      e("play-prev"), await Us(), await D();
     }
-  }, R = (k) => {
-    t.value && (l.value = k, t.value.playbackRate = k);
   }, L = (k) => {
-    t.value && (c.value = k, t.value.volume = k);
+    t.value && (l.value = k, t.value.playbackRate = k);
   }, C = (k) => {
-    t.value && (n.value = String(k), t.value.currentTime = k);
+    t.value && (c.value = k, t.value.volume = k);
   }, F = (k) => {
-    e("ended", k), a.isAutoPlayNext && A();
-  }, $ = (k) => {
+    t.value && (n.value = String(k), t.value.currentTime = k);
+  }, B = (k) => {
+    e("ended", k), a.isAutoPlayNext && R();
+  }, K = (k) => {
     t.value && (o.value = t.value.duration, e("durationchange", k));
-  }, K = () => {
+  }, N = () => {
     if ("mediaSession" in navigator) {
       const k = a.audioList[u.value];
       navigator.mediaSession.metadata = new MediaMetadata({
@@ -22124,9 +22124,9 @@ function go(a, e) {
         artist: k.artist,
         album: k.album,
         artwork: k.artwork
-      }), navigator.mediaSession.setActionHandler("play", () => x()), navigator.mediaSession.setActionHandler("pause", () => D()), navigator.mediaSession.setActionHandler("previoustrack", () => _()), navigator.mediaSession.setActionHandler("nexttrack", () => A());
+      }), navigator.mediaSession.setActionHandler("play", () => D()), navigator.mediaSession.setActionHandler("pause", () => A()), navigator.mediaSession.setActionHandler("previoustrack", () => b()), navigator.mediaSession.setActionHandler("nexttrack", () => R());
     }
-  }, B = () => {
+  }, w = () => {
     if (f) {
       try {
         f.destroy();
@@ -22134,61 +22134,62 @@ function go(a, e) {
       }
       f = null;
     }
-  }, w = () => {
-    var G;
+    p && (URL.revokeObjectURL(p), p = null);
+  }, U = () => {
+    var W;
     if (!t.value) return;
-    const k = (G = a.audioList) == null ? void 0 : G[u.value], N = k == null ? void 0 : k.src;
-    B();
+    const k = (W = a.audioList) == null ? void 0 : W[u.value], G = k == null ? void 0 : k.src;
+    w();
     try {
       t.value.removeAttribute("src"), t.value.load();
     } catch {
     }
-    N && ((k == null ? void 0 : k.type) === "m3u8" ? Ke.isSupported() ? (f = new Ke(), f.attachMedia(t.value), f.loadSource(N), f.on(Ke.Events.MANIFEST_PARSED, () => {
-    }), f.on(Ke.Events.ERROR, (W, O) => {
-      const M = (O == null ? void 0 : O.details) || (O == null ? void 0 : O.type) || "hls error";
-      T({ message: `HLS error: ${M}` });
+    G && ((k == null ? void 0 : k.type) === "m3u8" || (k == null ? void 0 : k.type) === "m3u8text" ? Ke.isSupported() ? (f = new Ke(), f.attachMedia(t.value), (k == null ? void 0 : k.type) === "m3u8" ? f.loadSource(G) : (p = URL.createObjectURL(new Blob([G], { type: "application/vnd.apple.mpegurl" })), f.loadSource(p)), f.on(Ke.Events.MANIFEST_PARSED, () => {
+    }), f.on(Ke.Events.ERROR, (M, O) => {
+      const j = (O == null ? void 0 : O.details) || (O == null ? void 0 : O.type) || "hls error";
+      v({ message: `HLS error: ${j}` });
       try {
         e("play-error", O);
       } catch {
       }
-    })) : t.value.canPlayType("application/vnd.apple.mpegurl") ? t.value.src = N : T({ message: "当前浏览器不支持 m3u8 播放" }) : t.value.src = N, t.value && (t.value.volume = c.value, t.value.playbackRate = l.value));
+    })) : t.value.canPlayType("application/vnd.apple.mpegurl") ? t.value.src = G : v({ message: "当前浏览器不支持 m3u8 播放" }) : t.value.src = G, t.value && (t.value.volume = c.value, t.value.playbackRate = l.value));
   };
   return yo(() => {
     t.value && (t.value.volume = c.value, t.value.playbackRate = l.value), Cn(
       [() => t.value, () => u.value, () => a.audioList],
       () => {
-        w();
+        U();
       },
       { immediate: !0 }
     );
   }), Pi(() => {
-    v(), B();
+    S(), w();
   }), {
     audio: t,
     isPlaying: s,
     isLoading: i,
     currentTime: n,
     duration: o,
-    currentTimeFormatted: y,
-    durationFormatted: E,
+    currentTimeFormatted: E,
+    durationFormatted: T,
     currentVolume: c,
     playbackRate: l,
     currentPlayIndex: u,
     isShowErrorMessage: h,
     noticeMessage: d,
-    play: x,
-    pause: D,
-    playNext: A,
-    playPrev: _,
-    handleSetPlaybackRate: R,
-    handleVolumeChange: L,
-    handleTimeUpdate: C,
+    play: D,
+    pause: A,
+    playNext: R,
+    playPrev: b,
+    handleSetPlaybackRate: L,
+    handleVolumeChange: C,
+    handleTimeUpdate: F,
     handleProgressStart: () => r.value = !0,
     handleProgressEnd: () => r.value = !1,
-    handleProgressMove: S,
-    handleProgressClick: S,
-    onEnded: F,
-    onDurationchange: $
+    handleProgressMove: x,
+    handleProgressClick: x,
+    onEnded: B,
+    onDurationchange: K
   };
 }
 const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-wrap" }, lf = /* @__PURE__ */ ft({
@@ -22235,12 +22236,12 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
       handleSetPlaybackRate: x,
       handleVolumeChange: D,
       handleTimeUpdate: A,
-      handleProgressStart: _,
-      handleProgressEnd: R,
+      handleProgressStart: R,
+      handleProgressEnd: b,
       handleProgressMove: L,
       handleProgressClick: C,
       onEnded: F,
-      onDurationchange: $
+      onDurationchange: B
     } = go(s, i);
     return Pn("audioPlayer", {
       audio: r,
@@ -22264,7 +22265,7 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
       pause: T,
       playNext: v,
       playPrev: S
-    }), (K, B) => (oe(), de("div", af, [
+    }), (K, N) => (oe(), de("div", af, [
       le("div", of, [
         a.showPlaybackRate ? (oe(), As(Ao, {
           key: 0,
@@ -22306,8 +22307,8 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
         "disabled-drag": a.disabledProgressDrag,
         "disabled-click": a.disabledProgressClick,
         onTimeUpdate: H(A),
-        onProgressStart: H(_),
-        onProgressEnd: H(R),
+        onProgressStart: H(R),
+        onProgressEnd: H(b),
         onProgressMove: H(L),
         onProgressClick: H(C)
       }, null, 8, ["current-time", "duration", "theme-color", "disabled-drag", "disabled-click", "onTimeUpdate", "onProgressStart", "onProgressEnd", "onProgressMove", "onProgressClick"]), [
@@ -22324,10 +22325,10 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
         ref: r,
         class: "vue-audio-player__audio"
       }, K.$attrs, {
-        onEnded: B[0] || (B[0] = //@ts-ignore
+        onEnded: N[0] || (N[0] = //@ts-ignore
         (...w) => H(F) && H(F)(...w)),
-        onDurationchange: B[1] || (B[1] = //@ts-ignore
-        (...w) => H($) && H($)(...w))
+        onDurationchange: N[1] || (N[1] = //@ts-ignore
+        (...w) => H(B) && H(B)(...w))
       }), " 浏览器太老咯，请升级浏览器吧~ ", 16)
     ]));
   }
@@ -22375,8 +22376,8 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
       handleTimeUpdate: x,
       handleProgressStart: D,
       handleProgressEnd: A,
-      handleProgressMove: _,
-      handleProgressClick: R,
+      handleProgressMove: R,
+      handleProgressClick: b,
       onEnded: L,
       onDurationchange: C,
       handleVolumeChange: F
@@ -22401,8 +22402,8 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
       pause: T,
       playNext: v,
       playPrev: S
-    }), ($, K) => {
-      var B, w;
+    }), (B, K) => {
+      var N, w;
       return oe(), de("div", cf, [
         le("div", uf, [
           le("div", hf, [
@@ -22431,10 +22432,10 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
           ]),
           le("div", df, [
             le("div", ff, [
-              Gt($.$slots, "title", {}, () => {
-                var k;
+              Gt(B.$slots, "title", {}, () => {
+                var U;
                 return [
-                  Eo(St(((k = a.audioList[H(f)]) == null ? void 0 : k.title) || "未知音频"), 1)
+                  Eo(St(((U = a.audioList[H(f)]) == null ? void 0 : U.title) || "未知音频"), 1)
                 ];
               }, !0)
             ]),
@@ -22448,8 +22449,8 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
                 onTimeUpdate: H(x),
                 onProgressStart: H(D),
                 onProgressEnd: H(A),
-                onProgressMove: H(_),
-                onProgressClick: H(R)
+                onProgressMove: H(R),
+                onProgressClick: H(b)
               }, null, 8, ["current-time", "duration", "theme-color", "disabled-drag", "disabled-click", "onTimeUpdate", "onProgressStart", "onProgressEnd", "onProgressMove", "onProgressClick"]), [
                 [ct, a.showProgressBar]
               ])
@@ -22471,12 +22472,12 @@ const af = { class: "vue-audio-player" }, of = { class: "vue-audio-player__btn-w
           ref_key: "audio",
           ref: r,
           class: "tl-audio-player__audio",
-          src: (w = (B = a.audioList) == null ? void 0 : B[H(f)]) == null ? void 0 : w.src
-        }, $.$attrs, {
+          src: (w = (N = a.audioList) == null ? void 0 : N[H(f)]) == null ? void 0 : w.src
+        }, B.$attrs, {
           onEnded: K[0] || (K[0] = //@ts-ignore
-          (...k) => H(L) && H(L)(...k)),
+          (...U) => H(L) && H(L)(...U)),
           onDurationchange: K[1] || (K[1] = //@ts-ignore
-          (...k) => H(C) && H(C)(...k))
+          (...U) => H(C) && H(C)(...U))
         }), " 浏览器不支持音频播放，请升级浏览器 ", 16, pf)
       ]);
     };

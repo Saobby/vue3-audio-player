@@ -8,7 +8,7 @@ export interface AudioItem {
     sizes: string
     type: string
   }[]
-  type?: 'm3u8' | 'default'
+  type?: 'm3u8' | 'm3u8text' | 'default'
 }
 
 export interface AudioPlayerProps {

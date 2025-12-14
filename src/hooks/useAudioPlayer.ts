@@ -28,6 +28,7 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
   const timer = ref<number | null>(null)
 
   let hls: Hls | null = null
+  let blobUrl: string | null = null
 
   const formatTime = (second: number) => {
     let minute = Math.floor(second / 60)
@@ -231,6 +232,10 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
       }
       hls = null
     }
+    if (blobUrl) {
+      URL.revokeObjectURL(blobUrl)
+      blobUrl = null
+    }
   }
 
   const setupSource = () => {
@@ -247,11 +252,16 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
 
     if (!src) return
 
-    if ((current as AudioItem)?.type === 'm3u8') {
+    if ((current as AudioItem)?.type === 'm3u8' || (current as AudioItem)?.type === 'm3u8text') {
       if (Hls.isSupported()) {
         hls = new Hls()
         hls.attachMedia(audio.value)
-        hls.loadSource(src)
+        if ((current as AudioItem)?.type === 'm3u8'){
+          hls.loadSource(src)  // m3u8 链接
+        }else{
+          blobUrl = URL.createObjectURL(new Blob([src], { type: 'application/vnd.apple.mpegurl' }))
+          hls.loadSource(blobUrl)  // m3u8 文本内容
+        }
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
         })
         hls.on(Hls.Events.ERROR, (_, data) => {
