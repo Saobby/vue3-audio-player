@@ -110,7 +110,13 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
           }
 
           isLoading.value = false
-          emit('play-error', error)
+          try {
+            emit('play-error', error)
+          } catch (e) {
+            // Protect against errors thrown inside event listeners
+            // so the hook doesn't cause an unhandled Vue error.
+            console.error('Error in play-error listener:', e)
+          }
           reject(error)
         }
       }
@@ -217,24 +223,80 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
         artwork: currentAudio.artwork
       })
 
-      navigator.mediaSession.setActionHandler('play', () => play())
-      navigator.mediaSession.setActionHandler('pause', () => pause())
-      navigator.mediaSession.setActionHandler('previoustrack', () => playPrev())
-      navigator.mediaSession.setActionHandler('nexttrack', () => playNext())
+      navigator.mediaSession.setActionHandler('play', () => {
+        const p = play()
+        if (p && typeof (p as Promise<any>).catch === 'function') {
+          ;(p as Promise<any>).catch((err: any) => {
+            try {
+              emit('play-error', err)
+            } catch (e) {
+              console.error('Error in play-error listener (mediaSession play):', e)
+            }
+          })
+        }
+      })
+
+      navigator.mediaSession.setActionHandler('pause', () => {
+        try {
+          pause()
+        } catch (e) {
+          console.error('Error in mediaSession pause handler:', e)
+        }
+      })
+
+      navigator.mediaSession.setActionHandler('previoustrack', () => {
+        const p = playPrev()
+        if (p && typeof (p as Promise<any>).catch === 'function') {
+          ;(p as Promise<any>).catch((err: any) => {
+            try {
+              emit('play-error', err)
+            } catch (e) {
+              console.error('Error in play-error listener (mediaSession prev):', e)
+            }
+          })
+        }
+      })
+
+      navigator.mediaSession.setActionHandler('nexttrack', () => {
+        const p = playNext()
+        if (p && typeof (p as Promise<any>).catch === 'function') {
+          ;(p as Promise<any>).catch((err: any) => {
+            try {
+              emit('play-error', err)
+            } catch (e) {
+              console.error('Error in play-error listener (mediaSession next):', e)
+            }
+          })
+        }
+      })
     }
   }
 
   const destroyHls = () => {
     if (hls) {
       try {
+        try {
+          ;(hls as any).stopLoad()
+        } catch (e) {
+        }
+        try {
+          hls.detachMedia()
+        } catch (e) {
+        }
         hls.destroy()
       } catch (e) {
       }
       hls = null
     }
     if (blobUrl) {
-      URL.revokeObjectURL(blobUrl)
+      const urlToRevoke = blobUrl
       blobUrl = null
+      setTimeout(() => {
+        try {
+          URL.revokeObjectURL(urlToRevoke)
+        } catch (e) {
+        }
+      }, 200)
     }
   }
 
@@ -242,13 +304,15 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
     if (!audio.value) return
     const current = props.audioList?.[currentPlayIndex.value]
     const src = current?.src
-    destroyHls()
 
     try {
+      audio.value.pause()
       audio.value.removeAttribute('src')
       audio.value.load()
     } catch (e) {
     }
+
+    destroyHls()
 
     if (!src) return
 
@@ -270,10 +334,16 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
           try {
             emit('play-error', data)
           } catch (e) {
+            console.error('Error in play-error listener (HLS):', e)
           }
         })
       } else if (audio.value.canPlayType('application/vnd.apple.mpegurl')) {
-        audio.value.src = src // Safari
+        if ((current as AudioItem)?.type === 'm3u8') {
+          audio.value.src = src // m3u8 链接
+        } else {
+          blobUrl = URL.createObjectURL(new Blob([src], { type: 'application/vnd.apple.mpegurl' }))
+          audio.value.src = blobUrl  // m3u8 文本内容
+        }
       } else {
         handleShowErrorMessage({ message: '当前浏览器不支持 m3u8 播放' })
       }

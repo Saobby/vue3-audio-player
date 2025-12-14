@@ -20,10 +20,10 @@
         :is-loop="isLoop"
         :current-index="currentPlayIndex"
         :total="audioList.length"
-        @play="play"
+        @play="handlePlay"
         @pause="pause"
-        @prev="playPrev"
-        @next="playNext"
+        @prev="handlePrev"
+        @next="handleNext"
       />
 
       <VolumeControl
@@ -148,6 +148,46 @@ provide('audioPlayer', {
   currentTime,
   duration
 })
+
+// Wrap play / next / prev to catch rejected promises and emit play-error safely
+const handlePlay = () => {
+  const p = play()
+  if (p && typeof (p as Promise<any>).catch === 'function') {
+    ;(p as Promise<any>).catch((err: any) => {
+      try {
+        emit('play-error', err)
+      } catch (e) {
+        console.error('Error in play-error listener (Vue3AudioPlayer):', e)
+      }
+    })
+  }
+}
+
+const handlePrev = () => {
+  const p = playPrev()
+  if (p && typeof (p as Promise<any>).catch === 'function') {
+    ;(p as Promise<any>).catch((err: any) => {
+      try {
+        emit('play-error', err)
+      } catch (e) {
+        console.error('Error in play-error listener (Vue3AudioPlayer prev):', e)
+      }
+    })
+  }
+}
+
+const handleNext = () => {
+  const p = playNext()
+  if (p && typeof (p as Promise<any>).catch === 'function') {
+    ;(p as Promise<any>).catch((err: any) => {
+      try {
+        emit('play-error', err)
+      } catch (e) {
+        console.error('Error in play-error listener (Vue3AudioPlayer next):', e)
+      }
+    })
+  }
+}
 
 defineExpose({
   audio,

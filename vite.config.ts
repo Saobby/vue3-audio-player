@@ -45,6 +45,7 @@ export default defineConfig({
         },
         minify: 'esbuild',
         emptyOutDir: true,
-        reportCompressedSize: true
+        reportCompressedSize: true,
+        sourcemap: true
       }
 })

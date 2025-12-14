@@ -65,7 +65,19 @@ const audioPlayerRef = ref()
 
 // 使用 computed 确保响应式
 const exposed = {
-  play: () => audioPlayerRef.value?.play(),
+  play: () => {
+    const p = audioPlayerRef.value?.play()
+    if (p && typeof p.catch === 'function') {
+      p.catch((err: any) => {
+        try {
+          emit('play-error', err)
+        } catch (e) {
+          console.error('Error in play-error listener (exposed):', e)
+        }
+      })
+    }
+    return p
+  },
   pause: () => audioPlayerRef.value?.pause(),
   playNext: () => audioPlayerRef.value?.playNext(),
   playPrev: () => audioPlayerRef.value?.playPrev(),
