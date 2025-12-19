@@ -284,6 +284,7 @@ export function useAudioPlayer(props: AudioPlayerProps, emit: EmitType) {
         } catch (e) {
         }
         hls.destroy()
+        console.log("hls destroyed")
       } catch (e) {
       }
       hls = null

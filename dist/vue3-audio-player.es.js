@@ -22176,7 +22176,7 @@ function go(a, e) {
           f.detachMedia();
         } catch {
         }
-        f.destroy();
+        f.destroy(), console.log("hls destroyed");
       } catch {
       }
       f = null;
